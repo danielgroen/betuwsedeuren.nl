@@ -1,0 +1,15 @@
+@mixin breakpoint($min-width: null, $max-width: null) {
+  @if ($min-width == null) {
+    @error "The breakpoint mixin needs at least a min-width as parameter";
+  }
+
+  @if ($max-width) {
+    @media only screen and (min-width: $min-width) and (max-width: ($max-width - 1px)) {
+      @content;
+    }
+  } @else {
+    @media only screen and (min-width: $min-width) {
+      @content;
+    }
+  }
+}

@@ -1,0 +1,103 @@
+
+
+/* product overview page */
+
+.productCategoryOverview {
+  min-height:245px
+}
+
+.productCategoryOverview a img {
+  height: 100%;
+  width: 100%;
+}
+
+.productCategoryOverview:hover h2 {
+  color: $white;
+}
+
+.product-category a h2 {
+  background-color: $tertiary;
+  text-align: center;
+  padding: 15px 30px;
+  position: relative;
+  bottom: 48px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.outsideContainerQuickNav {
+  border-left: 1px solid $primary;
+  padding-left: 30px;
+}
+
+.productTitleOverview {
+  background-color: $tertiary;
+  text-align: center;
+  padding: 15px 30px;
+  position: relative;
+  bottom: 48px;
+  min-height: 80px;
+}
+
+.contentContainer {
+  color: #727473;
+  margin-bottom: 100px
+}
+
+.productTitlePage {
+  background-color: $tertiary;
+  text-align: left;
+  padding: 30px 70px;
+  position: absolute;
+  bottom: -85px;
+  right: 50px;
+
+  @include breakpoint(0, 470px) {
+    padding: 30px 30px;
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+  }
+}
+
+.productTitlePage h2 {
+  text-transform: uppercase;
+}
+
+.leftContent {
+  padding-right: 20px;
+}
+
+.upperContentProduct {
+  margin-bottom: 80px;
+}
+
+.categoryDescription {
+  color: #727473;
+}
+
+.categoryDescription h1 {
+  font-size: 20px;
+  padding-left: 15px;
+  margin-bottom: 5px;
+}
+
+ul.product-categories .cat-parent a,
+.cat-item-203 a,
+.cat-item-202 a,
+.cat-item-201 a {
+  color: $primary !important;
+}
+
+ul.product-categories > li > ul.children li a {
+  color: #727473;
+  text-transform: capitalize;
+}
+
+ul.product-categories .current-cat a {
+  color: $primary !important;
+  font-weight: bold !important;
+}

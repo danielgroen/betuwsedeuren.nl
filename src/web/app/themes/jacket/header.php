@@ -10,16 +10,12 @@
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/font-awesome.min.css">
 
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Roboto:100,300,400,500,700" rel="stylesheet">
-
   <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
   <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
   <?php wp_head(); ?>
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55951586-1"></script>
   <script>

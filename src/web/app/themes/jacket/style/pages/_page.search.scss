@@ -1,0 +1,25 @@
+.zoekLeesMeer {
+  background-color: $primary;
+  color: $white;
+  border: none;
+  float: right;
+}
+
+.zoekLeesMeer:hover {
+  text-decoration: underline;
+  background-color: $primary;
+  color: $white;
+  border: none;
+}
+
+.zoekenTitle {
+  color: $primary;
+  font-size: 13px;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+}
+
+.zoekenTitle a {
+  color: $primary;
+}

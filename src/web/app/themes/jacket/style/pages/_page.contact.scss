@@ -1,0 +1,17 @@
+@include breakpoint(0, 1024px) {
+
+  .geleVlakContactPagina {
+    display: none;
+  }
+}
+
+.maps {
+  padding-bottom: 500px;
+  margin-top: -25px;
+}
+
+.google {
+  position: absolute;
+  width: 100%;
+  height: 450px;
+}

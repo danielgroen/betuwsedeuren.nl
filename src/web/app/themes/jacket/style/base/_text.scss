@@ -1,0 +1,158 @@
+
+.gegevens h1 {
+  color: $white;
+  text-align: left;
+
+  &:after {
+    left: 200px;
+  }
+}
+
+
+p {
+	&.title {
+		text-transform: uppercase;
+		font-size: 17px;
+		line-height: 24px;
+		font-weight: 300;
+	}
+	&.intro {
+		font-size: 14px;
+		line-height: 24px;
+		font-weight: 500;
+		margin-top: 25px;
+	}
+}
+
+a {
+	&.leesmeer {
+		background-color: $orange;
+		color: $white;
+		text-transform: uppercase;
+		padding: 12px 20px;
+		border-radius: 5px;
+		font-size: 20px;
+		font-weight: 700;
+		font-family: 'Inconsolata';
+		text-decoration: none;
+	}
+}
+
+.container-fluid {
+	h1 {
+		text-align: center;
+		margin-top: 75px;
+		margin-bottom: 75px;
+	}
+}
+
+.headline {
+	font-family: 'Inconsolata';
+	position: relative;
+	&:after {
+		content: ' ';
+		position: absolute;
+		top: 170%;
+		left: 50%;
+		width: 100px;
+		border-bottom: 3px solid $orange;
+		transform: translateX(-50%);
+	}
+}
+
+.referentie {
+	a {
+		color: $white;
+		text-decoration: none;
+	}
+}
+
+.referentie a.button.product_type_simple.ajax_add_to_cart, 
+.referentie div.row.eigenschappen {
+	display: none;
+}
+
+.FullText {
+	margin-bottom: 20px;
+}
+
+.gegevens {
+  position: absolute;
+  margin-top: 0px;
+  background-color: rgba($gray, 0.9);
+  color: $white;
+  padding: 50px 0px 50px 200px;
+  height: 450px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+
+a.leesmeeractie {
+  background-color: $orange;
+  color: $white;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Inconsolata';
+  text-decoration: none;
+  float: right;
+}
+
+.vertellentekst {
+  color: $white;
+  text-align: center;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 300;
+}
+
+.vertellen {
+  height: 450px;
+}
+
+.vertellentekst h2 {
+  color: $white;
+  margin-top: 120px;
+}
+
+.vertellentekst strong {
+  color: $orange;
+}
+
+.content-beeld {
+  padding: 10px 20px 10px 0px;
+}
+
+.uitgelicht {
+  height: 350px;
+  color: $white;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 28px;
+  line-height: 38px;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-top: 50px;
+  width: 100px;
+}
+
+.uitgelicht h2 {
+  color: $white;
+}
+
+.downloads {
+  float: right;
+  text-align: right;
+  padding-right: 30px;
+  position: relative;
+  top: 40px;
+}
+
+.downloads a i.fa {
+  font-size: 40px;
+  padding-left: 10px;
+  color: $orange;
+}

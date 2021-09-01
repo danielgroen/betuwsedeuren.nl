@@ -1,0 +1,48 @@
+.woof_container {
+  padding: 5px 10px 5px 0px;
+  margin-bottom: 9px;
+  width: 25% !important;
+  display: block;
+  float:left;
+}
+
+.button.woof_submit_search_form, .button.woof_reset_search_form {
+background-color: $orange;
+border: none;
+color: $white;
+padding: 10px 20px;
+margin-right: 10px;
+}
+
+a.chosen-single {
+color: rgba($orange, 1) !important;
+text-transform: uppercase;
+background-color: none !important;
+}
+
+.woof_container_inner {
+background-color: rgba($gray, 0.15) !important;
+}
+
+.chosen-container-single .chosen-single {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 0 0 0 8px;
+  height: 23px;
+  border: none !important;
+  border-radius: 0px !important;
+  background-color: rgba($gray, 0.35) !important;
+  background: none !important;
+  background: none !important;
+  background: none !important;
+      background-clip: border-box;
+  background: none !important;
+  background: none !important;
+  background-clip: padding-box;
+  box-shadow: none !important;
+  color: rgba($gray, 0.65) !important;
+  text-decoration: none;
+  white-space: nowrap;
+  line-height: 24px;
+}

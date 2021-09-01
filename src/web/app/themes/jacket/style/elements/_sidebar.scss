@@ -1,0 +1,50 @@
+
+h4.widget-title {
+  font-weight: 700;
+  color: rgba($gray, 1);
+  font-size: 18px;
+  margin-top: 35px;
+  font-family: 'Inconsolata';
+  }
+  
+  h4.widget-title:after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    left: 15px;
+    padding-top: 40px;
+    border-bottom: 3px solid $orange;
+  }
+  
+  ul.product-categories {
+    padding-left: 0px;
+    list-style-type: none;
+  }
+  
+  ul.product-categories li a {
+    font-weight: 700;
+    color: rgba($gray, 1);
+    font-size: 18px;
+    margin-top: 35px;
+    font-family: 'Inconsolata';
+    text-transform: uppercase;
+  }
+  
+  ul.product-categories > li > ul.children li a {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  ul.children {
+    padding-left: 20px;
+    list-style-type: none;
+  }
+  
+  input[type="submit"] {
+    color: $white;
+    background-color: $gray-light;
+    border: none;
+    padding: 3px 8px;
+  }

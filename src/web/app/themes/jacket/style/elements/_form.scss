@@ -1,0 +1,32 @@
+/* forms */
+
+label.gfield_label {
+  display: none !important;
+}
+
+.large {
+  border: none;
+  border: 1px solid #727473;
+  font-weight: 100;
+  padding: 15px;
+}
+
+textarea.large {
+  height: 200px !important;
+}
+
+.gform_button {
+  background-color: #727473;
+  color: $white;
+  text-transform: uppercase;
+  font-weight: normal;
+  border: none;
+  font-size: 16px !important;
+  float: right;
+  position: relative;
+  padding: 20px 106px !important;
+}
+
+#input_1_11 div {
+  float: right;
+}
