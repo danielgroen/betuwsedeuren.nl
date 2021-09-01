@@ -34,7 +34,7 @@
   <header>
     <div class="container-fluid top-menu">
       <div class="topRightItem top-menu-right">
-        <div class="twentyfourseven">24|7</div> <i class="fa fa-phone" aria-hidden="true"></i> 0488 48 11 33 <a href="https://nl-nl.facebook.com/Betuwse-Deuren-BV-637099336306222/" target="_blank"><i class="fa facebookTopRight fa-facebook" aria-hidden="true"></i></a><a href="#modal-search" data-toggle="modal"><i class="fa fa-search"></i></a>
+        <div class="twentyfourseven">24|7</div> <i class="fa fa-phone" aria-hidden="true"></i> <a class="tel" href="tel:+31488481133">0488 48 11 33</a> <a href="https://nl-nl.facebook.com/Betuwse-Deuren-BV-637099336306222/" target="_blank"><i class="fa facebookTopRight fa-facebook" aria-hidden="true"></i></a><a href="#modal-search" data-toggle="modal"><i class="fa fa-search"></i></a>
 
       </div>
     </div>

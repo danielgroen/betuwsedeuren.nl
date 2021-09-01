@@ -8,7 +8,7 @@ header {
 	position:fixed;
   z-index: 99;
   width: 100%;
-	background-color: rgba($gray-lightest, 0.80);
+	background-color: rgba($white, .9);
   height: 145px;
 
 }
@@ -33,6 +33,23 @@ header {
   font-size: 21px;
   padding: 0px 40px;
 
+  .fa {
+    color: $white;
+    padding-right: 7px;
+    margin-left: 20px;
+  }
+
+  .tel {
+    color: $white;
+    border-left: none;
+  }
+  
+  a {
+    border-left: 1px  solid $white;
+    margin-left: 14px;
+  }
+  
+
   @include breakpoint(0, 470px) {
     margin: 0 auto;
     text-align: center;
@@ -44,17 +61,6 @@ header {
     width: 100%;
   }
 
-}
-
-.topRightItem .fa {
-  color: $white;
-  padding-right: 7px;
-  margin-left: 20px;
-}
-
-.topRightItem a {
-  border-left: 1px  solid$white;
-  margin-left: 14px;
 }
 
 .facebookTopRight {

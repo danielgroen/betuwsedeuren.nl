@@ -1,7 +1,9 @@
-@include breakpoint(0, 470px) {
-	#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-item {
-		width: 100%;
-	}
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-item {
+  width: 25% !important;
+
+  @include breakpoint(0, 470px) {
+    width: 100% !important;
+  }
 }
 
 @include breakpoint(0, 840px) {
