@@ -1,0 +1,72 @@
+{
+    "key": "group_5a8ada7f82d93",
+    "title": "Standaard pagina elementen",
+    "fields": [
+        {
+            "key": "field_5a8ada8b1dfa0",
+            "label": "Standaard pagina elementen",
+            "name": "standaard_pagina_elementen",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "5a8ada99cbe96": {
+                    "key": "5a8ada99cbe96",
+                    "name": "tekst_volledige_breedte",
+                    "label": "Tekst volledige breedte",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5a8adaa01dfa1",
+                            "label": "Tekst",
+                            "name": "tekst",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Nieuwe regel",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "default"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1630520946
+}

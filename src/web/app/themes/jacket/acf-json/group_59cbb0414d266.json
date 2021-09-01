@@ -1,0 +1,72 @@
+{
+    "key": "group_59cbb0414d266",
+    "title": "Product elementen",
+    "fields": [
+        {
+            "key": "field_59cbb04f9b2ab",
+            "label": "Product elementen",
+            "name": "product_elementen",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "59cbb0533d98b": {
+                    "key": "59cbb0533d98b",
+                    "name": "tweede_omschrijving",
+                    "label": "Tweede omschrijving",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_59cbb4bd9b2ac",
+                            "label": "Omschrijving naast afbeelding",
+                            "name": "omschrijving_naast_afbeelding",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Nieuwe regel",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "product"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1630520918
+}

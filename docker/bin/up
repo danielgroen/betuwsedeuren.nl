@@ -2,14 +2,6 @@
 
 source _vars
 
-# WC_PDF_DIR="./persistent-data/uploads/woocommerce-pdf-invoices/mpdf/ttfontdata"
-# echo ''
-# echo $WC_PDF_DIR
-# if [ ! -d "$WC_PDF_DIR" ]; then
-#   echo 'does not exist'
-# fi
-# exit 0
-
 echo ""
 echo "Starting containers..."
 docker-compose -p ${PROJECT} -f docker-compose.yaml ${COMPOSEAPPEND} build

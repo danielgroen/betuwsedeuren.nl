@@ -1,0 +1,101 @@
+{
+    "key": "group_59b8de5b5bc92",
+    "title": "1 Korte omschrijving en Download",
+    "fields": [
+        {
+            "key": "field_59b8e0e7af4a4",
+            "label": "Korte omschrijving en Download",
+            "name": "downloads",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "59b8f04271d9a": {
+                    "key": "59b8f04271d9a",
+                    "name": "pdf",
+                    "label": "pdf",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_59b8f04271d9c",
+                            "label": "pdf link",
+                            "name": "pdf_link",
+                            "type": "file",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "url",
+                            "library": "all",
+                            "min_size": "",
+                            "max_size": "",
+                            "mime_types": "pdf"
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "59cb986671e21": {
+                    "key": "59cb986671e21",
+                    "name": "korte_omschrijving",
+                    "label": "Korte omschrijving",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_59cb986c71e22",
+                            "label": "Korte omschrijving gele vlak",
+                            "name": "korte_omschrijving_gele_vlak",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Nieuwe regel",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "product"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1630520792
+}
