@@ -1,0 +1,32 @@
+#!/bin/bash
+
+source _vars
+
+# WC_PDF_DIR="./persistent-data/uploads/woocommerce-pdf-invoices/mpdf/ttfontdata"
+# echo ''
+# echo $WC_PDF_DIR
+# if [ ! -d "$WC_PDF_DIR" ]; then
+#   echo 'does not exist'
+# fi
+# exit 0
+
+echo ""
+echo "Starting containers..."
+docker-compose -p ${PROJECT} -f docker-compose.yaml ${COMPOSEAPPEND} build
+docker-compose -p ${PROJECT} -f docker-compose.yaml ${COMPOSEAPPEND} up $@ --force-recreate --remove-orphans
+
+
+docker-compose -p ${PROJECT} -f docker-compose.yaml ${COMPOSEAPPEND} start
+
+
+echo ""
+printf "Running on traefik: ${BLUE}http://${CNAME}:${PORT}${RESET}"
+# REMOVE WORD TRAEFIK IF ON DEV
+if [ $ENVIRONMENT == 'development' ]; then
+echo ""
+printf "    And phpmyadmin: ${BLUE}http://${CNAME}:${PMA}${RESET}"
+[[ -x "$(command  -v xdg-open)" ]] && xdg-open http://${CNAME}:${PORT} || open http://${CNAME}:${PORT}
+fi
+echo ""
+exit 0;
+

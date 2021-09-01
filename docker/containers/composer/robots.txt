@@ -1,0 +1,11 @@
+User-agent: *
+
+Disallow: /wp/
+Disallow: /wp-login
+Disallow: /wp-login/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /readme.html
+Disallow: /license.txt
+
+sitemap: https://CNAME/sitemap_index.xml

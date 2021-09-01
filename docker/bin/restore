@@ -1,0 +1,37 @@
+#!/bin/bash
+
+source _vars
+
+cd ./persistent-data/db/backups/
+
+# Fill the a array with all the backup files
+FILES_ARRAY=()
+for file in *; do 
+  if [ -f "$file" ]; then 
+      FILES_ARRAY+=("$file");
+  fi 
+done
+
+# Create the list to inject in whiptail
+RADIOLIST=()
+for ((i=0; i<${#FILES_ARRAY[@]}; i++))
+do
+  RADIOLIST+=( $((i + 1)) "${FILES_ARRAY[$i]}")
+done
+
+ARLENGTH=${#FILES_ARRAY[@]}
+ANSWER=$(whiptail  --title "Import database by file" --menu "Choose the sql file you want to restore..." $(($ARLENGTH + 10)) 78 $(($ARLENGTH + 1)) "${RADIOLIST[@]}" 3>&1 1>&2 2>&3);
+
+# Do logic on outcome of whiptail
+echo ""
+if [ ! -z $ANSWER ]; then
+    ANSWER=$(echo ${FILES_ARRAY[$(($ANSWER - 1)) ]})
+    docker exec --user www-data ${PROJECT}_wp-cli wp db reset --yes
+    docker exec --user www-data ${PROJECT}_wp-cli wp db import /backups/$ANSWER
+else
+  echo "aborted the import... Nothing has changed"
+  echo ""
+fi
+
+
+exit 0;

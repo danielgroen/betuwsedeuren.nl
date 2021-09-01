@@ -1,0 +1,462 @@
+/*====================================
+	Styles available accross all skins
+====================================*/
+/* Arrow */
+.vp-arrow .viba-portfolio-arrow { position: relative; }
+.vp-arrow .viba-portfolio-arrow::before { 
+	content: ''; display: block; width: 20px; height: 20px; position: absolute; top: -10px; background: inherit; 
+	-webkit-transform: translate3d(0,0,0) rotate(45deg); -ms-transform: translate(0,0) rotate(45deg); transform: translate3d(0,0,0) rotate(45deg); 
+}
+.vp-horizontal-align-left .viba-portfolio-content.viba-portfolio-arrow::before { left: 25px; }
+.vp-horizontal-align-center .viba-portfolio-content.viba-portfolio-arrow::before { left: 50%; margin-left: -10px; }
+.vp-horizontal-align-right .viba-portfolio-content.viba-portfolio-arrow::before { right: 25px }
+
+.vp-cover-horizontal-align-left .viba-portfolio-cover-content.viba-portfolio-arrow::before { left: 25px; }
+.vp-cover-horizontal-align-center .viba-portfolio-cover-content.viba-portfolio-arrow::before { left: 50%; margin-left: -10px; }
+.vp-cover-horizontal-align-right .viba-portfolio-cover-content.viba-portfolio-arrow::before { right: 25px }
+
+/* Animate semi visible informations height */
+.viba-portfolio-max-height {  
+	max-height: 0; opacity: 0; overflow: hidden; 
+	-webkit-transform: translate3d(0,-25px,0); transform: translate3d(0,-25px,0);  
+	-webkit-transition: -webkit-transform .4s, opacity .4s, overflow .4s, max-height .4s; 
+	transition: transform .4s, opacity .4s, overflow .4s, max-height .4s; 
+}
+.viba-portfolio-item-inner:hover .viba-portfolio-max-height { opacity: 1; -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0);  }
+.vp-no-js .viba-portfolio-max-height { 
+	-webkit-transform:translate3d(0,-25px,0); transform:translate3d(0,-25px,0);
+	 -webkit-transition: -webkit-transform .4s, height .4s, padding .4s, opacity .4s, max-height .3s; 
+	 transition: height .4s, padding .4s, opacity .4s, max-height .3s; 
+}
+.vp-no-js .viba-portfolio-item-inner:hover .viba-portfolio-max-height { 
+	max-height: 460px; 
+	-webkit-transform:translate3d(0,0,0); transform:translate3d(0,0,0); 
+	-webkit-transition: -webkit-transform .4s, height .4s, padding .4s, opacity .4s, max-height .8s linear; 
+	transition: transform .4s, height .4s, padding .4s, opacity .4s, max-height .8s linear; 
+}
+
+/*====================================
+	HYDROGEN
+====================================*/
+.vp-hydrogen .viba-portfolio-item-inner { background: none !important }
+.viba-portfolio-wrapper .vp-hydrogen.viba-portfolio .viba-portfolio-item-button { height: 50px; width: 50px; line-height: 50px }
+
+/*====================================
+	HELIUM
+====================================*/
+.vp-helium .viba-portfolio-item-inner { background: none !important }
+.viba-portfolio-helium-overlay {  position: absolute; width: 100%; height: 10px; bottom: 0;  }
+.viba-portfolio-wrapper .vp-helium.viba-portfolio .viba-portfolio-item-button { height: 50px; width: 50px; line-height: 50px }
+
+/*====================================
+	LITHIUM
+====================================*/
+.vp-lithium .viba-portfolio-item-inner { background: none !important }
+.vp-lithium .viba-portfolio-overlay { top: 10px; right: 10px; bottom: 10px; left: 10px; }
+.vp-lithium .viba-portfolio-cover-content { padding: 30px }
+.viba-portfolio-wrapper .vp-lithium.viba-portfolio .viba-portfolio-item-button { height: 50px; width: 50px; line-height: 50px }
+
+/*====================================
+	BERYLLIUM
+====================================*/
+.vp-beryllium .viba-portfolio-item-inner { }
+.vp-beryllium .viba-portfolio-content { padding: 20px; }
+
+.vp-beryllium.vp-visible-on-hover .viba-portfolio-item-inner { -webkit-transition: all .4s ease-out; transition: all .4s ease-out;   }
+.vp-beryllium.vp-visible-on-hover .viba-portfolio-item-inner:hover { z-index: 3;  }
+
+.viba-portfolio-wrapper .vp-beryllium.viba-portfolio .viba-portfolio-item-button { height: 50px; width: 50px; line-height: 50px }
+
+/*====================================
+	BORON
+====================================*/
+.vp-boron .viba-portfolio-item-inner { padding: 10px 10px 0 10px; }
+.vp-boron.vp-visible-on-hover .viba-portfolio-item-inner { padding: 10px }
+
+.vp-boron .viba-portfolio-content { padding: 10px 0;  }
+
+.viba-portfolio-wrapper .vp-boron.viba-portfolio .viba-portfolio-item-button { height: 50px; width: 50px; line-height: 50px }
+
+/*====================================
+	CARBON
+====================================*/
+.vp-carbon .viba-portfolio-item-inner {   }
+.vp-carbon .viba-portfolio-content { padding: 20px; }
+.vp-carbon .viba-portfolio-cover-content{ padding: 25px }
+
+.vp-carbon .viba-portfolio-overlay::after { content: ''; position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; }
+
+.viba-portfolio-wrapper .vp-carbon.viba-portfolio .viba-portfolio-item-button { height: 50px; width: 50px; line-height: 50px }
+
+/*====================================
+	NITROGEN
+====================================*/
+.vp-nitrogen .viba-portfolio-item-inner { -webkit-transition: all .4s ease-out; transition: all .4s ease-out;   }
+.vp-nitrogen .owl-item:hover,
+.vp-nitrogen .viba-portfolio-item-inner:hover { z-index: 3; position: relative; }
+
+.vp-nitrogen.vp-always-visible .viba-portfolio-item-inner,
+.vp-nitrogen.vp-semi-visible .viba-portfolio-item-inner { background: none }
+
+.vp-nitrogen .viba-portfolio-content { padding-bottom: 0 }
+.viba-portfolio-overlay-nitrogen{ position: absolute;top: 0; left: 0; bottom: 0; right: 0 }
+
+.vp-nitrogen.vp-visible-on-hover .viba-portfolio-content { padding: 0; opacity: 1; transition: padding .4s;  }
+.vp-nitrogen.vp-visible-on-hover .viba-portfolio-item-inner:hover .viba-portfolio-content { padding: 20px 0 0 0 ; opacity: 1; }
+
+.viba-portfolio-wrapper .vp-nitrogen.viba-portfolio .viba-portfolio-item-button { height: 50px; width: 50px; line-height: 50px }
+
+/*====================================
+	OXYGEN
+====================================*/
+.vp-oxygen .viba-portfolio-item-inner { -webkit-transition: all .4s ease-out; transition: all .4s ease-out; }
+.vp-oxygen .viba-portfolio-item-inner:hover { z-index: 3; }
+
+.vp-oxygen .viba-portfolio-content { padding: 20px; position: relative; z-index: 1 }
+.vp-oxygen .viba-portfolio-content::before { top: auto; bottom: -10px; }
+
+.vp-oxygen.vp-visible-on-hover .viba-portfolio-content { padding: 0 20px; -webkit-transition: all .4s; transition: all .4s; opacity: 0 }
+.vp-oxygen.vp-visible-on-hover .viba-portfolio-item-inner:hover .viba-portfolio-content { padding: 20px; opacity: 1 }
+
+.viba-portfolio-wrapper .vp-oxygen.viba-portfolio .viba-portfolio-item-button { height: 50px; width: 50px; line-height: 50px }
+
+/*====================================
+	FLUORINE
+====================================*/
+.vp-fluorine .viba-portfolio-item-inner {  -webkit-transition: all .45s ease-out; transition: all .45s ease-out; }
+.vp-fluorine .viba-portfolio-item-inner:hover { z-index: 3; -webkit-transform: translate3d(0,-25px,0); -ms-transform:translate(0,-25px); transform: translate3d(0,-25px,0);  }
+
+.vp-fluorine .viba-portfolio-item-inner .viba-portfolio-content { padding: 20px; position: relative; }
+
+.vp-fluorine.vp-visible-on-hover .viba-portfolio-content { padding: 0 20px; opacity: 0; -webkit-transition: all .4s; transition: all .4s; }
+.vp-fluorine.vp-visible-on-hover .viba-portfolio-item-inner:hover .viba-portfolio-content { opacity: 1; padding: 20px; }
+
+.viba-portfolio-wrapper .vp-fluorine.viba-portfolio .viba-portfolio-item-button { height: 50px; width: 50px; line-height: 50px }
+
+/*====================================
+	NEON
+====================================*/
+.vp-neon .viba-portfolio-title a,
+.vp-neon .viba-portfolio-likes { -webkit-transition: none; transition: none; }
+
+.vp-neon .viba-portfolio-item-inner { overflow: hidden; }
+
+.vp-neon .viba-portfolio-content { 
+	position: absolute; bottom: 0; left: 0; width: 100%; padding: 20px; opacity: .9; background: inherit; color: inherit; 
+	-webkit-transition: all .4s; transition: all .4s; 
+}
+.vp-neon .viba-portfolio-item-inner:hover .viba-portfolio-neon-content { opacity: 1 }
+.vp-neon .viba-portfolio-neon-content::before { background: inherit !important; }
+
+.vp-neon.vp-visible-on-hover .viba-portfolio-neon-content { opacity: 1; -webkit-transform: translate3d(0,100%,0); -ms-transform:translate(0,100%); transform: translate3d(0,100%,0); overflow: visible; }
+.vp-neon.vp-visible-on-hover .viba-portfolio-item-inner:hover .viba-portfolio-neon-content {  -webkit-transform: translate3d(0,0,0); -ms-transform:translate(0,0); transform: translate3d(0,0,0); }
+.vp-neon.vp-visible-on-hover .viba-portfolio-neon-content::before { opacity: 0; -webkit-transition: opacity .4s; transition: opacity .4s;  }
+.vp-neon.vp-visible-on-hover .viba-portfolio-item-inner:hover .viba-portfolio-neon-content::before { opacity: 1 }
+
+.vp-neon.vp-semi-visible.vp-slide-image .viba-portfolio-thumbnail,
+.vp-neon.vp-visible-on-hover.vp-slide-image .viba-portfolio-thumbnail { 
+	-webkit-transform:translate3d(0,0,0); -ms-transform:translate(0,0); transform:translate3d(0,0,0);
+	-webkit-transition: all .4s; transition: all .4s;  
+	-webkit-animation:none; animation: none;
+}
+.vp-neon.vp-semi-visible.vp-slide-image .viba-portfolio-item-inner:hover .viba-portfolio-thumbnail { 
+	-webkit-transform:translate3d(0,-25px,0); -ms-transform:translate(0,-25px); transform:translate3d(0,-25px,0); opacity: 1; -webkit-animation:none; animation: none; 
+}
+.vp-neon.vp-visible-on-hover.vp-slide-image .viba-portfolio-item-inner:hover .viba-portfolio-thumbnail { 
+	-webkit-transform:translate3d(0,-40px,0); -ms-transform:translate(0,-40px); transform:translate3d(0,-40px,0); opacity: 1; -webkit-animation:none; animation: none; 
+}
+
+.vp-semi-visible.vp-neon .viba-portfolio-buttons-wrapper { margin: 0 }
+
+.viba-portfolio-wrapper .vp-neon.viba-portfolio .viba-portfolio-item-button { height: 50px; width: 50px; line-height: 50px }
+
+/*====================================
+	SODIUM
+====================================*/
+.vp-sodium .viba-portfolio-item-inner { overflow: hidden;  }
+.vp-sodium .viba-portfolio-cover-wrapper { float: left; width: 60% }
+.vp-sodium .viba-portfolio-sodium-content { float: left; width: 40%; padding: 20px; z-index: 2; position: relative; background: inherit; color: inherit; }
+
+.vp-sodium.vp-semi-visible .viba-portfolio-cover-wrapper { width: 66% }
+.vp-sodium.vp-semi-visible .viba-portfolio-sodium-content { width: 34%; }
+
+.vp-sodium .viba-portfolio-arrow::before { top: 30px !important; left: -10px !important; background: inherit !important; }
+.vp-sodium.vp-visible-on-hover .viba-portfolio-item-inner .viba-portfolio-arrow::before { opacity: 0;  }
+.vp-sodium.vp-visible-on-hover .viba-portfolio-item-inner:hover .viba-portfolio-arrow::before { opacity: 1 }
+
+.vp-sodium.vp-visible-on-hover .viba-portfolio-cover-wrapper,
+.vp-sodium.vp-visible-on-hover .viba-portfolio-sodium-content { float: none; width: 100%; z-index: 2; position: relative; }
+
+.vp-sodium.vp-visible-on-hover .viba-portfolio-sodium-content { 
+	position: absolute; top: 0; right: 0; width: 50%;  height: 100%; 
+	-webkit-transform: translate3d(100%,0,0); -ms-transform:translate(100%,0); transform: translate3d(100%,0,0); 
+	-webkit-transition: all .4s; transition: all .4s;  
+}
+
+.vp-sodium.vp-visible-on-hover .viba-portfolio-item-inner:hover .viba-portfolio-sodium-content { -webkit-transform: translate3d(0,0,0); -ms-transform:translate(0,0); transform: translate3d(0,0,0); }
+.vp-sodium.vp-visible-on-hover .viba-portfolio-sodium-content::before { opacity: 0; -webkit-transition: opacity .4s; transition: opacity .4s;  }
+.vp-sodium.vp-visible-on-hover .viba-portfolio-item-inner:hover .viba-portfolio-sodium-content::before { opacity: 1 }
+
+.vp-sodium.vp-visible-on-hover .viba-portfolio-buttons-wrapper { width: 50px; display: inline-block; }
+.vp-sodium.vp-visible-on-hover .viba-portfolio-item-button { margin: 2px 0 }
+
+.vp-sodium.vp-visible-on-hover.vp-slide-image .viba-portfolio-thumbnail { 
+	-webkit-transform:translate3d(0,0,0); -ms-transform:translate(0,0); transform:translate3d(0,0,0);
+	-webkit-transition: all .4s; transition: all .4s;  
+	-webkit-animation:none; animation: none;
+}
+.vp-sodium.vp-visible-on-hover.vp-slide-image .viba-portfolio-item-inner:hover .viba-portfolio-thumbnail { 
+	-webkit-transform:translate3d(-40px,0,0); -ms-transform:translate(-40px,0); transform:translate3d(-40px,0,0); 
+	opacity: 1; -webkit-animation:none; animation: none; 
+}
+
+.viba-portfolio-wrapper .vp-sodium.viba-portfolio .viba-portfolio-item-button { height: 50px; width: 50px; line-height: 50px }
+
+/*====================================
+	MAGNESIUM
+====================================*/
+.vp-magnesium.vp-vertical-align-top .viba-portfolio-cover-fixed { -webkit-transform: translate3d(0,-10px,0); -ms-transform:translate(0,-10px); transform: translate3d(0,-10px,0); }
+.vp-magnesium.vp-vertical-align-bottom .viba-portfolio-cover-fixed { -webkit-transform: translate3d(0,10px,0); -ms-transform:translate(0,10px); transform: translate3d(0,10px,0); }
+.vp-magnesium .viba-portfolio-item-inner:hover .viba-portfolio-cover-fixed { -webkit-transform: translate3d(0,0,0); -ms-transform:translate(0,0); transform: translate3d(0,0,0); }
+
+.vp-magnesium .viba-portfolio-cover-content { padding: 30px;  }
+
+.vp-magnesium .viba-portfolio-cover-content::before, .vp-magnesium .viba-portfolio-cover-content::after { 
+	position: absolute; top: 5px; right: 5px; bottom: 5px; left: 5px; content: ''; 
+	border-color: inherit; pointer-events:none; 
+	-webkit-transition: opacity 0.4s, -webkit-transform 0.4s; transition: opacity 0.4s, transform 0.4s; 
+}
+.vp-magnesium .viba-portfolio-cover-content::after { border-right: 5px solid; border-left: 5px solid; -webkit-transform: scale(1,0); -ms-transform: scale(1,0); transform: scale(1,0); }
+.vp-magnesium .viba-portfolio-cover-content::before { border-top: 5px solid; border-bottom: 5px solid; -webkit-transform: scale(0,1); -ms-transform: scale(0,1); transform: scale(0,1); }
+
+.vp-magnesium .viba-portfolio-item-inner:hover .viba-portfolio-cover-content::before, .vp-magnesium .viba-portfolio-item-inner:hover .viba-portfolio-cover-content::after {  -webkit-transform: scale(1,1); -ms-transform: scale(1,1); transform: scale(1,1);}
+
+.vp-magnesium .viba-portfolio-buttons-wrapper { margin: 0; position: absolute; }
+.vp-magnesium.vp-vertical-align-top .viba-portfolio-buttons-wrapper { bottom: 10px }
+.vp-magnesium.vp-vertical-align-bottom .viba-portfolio-buttons-wrapper { top: 10px }
+.vp-magnesium.vp-cover-horizontal-align-left .viba-portfolio-buttons-wrapper,
+.vp-magnesium.vp-cover-horizontal-align-center .viba-portfolio-buttons-wrapper { left: 10px }
+.vp-magnesium.vp-cover-horizontal-align-right .viba-portfolio-buttons-wrapper { right: 10px }
+
+.vp-magnesium.vp-vertical-align-middle .viba-portfolio-buttons-wrapper { margin: 5px 0; display: inline-block; position: relative; left: auto !important }
+.vp-magnesium.vp-vertical-align-middle .viba-portfolio-item-button { }
+
+.vp-magnesium.vp-semi-visible .viba-portfolio-buttons-wrapper { 
+	opacity: 0; max-height: 0; margin: 0; 
+	-webkit-transition:max-height .4s, opacity .4s; transition:max-height .4s, opacity .4s; 
+}
+.vp-magnesium.vp-semi-visible .viba-portfolio-item-inner:hover .viba-portfolio-buttons-wrapper { opacity: 1; max-height: 50px; }
+.viba-portfolio-wrapper .vp-magnesium.viba-portfolio .viba-portfolio-item-button { border-radius: 0; height: 50px; width: 50px; line-height: 50px; display: block; float: left; }
+
+/*====================================
+	ALUMINIUM
+====================================*/
+.vp-aluminium .viba-portfolio-title a,
+.vp-aluminium .viba-portfolio-likes,
+.vp-aluminium .viba-portfolio-item-button { -webkit-transition: none; transition: none; }
+
+.vp-aluminium.vp-vertical-align-top .viba-portfolio-item-inner:hover .viba-portfolio-cover-fixed { -webkit-transform: translate3d(0,10px,0); -ms-transform:translate(0,10px); transform: translate3d(0,10px,0); }
+
+.viba-portfolio-aluminium-content-wrapper { display: block; clear: both; }
+.viba-portfolio-aluminium-content { 
+	border-radius: 2px; opacity: 1; display: inline-block; padding: 5px 10px; 
+	-webkit-transition: all .4s; transition: all .4s; 
+}
+.viba-portfolio-item-inner:hover .viba-portfolio-aluminium-content { opacity: 1 }
+
+.vp-aluminium .viba-portfolio-cover-content { background: none !important }
+
+.vp-aluminium .viba-portfolio-categories { display: inline-block; margin: 0 2px }
+.vp-aluminium .viba-portfolio-title { margin-top: 15px }
+.vp-aluminium .viba-portfolio-short-description p { margin-top: 0px }
+.vp-aluminium .viba-portfolio-likes { float: none !important; display: inline-block; margin: 0 2px 0 2px !important; }
+
+.vp-aluminium .viba-portfolio-buttons-wrapper { display: inline-block; margin: 0 }
+.vp-aluminium .viba-portfolio-item-button { height: 30px; background: none !important; vertical-align: middle; width: auto; margin: 0 2px !important; }
+.vp-aluminium .viba-portfolio-item-button::before { line-height: 30px; font-size: 18px }
+
+/*====================================
+	SILICON
+====================================*/
+.vp-silicon .viba-portfolio-title a,
+.vp-silicon .viba-portfolio-likes,
+.vp-silicon .viba-portfolio-item-button { -webkit-transition: none; transition: none; }
+
+.vp-silicon .viba-portfolio-cover-fixed { padding: 30px }
+.viba-portfolio-silicon-content { -webkit-transition: all .4s; transition: all .4s; opacity: .9; border-radius: 2px }
+.vp-silicon .viba-portfolio-item-inner:hover .viba-portfolio-silicon-content { opacity: 1; }
+
+.vp-silicon.vp-vertical-align-top .viba-portfolio-item-inner:hover .viba-portfolio-silicon-content { 
+	-webkit-transform: translate3d(0,20px,0); -ms-transform:translate(0,20px); transform: translate3d(0,20px,0); 
+}
+.vp-silicon.vp-vertical-align-bottom .viba-portfolio-item-inner:hover .viba-portfolio-silicon-content { 
+	-webkit-transform: translate3d(0,-20px,0); -ms-transform:translate(0,-20px); transform: translate3d(0,-20px,0); 
+}
+.vp-silicon.vp-visible-on-hover .viba-portfolio-item-inner:hover .viba-portfolio-silicon-content {
+	-webkit-transform: translate3d(0,0,0); -ms-transform:translate(0,0);  transform: translate3d(0,0,0); 
+}
+
+.vp-silicon .viba-portfolio-arrow::before { background: inherit !important; }
+.vp-silicon.vp-vertical-align-top .viba-portfolio-arrow::before { top: auto; bottom: -10px }
+
+.viba-portfolio-silicon-content .viba-portfolio-buttons-wrapper { margin: 15px 0 0 0 }
+.viba-portfolio-silicon-content .viba-portfolio-item-button { background: none; width: auto; height: 20px; }
+.viba-portfolio-silicon-content .viba-portfolio-item-button::before { line-height: 20px}
+
+.vp-silicon.vp-cover-horizontal-align-left .viba-portfolio-item-button {  margin-right: 10px }
+.vp-silicon.vp-cover-horizontal-align-center .viba-portfolio-item-button { margin: 0 5px }
+.vp-silicon.vp-cover-horizontal-align-right .viba-portfolio-item-button {  margin-left: 10px }
+
+.vp-silicon.vp-visible-on-hover .viba-portfolio-silicon-content { padding: 0 20px; }
+.vp-silicon.vp-visible-on-hover .viba-portfolio-item-inner:hover .viba-portfolio-silicon-content { padding: 20px; }
+
+.vp-silicon.vp-visible-on-hover .viba-portfolio-silicon-content::before { opacity: 0; -webkit-transition: opacity .4s; transition: opacity .4s; }
+.vp-silicon.vp-visible-on-hover .viba-portfolio-item-inner:hover .viba-portfolio-silicon-content::before { opacity: 1 }
+
+.viba-portfolio-wrapper .vp-silicon.viba-portfolio .viba-portfolio-item-button { height: 50px; width: 50px; line-height: 50px }
+
+/*====================================
+	PHOSPHORUS
+====================================*/
+.vp-phosphorus .viba-portfolio-cover-content { padding: 30px }
+.viba-portfolio-phosphorus-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; -webkit-transition: box-shadow .4s ease; transition: box-shadow .4s ease; }
+.viba-portfolio-phosphorus-overlay::before { content: ''; position: absolute; top: 8px; left: 8px; bottom: 8px; right: 8px; border: 2px solid; border-color: inherit; opacity: .3 }
+
+.viba-portfolio-wrapper .vp-phosphorus.viba-portfolio .viba-portfolio-item-button { height: 50px; width: 50px; line-height: 50px }
+
+/*====================================
+	SULFUR
+====================================*/
+.vp-sulfur .viba-portfolio-title a,
+.vp-sulfur .viba-portfolio-likes,
+.vp-sulfur .viba-portfolio-item-button { -webkit-transition: none; transition: none; }
+
+.vp-sulfur.vp-vertical-align-top .viba-portfolio-item-inner:hover .viba-portfolio-cover-fixed { -webkit-transform: translate3d(0,10px,0); -ms-transform:translate(0,10px); transform: translate3d(0,10px,0); }
+.vp-sulfur.vp-vertical-align-bottom .viba-portfolio-item-inner:hover .viba-portfolio-cover-fixed { -webkit-transform: translate3d(0,-10px,0); -ms-transform:translate(0,-10px); transform: translate3d(0,-10px,0); }
+
+.vp-sulfur.vp-cover-horizontal-align-center .viba-portfolio-cover,
+.vp-sulfur.vp-cover-horizontal-align-center .viba-portfolio-cover-fixed { text-align: center; }
+.vp-sulfur.vp-cover-horizontal-align-center .viba-portfolio-cover-content { width: 75%; display: inline-block; }
+.vp-sulfur.vp-cover-horizontal-align-center .viba-portfolio-sulfur-right { text-align: left; }
+.vp-sulfur.vp-vertical-align-bottom.vp-cover-horizontal-align-center .viba-portfolio-cover-content { left: 50%; margin-left: -38%; }
+
+.vp-sulfur .viba-portfolio-likes { float: none !important; margin: 2px 0 !important; display: inline-block; width: 30px; }
+.vp-sulfur .viba-portfolio-buttons-wrapper { margin: 2px 0 }
+.vp-sulfur .viba-portfolio-item-button { background: none !important; height: 30px; width: 30px; }
+.vp-sulfur .viba-portfolio-item-button::before { line-height: 30px }
+
+.viba-portfolio-sulfur-left { 
+	float: left; width: 50px; padding: 5px 0; margin-right: 20px; text-align: center; border-radius: 2px;
+	-webkit-transition: all .4s; transition: all .4s;
+}
+.vp-sulfur.vp-cover-horizontal-align-right .viba-portfolio-sulfur-left { float: right; margin: 0 0 0 20px }
+.viba-portfolio-sulfur-right { overflow: hidden; }
+
+/*====================================
+	CHLORINE
+====================================*/
+.viba-portfolio-chlorine-content { position: absolute; bottom: 20px; left: 20px; right: 20px; text-align: left; }
+.vp-vertical-align-bottom .viba-portfolio-chlorine-content { top: 20px }
+
+.vp-chlorine .viba-portfolio-categories,
+.viba-portfolio-chlorine-content-right { position: absolute; width: 55% }
+.viba-portfolio-chlorine-content-right { width: 45% }
+
+.vp-chlorine.vp-vertical-align-bottom .viba-portfolio-categories,
+.vp-vertical-align-bottom .viba-portfolio-chlorine-content-right { top: 0 }
+
+.vp-chlorine.vp-vertical-align-top .viba-portfolio-categories,
+.vp-vertical-align-top .viba-portfolio-chlorine-content-right,
+.vp-chlorine.vp-vertical-align-middle .viba-portfolio-categories,
+.vp-vertical-align-middle .viba-portfolio-chlorine-content-right { bottom: 0 }
+
+.vp-chlorine.vp-cover-horizontal-align-left .viba-portfolio-categories,
+.vp-chlorine.vp-cover-horizontal-align-center .viba-portfolio-categories  { left: 0 }
+.vp-cover-horizontal-align-left .viba-portfolio-chlorine-content-right,
+.vp-cover-horizontal-align-center .viba-portfolio-chlorine-content-right { text-align: right; right: 0 }
+.vp-chlorine.vp-cover-horizontal-align-left .viba-portfolio-item-button,
+.vp-chlorine.vp-cover-horizontal-align-center .viba-portfolio-item-button { text-align: right; padding-left: 5px }
+
+.vp-chlorine.vp-cover-horizontal-align-right .viba-portfolio-categories { right: 0; text-align: right; }
+.vp-cover-horizontal-align-right .viba-portfolio-chlorine-content-right { left: 0 }
+.vp-chlorine.vp-cover-horizontal-align-right .viba-portfolio-likes,
+.vp-chlorine.vp-cover-horizontal-align-right .viba-portfolio-item-button { text-align: left; padding-right: 5px }
+
+.vp-chlorine .viba-portfolio-short-description p { margin: 0;  }
+
+.vp-chlorine .viba-portfolio-chlorine-content-right .viba-portfolio-likes,
+.vp-chlorine .viba-portfolio-buttons-wrapper { float: none; margin: 0; display: inline-block; vertical-align: middle; }
+.vp-chlorine .viba-portfolio-item-button { background: none !important; width: auto; vertical-align: middle; }
+.vp-chlorine .viba-portfolio-item-button::before { }
+
+/*====================================
+	ARGON
+====================================*/
+.vp-argon .viba-portfolio-title a,
+.vp-argon .viba-portfolio-likes { -webkit-transition: none; transition: none; }
+.viba-portfolio-wrapper .vp-argon.viba-portfolio .viba-portfolio-item-button { height: 50px; width: 50px; line-height: 50px }
+
+.vp-argon.vp-vertical-align-top .viba-portfolio-item-inner:hover .viba-portfolio-cover-fixed { -webkit-transform: translate3d(0,10px,0); -ms-transform:translate(0,10px); transform: translate3d(0,10px,0); }
+
+.viba-portfolio-argon-content { 
+	display: inline-block; text-align: center; padding: 5px 10px; margin: 5px 0; border-radius: 2px; 
+	-webkit-transition: all .4s; transition: all .4s; opacity: .9
+}
+.vp-argon .viba-portfolio-item-inner:hover .viba-portfolio-argon-content { opacity: 1 }
+
+.vp-argon .viba-portfolio-title,
+.vp-argon .viba-portfolio-likes { display: inline-block; vertical-align: middle; float: none !important; margin: 0 3px 0 3px !important }
+
+.vp-argon .viba-portfolio-likes {  }
+
+/*====================================
+	POTASSIUM
+====================================*/
+.vp-potassium .viba-portfolio-item-inner { padding: 15px; -webkit-transition: all .4s ease-out; transition: all .4s ease-out; }
+.vp-potassium .viba-portfolio-item-inner:hover { z-index: 3; }
+
+.vp-potassium .viba-portfolio-content { padding: 0; -webkit-transition: all .4s; transition: all .4s; }
+.vp-potassium.vp-visible-on-hover .viba-portfolio-content { opacity: 0 }
+.vp-potassium .viba-portfolio-item-inner:hover .viba-portfolio-content { opacity: 1 }
+
+.vp-always-visible .viba-portfolio-content.viba-portfolio-potassium-content-top,
+.vp-semi-visible .viba-portfolio-content.viba-portfolio-potassium-content-top,
+.viba-portfolio-item-inner:hover .viba-portfolio-content.viba-portfolio-potassium-content-top { padding: 0 0 15px 0; opacity: 1 }
+
+.vp-always-visible .viba-portfolio-content.viba-portfolio-potassium-content-bottom,
+.viba-portfolio-item-inner:hover .viba-portfolio-content.viba-portfolio-potassium-content-bottom { padding: 15px 0 0 0 }
+
+.vp-potassium .viba-portfolio-likes { float: none !important; margin: 0 !important; display: inline-block; vertical-align: middle; }
+.vp-potassium .viba-portfolio-buttons-wrapper { margin: 0; display: inline-block; vertical-align: middle; }
+.viba-portfolio-wrapper .vp-potassium .viba-portfolio-item-button { background: none !important; height: 30px; width: 30px; vertical-align: middle; }
+.vp-potassium .viba-portfolio-item-button::before { line-height:30px; }
+
+.vp-potassium .viba-portfolio-categories { margin-top: 0px }
+
+/*====================================
+	CALCIUM
+====================================*/
+.vp-calcium.vp-vertical-align-top .viba-portfolio-item-inner:hover .viba-portfolio-cover-fixed { -webkit-transform: translate3d(0,10px,0); -ms-transform:translate(0,10px); transform: translate3d(0,10px,0); }
+
+.vp-calcium .viba-portfolio-title a,
+.vp-calcium .viba-portfolio-categories,
+.vp-calcium .viba-portfolio-short-description p,
+.vp-calcium.viba-portfolio .viba-portfolio-likes { background: rgba(255,255,255,.15); padding: 5px 10px; border-radius: 2px; margin-top: 5px; display: inline-block; }
+
+.vp-calcium .viba-portfolio-title a:hover { padding: 5px 10px; margin-top: 5px }
+
+.vp-calcium .viba-portfolio-title { display: block; }
+.vp-calcium .viba-portfolio-categories { display: inline-block; }
+.vp-calcium .viba-portfolio-short-description p { display: inline-block; }
+
+.viba-portfolio-calcium-content { display: block; clear: both; margin-top: 5px }
+.vp-calcium .viba-portfolio-buttons-wrapper { display: inline-block; margin: 0 }
+.vp-calcium.viba-portfolio .viba-portfolio-calcium-content .viba-portfolio-likes { 
+	 margin: 0 !important; float: none !important; vertical-align: top;
+	-webkit-transition: all .4s; transition: all .4s; 
+}
+.vp-calcium.viba-portfolio .viba-portfolio-calcium-content .viba-portfolio-likes,
+.vp-calcium.viba-portfolio .viba-portfolio-calcium-content .viba-portfolio-item-button { padding: 0 15px; line-height: 50px; height: 50px }
+
+.viba-portfolio-wrapper .vp-calcium.viba-portfolio .viba-portfolio-item-button { height: 50px; width: 50px; line-height: 50px }
+.vp-calcium .viba-portfolio-likes:hover { background: rgba( 255,255,255,.2 ); }

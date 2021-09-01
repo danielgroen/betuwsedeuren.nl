@@ -1,0 +1,13 @@
+#!/bin/bash
+
+source _vars
+
+CMD_SHELL="/bin/sh"
+DEFAULT_SHELL_CONTAINER="php";
+
+[ ! -z "$1" ] && DEFAULT_SHELL_CONTAINER=$1; # override container
+[ ! -z "$2" ] && CMD_SHELL=$2; # override interpreter
+
+docker-compose -p ${PROJECT} -f docker-compose.yaml -f docker-compose.yaml ${COMPOSEAPPEND} exec $DEFAULT_SHELL_CONTAINER $CMD_SHELL
+
+exit 0;

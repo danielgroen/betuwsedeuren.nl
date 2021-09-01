@@ -1,0 +1,11 @@
+#!/bin/bash
+
+source _vars
+
+echo ""
+echo "restarting containers..."
+
+docker-compose -p ${PROJECT} -f docker-compose.yaml ${COMPOSEAPPEND} down &&\
+docker-compose -p ${PROJECT} -f docker-compose.yaml ${COMPOSEAPPEND} up -d --force-recreate --remove-orphans
+
+exit 0;

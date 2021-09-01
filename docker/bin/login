@@ -1,0 +1,11 @@
+#!/bin/bash
+
+source _vars
+
+echo ""
+echo "Login script not avaiable yet..."
+printf "'wp' command should be enriched with the module $BLUE wp-cli-login-command"
+echo ""
+# wp package install aaemnnosttv/wp-cli-login-command;
+
+exit 0;

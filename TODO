@@ -1,0 +1,4 @@
+Om te migreren naar een shared hosting server:
+* alles beveiligen ()
+* permalinks opslaan in de backend
+* de html folder moet tussen www en web zitten (voor paden naar imgs dmv php require())

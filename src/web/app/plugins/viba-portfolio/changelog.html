@@ -1,0 +1,316 @@
+<div class="viba-portfolio-update-info">
+    a.b.c. - update numbers
+    <ul>
+        <li>a - increment a if it's a major update.</li>
+        <li>b - increment b when one change affects multiple files.</li>
+        <li>c - increment c only when the changes in one file don't affect other files.</li>
+    </ul>
+</div>
+
+<hr>
+
+<div class="viba-portfolio-update-list">
+
+    <h3 class="version-number">Version 1.9.1 (25 May 2017)</h3>
+
+    <div class="bugfix"><strong>BUGFIXES</strong></div>
+    <ul>
+        <li>Fixed a bug with WooCommerce and verbose page rules where no products where displayed.</li>
+    </ul>
+
+    <h3 class="version-number">Version 1.9 (6 March 2017)</h3>
+
+    <div class="bugfix"><strong>BUGFIXES</strong></div>
+    <ul>
+        <li>Fixed a bug with google analytics path when using shortcode and viewing portfolio items with ajax.</li>
+        <li>Fixed a bug with custom styles typography output when there was no font selected.</li>
+    </ul>
+
+    <div class="change"><strong>CHANGES</strong></div>
+    <ul>
+        <li>Added option to duplicate styles.</li>
+    </ul>
+
+    <h3 class="version-number">Version 1.8 (7 January 2017)</h3>
+
+    <div class="bugfix"><strong>BUGFIXES</strong></div>
+    <ul>
+        <li>Fixed a bug with number of portfolio items on category and tag archive pages when the main archive page wasn't selected.</li>
+        <li>Fixed a bug with carousel flickering in iOS.</li>
+        <li>Fixed a bug with custom styles css url for HTTPS.</li>
+    </ul>
+
+    <div class="change"><strong>CHANGES</strong></div>
+    <ul>
+        <li>Changed the <code>Viba_Portfolio_Frontend_Scripts</code> class functions to static so they can be removed by a theme with a hook.</li>
+        <li>Changed the hook for <code>viba_portfolio_generator_tag()</code> from <code>wp_head</code> to <code>get_the_generator_html</code> and <code>get_the_generator_xhtml</code>.</li>
+        <li>Added a new template for filter widget.</li>
+        <li>Removed the admin functions and classes load on frontend, now it's loaded only in the admin.</li>
+        <li>Updated google plus font icon.</li>
+    </ul>
+
+    <h3 class="version-number">Version 1.7.5 (10 September 2016)</h3>
+
+    <div class="bugfix"><strong>BUGFIXES</strong></div>
+    <ul>
+        <li>Fixed a bug in javascript when adding images to the gallery wasn't possibble if there wasn't a thumbnail generated.</li>
+        <li>Fixed a bug where load more button would disappear before the new portfolio items where loaded.</li>
+    </ul>
+
+    <div class="change"><strong>CHANGES</strong></div>
+    <ul>
+        <li>Changed the <code>imagesLoaded()</code> function name to <code>apalodiImagesLoaded()</code> to remove any conflicts with themes that use the same function name but implement different functionality.</li>
+    </ul>
+
+    <h3 class="version-number">Version 1.7.4 (3 June 2016)</h3>
+
+    <div class="bugfix"><strong>BUGFIXES</strong></div>
+    <ul>
+        <li>Fixed a bug created in version 1.7.3 with admin panel ajax save and frontend ajax functions that was caused by <code>viba_portfolio_ajax_fix_for_visual_composer()</code> function.</li>
+    </ul>
+
+    <h3 class="version-number">Version 1.7.3 (2 June 2016)</h3>
+
+    <div class="bugfix"><strong>BUGFIXES</strong></div>
+    <ul>
+        <li>Fixed a bug with Visual Composer elements when using ajax to open portfolio items.</li>
+        <li>Fixed a bug with ajax functions and caching plugins.</li>
+        <li>Fixed a bug where <code>viba-portfolio-single.css</code> wasn't loaded on search page when ajax was enabled.</li>
+    </ul>
+
+    <div class="change"><strong>CHANGES</strong></div>
+    <ul>
+        <li>Added import/export option.</li>
+        <li>Removed the <code>viba_portfolio_single_description</code> filter because <code>the_content()</code> has its own filter.</li>
+    </ul>
+
+    <h3 class="version-number">Version 1.7.2 (2 March 2016)</h3>
+
+    <div class="bugfix"><strong>BUGFIXES</strong></div>
+    <ul>
+        <li>Fixed a bug with main archive page rewrite rules when <code>use_verbose_page_rules</code> was enabled.</li>
+        <li>Fixed a bug where Viba Portfolio activation didn't work with TMGPA plugin.</li>
+    </ul>
+
+    <div class="change"><strong>CHANGES</strong></div>
+    <ul>
+        <li>Added archive page name for taxonomy and single portfolio pages document title generated with the new <code>add_theme_support( 'title-tag' )</code> feature.</li>
+        <li>Updated Redux Framework to 3.5.9.</li>
+    </ul>
+
+    <h3 class="version-number">Version 1.7.1 (6 January 2016)</h3>
+
+    <div class="change"><strong>CHANGES</strong></div>
+    <ul>
+        <li>Small changes in wpml-config.xml.</li>
+        <li>Added support for Twenty Sixteen theme.</li>
+        <li>Removed 'use strict' from jquery document ready.</li>
+    </ul>
+
+    <div class="bugfix"><strong>BUGFIXES</strong></div>
+    <ul>
+        <li>Fixed a bug with PHP 7 in <code>add_portfolio_to_glance_items()</code> function in <code>includes/admin/class-viba-portfolio-admin.php</code>.</li>
+        <li>Fixed a bug with admin panel logo styling.</li>
+        <li>Fixed a bug with single portfolio images guid link.</li>
+    </ul>
+    
+    <h3 class="version-number">Version 1.7.0 (25 October 2015)</h3>
+
+    <div class="bugfix"><strong>BUGFIXES</strong></div>
+    <ul>
+        <li>Fixed a bug with SSL by using a relative URL for ajax URL.</li>
+        <li>Fixed a bug with load more pagination where the shortcode on page 2 or more wouldn't show first items.</li>
+        <li>Fixed a bug where on some servers it wasn't possible to save more than 8 new custom styles.</li>
+        <li>Fixed a bug where the load more pagination on search page would load all items and not the one searched for.</li>
+        <li>Fixed a bug where when item was loaded with ajax and then the lightbox was activated the arrow keyboard keys would switch images and also the ajax items in the background.</li>
+    </ul>
+
+    <div class="change"><strong>CHANGES</strong></div>
+    <ul>
+        <li>If the link format has an empty link the href attribute is removed.</li>
+        <li>Small changes for pagination css and load more javascript. The look and functionality remainded the same.</li>
+        <li>Added option to change the order of share buttons.</li>
+        <li>Added columns option for Viba Portfolio Widget.</li>
+        <li>Added confirmation when deleting custom created style.</li>
+        <li>Added new filter hook for search form - <code>viba_portfolio_searchform</code></li>
+        <li>Added search form and new text for search page when there are no items found.</li>
+        <li>Added <code>viba-portfolio-search</code> class to body tag when on search page.</li>
+        <li><code>is_viba_portfolio_page()</code> now returns true only on main archive page and <code>is_viba_portfolio_archive()</code> on archives but not on main archive page anymore.</li>
+        <li>Updated Redux Framework to 3.5.8.1.</li>
+    </ul>
+
+    <h3 class="version-number">Version 1.6.2 (22 August 2015)</h3>
+
+    <div class="bugfix"><strong>BUGFIXES</strong></div>
+    <ul>
+        <li>Fixed a bug where on some servers Redux extensions url would have no slashes.</li>
+        <li>Fixed a bug with order by likes where items with the same number of likes would have random order.</li>
+    </ul>
+
+    <div class="change"><strong>CHANGES</strong></div>
+    <ul>
+        <li>Now fully WPML supported.</li>
+        <li>Updated Redux Framework to 3.5.6.1.</li>
+    </ul>
+
+    <h3 class="version-number">Version 1.6.1 (25 April 2015)</h3>
+
+    <div class="bugfix"><strong>BUGFIXES</strong></div>
+    <ul>
+        <li>Fixed a bug with disabled scroll when using ajax above and below type.</li>
+    </ul>
+
+    <h3 class="version-number">Version 1.6 (25 April 2015)</h3>
+    
+    <div class="change"><strong>CHANGES</strong></div>
+    <ul>
+        <li>Added support for Stetic Web Analytics when using ajax.</li>
+        <li>Added <code>esc_url()</code> for escaping <code>add_query_arg()</code> function to improve security.</li>
+        <li>Changed css for some styles to improve transition animations.</li>
+        <li>Changed custom redux extension names to prevent possible name conflicts.</li>
+        <li>Updated Redux Framework.</li>
+    </ul>
+
+    <div class="bugfix"><strong>BUGFIXES</strong></div>
+    <ul>
+        <li>Fixed a bug with Neon style action buttons position when using load more option.</li>
+        <li>Fixed a bug with stacked gallery loading animation on Safari and Chrome using the Mac OS X.</li>
+        <li>Fixed a bug where load more would return in some very specific cases different items.</li>
+        <li>Fixed a bug where <code>flush_rewrite_rules()</code> wouldn't be executed with ajax save.</li>
+    </ul>
+
+    <h3 class="version-number">Version 1.5.1 (6 April 2015)</h3>
+    
+    <div class="change"><strong>CHANGES</strong></div>
+    <ul>
+        <li>Updated Redux Framework.</li>
+        <li>Added <code>vp-modal-open</code> class to html tag when the modal opens to prevent body scrolling (It might not work for all themes).</li>
+    </ul>
+
+    <h3 class="version-number">Version 1.5 (27 March 2015)</h3> 
+    
+    <div class="bugfix"><strong>BUGFIXES</strong></div>
+    <ul>
+        <li>Fixed a bug where load more would return duplicated items if there were scheduled items to be published in the future.</li>
+        <li>Fixed a bug with filter and pagination on archive page when the query is applied.</li>
+        <li>Fixed a bug where load more would return items from different categories or tags on taxonomy pages.</li>
+        <li>Fixed a bug where modal content wouldn't delete on close.</li>
+    </ul>
+
+    <div class="change"><strong>CHANGES</strong></div>
+    <ul>
+        <li>Added functionality to override template functions and tags inside themes.</li>
+        <li>Added attributes metabox with order option to enable order items by Page Order.</li>
+    </ul>
+
+    <h3 class="version-number">Version 1.4.1 (9 March 2015)</h3>
+    
+    <div class="bugfix"><strong>BUGFIXES</strong></div>
+    <ul>
+        <li>Fixed a bug with direction aware animation where image would disappear after lighbox is activated.</li>
+    </ul>
+
+    <div class="change"><strong>CHANGES</strong></div>
+    <ul>
+        <li>Updated javascript plugins and improved the multi-size grid layout.</li>
+    </ul>
+    
+    <h3 class="version-number">Version 1.4 (8 February 2015)</h3>
+    
+    <div class="bugfix"><strong>BUGFIXES</strong></div>
+    <ul>
+        <li>Fixed a bug where video and audio would continue playing even if the ajax window is closed.</li>
+    </ul>
+
+    <div class="change"><strong>CHANGES</strong></div>
+    <ul>
+        <li>Added support for the Twenty Fifteen theme.</li>
+        <li>Added option to open custom link in a new tab.</li>
+        <li>Added option to enable ajax for themes and page builders that don't save their content into WordPress default content area.</li>
+        <li>Removed <code>.vp-body-overflow</code> class from body tag and added <code>.vp-html-overflow</code> class to html.</li>
+    </ul>
+
+    <h3 class="version-number">Version 1.3 (21 December 2014)</h3>
+    
+    <div class="bugfix"><strong>BUGFIXES</strong></div>
+    <ul>
+        <li>Fixed a bug where load more would load all items and not only the items set in the query option.</li>
+    </ul>
+
+    <h3 class="version-number">Version 1.2.2 (17 December 2014)</h3>
+    
+    <div class="change"><strong>CHANGES</strong></div>
+    <ul>
+        <li>Added filters for single pagination next and prev links.</li>
+        <li>Changed generated shortcode position for portfolio styles to avoid copying h3 tag with a shortcode.</li>
+    </ul>
+
+    <div class="bugfix"><strong>BUGFIXES</strong></div>
+    <ul>
+        <li>Fixed a bug with custom permalinks.</li>
+    </ul>
+
+    <h3 class="version-number">Version 1.2.1 (10 December 2014)</h3>
+
+    <div class="change"><strong>CHANGES</strong></div>
+    <ul>
+        <li>Added Velocity.js for smoother ajax slide animations on mobile devices.</li>
+    </ul>
+
+    <div class="bugfix"><strong>BUGFIXES</strong></div>
+    <ul>
+        <li>Fixed a bug where gallery would return an error if the gallery id isn't an image. Removed the possibility to print non image media.</li>
+    </ul>
+
+    <h3 class="version-number">Version 1.2 (9 December 2014)</h3>
+    
+    <div class="change"><strong>CHANGES</strong></div>
+    <ul>
+        <li>Added new CSS class <code>vp-no-content</code> to single portfolio if there is no content and added CSS for meta to be full width.</li>
+    </ul>
+
+    <div class="bugfix"><strong>BUGFIXES</strong></div>
+    <ul>
+        <li>Fixed a bug where gallery slider wouldn't work on safari and android browser.</li>
+        <li>Fixed a bug where single content would quick jump over gallery on an older safari browser.</li>
+        <li>Fixed a bug with font-size:0 for share icons for older safari and android browsers by adding width for share icons.</li>
+        <li>Fixed a bug with related items size for older webkit browsers.</li>
+    </ul>
+
+    <h3 class="version-number">Version 1.1 (1 December 2014)</h3>
+    
+    <div class="change"><strong>CHANGES</strong></div>
+    <ul>
+        <li>Added new CSS class <code>vp-no-meta</code> to single portfolio if there is no meta selected and added CSS for description to be full width.</li>
+        <li>Added new CSS styles for elements to inherit the selected color for portfolios, it overwrites the theme default colors.</li>
+    </ul>
+
+    <div class="bugfix"><strong>BUGFIXES</strong></div>
+    <ul>
+        <li>Fixed a bug where <code>is_viba_portfolio_shortcode_ajax()</code> function would return false for the nested shortcodes.</li>
+    </ul>
+
+    <h3 class="version-number">Version 1.0.2 (28 November 2014)</h3>
+    
+    <div class="change"><strong>CHANGES</strong></div>
+    <ul>
+        <li>Changed the head script for adding <code>vp-js</code> class to html to work without jQuery, only with javascript.</li>
+        <li>Removed the description for meta generator.</li>
+    </ul>
+
+    <h3 class="version-number">Version 1.0.1 (25 November 2014)</h3>
+    
+    <div class="change"><strong>CHANGES</strong></div>
+    <ul>
+        <li>Updated CSS for ul and li tags to overwrite the themes styles for ul and li tags (main ul and share icons).</li>
+    </ul>
+
+    <div class="bugfix"><strong>BUGFIXES</strong></div>
+    <ul>
+        <li>Fixed a bug where the page scrollbar disappeared when using slider (body overflow).</li>
+        <li>Fixed a bug where share icons appear even if the portfolio meta value for share icons is disabled.</li>
+    </ul>
+    
+    <h3 class="version-number">Version 1.0 (22 November 2014)</h3>
+
+</div>

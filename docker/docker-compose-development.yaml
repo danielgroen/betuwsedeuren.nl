@@ -1,0 +1,41 @@
+version: "3.3"
+
+volumes:
+  phpmyadmin:
+
+services:
+  # PHPMYADMIN
+  pma:
+    container_name: ${PROJECT}_phpmyadmin
+    env_file: .env
+    depends_on:
+      - db
+    image: phpmyadmin:fpm-alpine
+    environment:
+      - PMA_HOST=db
+      - PMA_PORT=3306
+      - PMA_USER=${DB_USER}
+      - PMA_PASSWORD=${DB_PASSWORD}
+    volumes:
+      - phpmyadmin:/var/www/html:rw
+      - phpmyadmin:/var/www/phpmyadmin:rw
+      - ./persistent-data/db/mysql:/var/lib/mysql:rw
+    networks:
+      - default
+
+  php:
+    container_name: ${PROJECT}_php
+    volumes:
+      - ./persistent-data/log/xdebug:/tmp
+
+  nginx:
+    container_name: ${PROJECT}_nginx
+    env_file: .env
+    ports:
+      - "${PORT}:80"
+      - "${PMA}:8080"
+    depends_on:
+      - pma
+    volumes:
+      - phpmyadmin:/var/www/phpmyadmin:ro
+      - ./containers/pma/vhost.conf:/etc/nginx/conf.d/pma.conf:ro

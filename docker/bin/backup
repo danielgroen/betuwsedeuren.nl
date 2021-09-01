@@ -1,0 +1,8 @@
+#!/bin/bash
+
+source _vars
+
+TIMESTAMP=$(date +"%Y-%m-%d-%T")
+docker exec --user www-data ${PROJECT}_wp-cli wp db export /backups/_manual-$PROJECT-$TIMESTAMP.sql
+
+exit 0;

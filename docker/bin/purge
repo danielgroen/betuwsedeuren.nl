@@ -1,0 +1,20 @@
+#!/bin/bash
+
+source _vars
+
+if (whiptail --title "Removing all data" --yesno --defaultno "Would you like to proceed to remove all data from this project? Also volumes and network will be dismounted and removed" 8 70); then
+  echo ""
+  echo 'removing network and volumes...'
+
+  docker-compose -p ${PROJECT} -f docker-compose.yaml ${COMPOSEAPPEND} stop &&\
+  docker-compose -p ${PROJECT} -f docker-compose.yaml ${COMPOSEAPPEND} down -v --remove-orphans
+
+  sudo rm -rf persistent-data/db
+  sudo rm -rf persistent-data/log/*; sudo touch persistent-data/log/.gitkeep
+  sudo rm -rf persistent-data/uploads/*; sudo touch persistent-data/uploads/.gitkeep
+else
+  echo ""
+  echo 'exiting...'
+fi
+
+exit 0;

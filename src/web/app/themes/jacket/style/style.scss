@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@import "variables/**/*.scss";
+@import "mixins/**/*.scss";
+@import "extends/**/*.scss";
+
+@import "base/**/*.scss";
+@import "pages/**/*.scss";
+@import "sections/**/*.scss";
+@import "elements/**/*.scss";
+
+#__bs_notify__ {
+  opacity: 0.2 !important;
+  pointer-events: none;
+}

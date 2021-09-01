@@ -1,0 +1,52 @@
+version: "3.3"
+
+volumes:
+  redis-data:
+
+services:
+  wp:
+    container_name: ${PROJECT}_wp-cli
+    volumes:
+      - ./containers/wp/backups:/etc/periodic/daily/daily:ro
+      - ./containers/wp/backups:/etc/periodic/weekly/weekly:ro
+      - ./containers/wp/backups:/etc/periodic/monthly/monthly:ro
+
+  php:
+    container_name: ${PROJECT}_php
+    volumes:
+      - ./containers/redis/object-cache.php:/var/www/html/web/app/object-cache.php:ro
+
+  nginx:
+    container_name: ${PROJECT}_nginx
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=traefik
+      - traefik.http.routers.${PROJECT}.rule=Host(`${CNAME}`)
+      - traefik.http.routers.${PROJECT}.entrypoints=web, web-redirect
+      - traefik.http.routers.${PROJECT}.middlewares=ratelimit@file
+    volumes:
+      - ./containers/redis/object-cache.php:/var/www/html/web/app/object-cache.php:ro
+    networks:
+      - default
+      - traefik
+
+  redis:
+    env_file: .env
+    container_name: ${PROJECT}_redis
+    image: redis:alpine
+    command:
+      - "redis-server"
+      - "/etc/redis.conf"
+    depends_on:
+      - php
+      - wp
+    volumes:
+      - ./containers/redis/redis.conf:/etc/redis.conf:ro
+    expose:
+      - "6379"
+    networks:
+      - default
+
+networks:
+  traefik:
+    external: true

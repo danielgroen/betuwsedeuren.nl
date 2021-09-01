@@ -1,0 +1,22 @@
+/************************************
+	Widgets
+************************************/
+.widget_viba_portfolio { }
+.viba-portfolio-widget-wrapper { margin: 0 -1px; width: auto; max-width: none; min-width: 100% }
+.viba-portfolio-widget-wrapper::after { content: ""; display: table; clear: both; }
+.viba-portfolio-widget-item { float: left; width: 33.32%; padding: 1px }
+.widget_viba_portfolio img { width: 100%; height: auto; display: block; }
+
+.vp-widget-col-1 .viba-portfolio-widget-item { width: 100%; }
+.vp-widget-col-2 .viba-portfolio-widget-item { width: 50%; }
+.vp-widget-col-3 .viba-portfolio-widget-item { width: 33.334%; width: calc(100% / 3); }
+.vp-widget-col-4 .viba-portfolio-widget-item { width: 25%; }
+.vp-widget-col-5 .viba-portfolio-widget-item { width: 20%; }
+.vp-widget-col-6 .viba-portfolio-widget-item { width: 16.667%; width: calc(100% / 6); }
+
+.widget .viba-portfolio-widget-filter { text-align: left; margin: 0 }
+.widget .viba-portfolio-widget-filter ul { list-style: none; margin: 0; padding: 0 }
+.widget .viba-portfolio-widget-filter ul li { display: inline-block; padding: 0; margin: 0 -1px -1px 0; border: 0; }
+.widget .viba-portfolio-widget-filter ul li a { display: block; cursor: pointer; }
+.widget .viba-portfolio-widget-filter ul li a:hover, 
+.widget .viba-portfolio-widget-filter ul li a.selected { background-color: #fefefe; border-color: #ddd; color:#444; }

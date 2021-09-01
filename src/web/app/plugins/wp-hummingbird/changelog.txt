@@ -1,0 +1,143 @@
+Plugin Name: Hummingbird Pro
+Author: Ignacio Cruz, Ricardo Freitas, Anton Vanyukov
+Tested up to: 5.7
+
+Change Log:
+
+= 2.7.3 ( 2021-03-12 ) =
+
+- New: Tutorials module
+- New: LiteSpeed instructions for Browser Caching module
+- Enhance: Update the Plugin Health module UI/UX
+- Enhance: REST API endpoints now require at least edit_posts capability
+- Enhance: Uptime reporting description
+- Enhance: Improve export/import description
+- Enhance: CSS above the fold description
+- Enhance: Privacy mode detection in GZIP compression module
+- Enhance: Asset Optimization UI/UX
+- Enhance: Asset Optimization processing of compressed assets
+- Enhance: Asset Optimization switching between modes
+- Enhance: Support for RGBA when optimizing CSS files
+- Enhance: Fallback to siteurl if HTTP_HOST is not defined when clearing cache
+- Fix: Recursive loops in Page Caching preloader
+- Fix: Asset Optimization not rewriting relative paths for inlined assets
+- Fix: Remove unused expiry time option for IIS servers in browser caching module
+- Fix: Page caching not properly detecting Asset Optimization CDN status
+- Fix: Page caching clearing all cache when static page is set as home page
+- Fix: Selects overlapping other DOM elements
+- Fix: PHP notice when re-checking browser caching status
+- Fix: PHP notice for undefined index db_frequency
+- Fix: Performance test notices on mobile
+
+= 2.7.2 ( 2021-02-25 ) =
+
+- New: Redis support for unix sockets
+- New: Select database for Redis integration
+- New: Add support for WOFF2 fonts in Browser Caching module
+- New: Support for LiteSpeed server in Browser Caching module
+- New: Clear Cloudflare cache from admin bar
+- Enhance: Asset Optimization notifications
+- Enhance: Asset Optimization support for RTL assets
+- Enhance: Integration with Varnish cache
+- Fix: Asset Optimization combining assets on Basic mode
+- Fix: Asset Optimization not being able to inline remote assets in rare cases
+- Fix: Asset Optimization duplicating inline scripts during processing
+- Fix: Asset Optimization improve handling of core WordPress scripts
+- Fix: Asset Optimization compatibility with Oxygen builder
+- Fix: Asset Optimization compatibility with Bimber theme
+- Fix: Browser Caching module overwriting individual expiry values
+- Fix: High contrast icons in Asset Optimization module
+- Fix: 500 server error when clearing Varnish cache from the dashboard
+- Fix: Tabs navigation on mobile devices
+
+= 2.7.1 ( 2021-01-18 ) =
+
+- New: Integration with ACF - page cache will be auto purged on changes in ACF options
+- New: Select what cache to clear from the dashboard page
+- Enhance: PHP 8.0 compatibility
+- Enhance: Asset Optimization handling expired assets
+- Enhance: Allow hiding Asset Optimization modals
+- Enhance: Remove unused assets from plugin package
+- Enhance: Plugin health module descriptions
+- Enhance: Performance in wp-admin
+- Enhance: jQuery 3 compatibility
+- Enhance: Compatibility with object cache
+- Fix: Cloudflare integration breaking Gzip server value on the Hub
+- Fix: Compatibility issues with Themeco Pro theme page builder
+- Fix: Asset Optimization not respecting order for some inlined assets
+- Fix: Do not auto enable Asset Optimization on new subsites in a network
+- Fix: Disable Asset Optimization on login pages
+- Fix: Cloudflare integration wizard UI
+- Fix: Cloudflare re-check status returning incorrect values
+- Fix: Browser cache returning false status
+- Fix: Page caching status on subsites
+- Fix: Notices on image optimization meta box on the dashboard page
+- Fix: Toggling page caching module from Hub
+
+= 2.7.0 ( 2020-11-12 ) =
+
+- New: Site Health module
+- New: Clear page cache for all subsites from network admin
+- Enhance: Asset Optimization on WPMU DEV hosting staging
+- Enhance: Asset Optimization "How does it work?" section
+- Enhance: Gzip configuration UI/UX
+- Enhance: White labelling support
+- Enhance: Nginx instructions for browser caching and gzip compression
+- Fix: Rare instance of fatal PHP error in Page Caching module in multisite
+- Fix: Database cleanup removing drafts that are not from WordPress posts/pages
+- Fix: Cloudflare configuration wizard
+- Fix: Upgrade page buttons hover state
+- Fix: Elements with non-unique IDs in Asset Optimization module
+
+= 2.6.2 ( 2020-10-01 ) =
+
+- New: Integration with WPMU DEV hosting FastCGI cache
+- New: Allow removing query strings from assets network wide
+- New: Allow removing Emoji scripts and styles network wide
+- Enhance: Show OpCache notice on WPMU DEV hosting
+- Enhance: Page cache preloader description text
+- Enhance: Page cache sitemap detection
+- Enhance: Asset Optimization "How does it work?" section
+- Enhance: Automatic Asset Optimization UI/UX
+- Enhance: Upgrade scripts on network installs
+- Enhance: White labeling support
+- Enhance: Integration with Cornerstone builder
+- Fix: File change detection notice on multisite
+- Fix: Asset Optimization logs on network subsites
+- Fix: Missing downtime in Uptime reports
+- Fix: Minor accessibility issues with toggles and icons
+- Fix: Include/exclude icons in Asset Optimization
+- Fix: Clearing mobile cache on page/post edit
+- Fix: Error when clearing Cloudflare cache
+- Fix: Log cleanup
+- Fix: Redis connect modal
+
+= 2.6.1 ( 2020-09-08 ) =
+
+- Fix: Errors on multisite upgrade
+- Fix: Asset Optimization network debug logs UI
+- Fix: Asset Optimization exclusions select styles
+- Fix: Typos in Advanced Tools module
+
+= 2.6.0 ( 2020-09-07 ) =
+
+- New: Asset Optimization automatic mode
+- New: Asset Optimization presets
+- New: Support for caching page headers
+- Enhance: Compatibility with tagDiv Composer
+- Enhance: Page Cache sitemaps support
+- Enhance: Handling of critical.css file
+- Enhance: Notices and forms accessibility
+- Fix: register_rest_route was called incorrectly warning in WordPress 5.5
+- Fix: Asset Optimization reset to defaults action
+- Fix: Asset Optimization file size reductions calculation
+- Fix: Asset Optimization PHP silenced notices
+- Fix: Asset Optimization activate page
+- Fix: Opcache integration
+- Fix: Styles conflict with SupportCandy Reports plugin
+- Fix: Performance modal closing on initial scan
+- Fix: Preserve image ratios when branding
+
+
+
+339437-1618409461-au

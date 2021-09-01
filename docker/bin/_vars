@@ -1,0 +1,21 @@
+#!/bin/env bash
+
+PROJECT=${PWD##*/}
+export PROJECT="$(sed s/[\.\_\`]/_/g <<<$PROJECT)"
+export PROJECTPATH=$(pwd)
+
+cd $PROJECTPATH/docker;
+
+export GREEN="\e[32m"
+export RESET="\e[0m"
+export BLUE="\e[34m"
+
+# TODO:: improve regexp and check if variable is a comment, if so... ignore that var
+export PORT=$(cat .env | grep -o "PORT=.*" | sed -n -e 's/^.*PORT=//p')
+export ENVIRONMENT=$(cat .env | grep -o "ENVIRONMENT=.*" | sed -n -e 's/^.*ENVIRONMENT=//p')
+export CNAME=$(cat .env | grep -o "CNAME=.*" | sed -n -e 's/^.*CNAME=//p')
+export PMA=$(cat .env | grep -o "PMA=.*" | sed -n -e 's/^.*PMA=//p')
+
+if [ ! -z $ENVIRONMENT ]; then export COMPOSEAPPEND="-f docker-compose-$ENVIRONMENT.yaml" && printf "\n\rRunning in ${GREEN}${ENVIRONMENT}${RESET} mode"
+else export COMPOSEAPPEND="production" && printf "\n\rRunning in ${GREEN}Production${RESET} mode"
+fi

@@ -1,0 +1,152 @@
+#viba_portfolio_options-portfolio-style{ padding-top: 0 }
+.viba-portfolio-styles-desc { margin-bottom: 30px }
+
+.viba_portfolio_page_viba_portfolio_options .redux-main .redux-group-tab~.redux-group-tab .form-table>tbody>tr>th { display: none; }
+.viba_portfolio_page_viba_portfolio_options .redux-main .redux-group-tab~.redux-group-tab~.redux-group-tab .form-table>tbody>tr>th { display: table-cell; }
+.viba-portfolio-styles-table >tbody>tr>th { width: 30% !important; display: table-cell !important; }
+
+#viba-portfolio-styles .ui-accordion-header { margin:10px 0 0 0 !important; outline: none; height: 50px; line-height: 50px; padding: 5px 50px; font-size: 17px; border-color: #ddd !important }
+#viba-portfolio-styles .ui-accordion-header:first-of-type { padding:  5px 20px }
+#viba-portfolio-styles .ui-accordion-header span {  }
+#viba-portfolio-styles .viba-portfolio-shortcode { display: block; background: #f5f5f5; color: #777; font-size: 12px; border: 1px solid #ddd; padding: 10px; margin-bottom: -2px; margin-right: -2px }
+#viba-portfolio-styles .ui-accordion-header a { position: absolute; left: 10px; top: 50%; margin-top: -15px; font-size: 0; height: 30px; width: 30px; color: #fff; line-height: 40px; text-align: center; }
+#viba-portfolio-styles .ui-accordion-header a:before {  font: normal 20px/1 'dashicons'; font-variant: normal; display: inline-block; text-transform: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing:grayscale; content: "\f158"; font-size: 12px }
+#viba-portfolio-styles .ui-accordion-header .ui-icon { left: auto; right: 10px;}
+
+#viba-portfolio-styles .ui-accordion-content { background: #f5f5f5; padding: 1em; overflow: visible; }
+
+.viba-portfolio-styles-actions { padding: 20px; margin: 2px 0; background: #fafafa; border: 1px solid #eee; }
+.viba-portfolio-styles-actions > span { display: block; margin-bottom: 10px; font-weight: 500 }
+.viba-portfolio-styles-actions a:before { font: normal 20px/1 'dashicons'; line-height: 25px; margin-right: 8px; font-variant: normal; display: inline-block; text-transform: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing:grayscale }
+.viba-portfolio-styles-actions a.active:before { content: "\f463"; vertical-align: middle; -webkit-animation:vp-loading-rotate 2s linear infinite; -moz-animation:vp-loading-rotate 2s linear infinite; -ms-animation:vp-loading-rotate 2s linear infinite; animation:vp-loading-rotate 2s linear infinite; }
+@-ms-keyframes vp-loading-rotate {  100% { -ms-transform: rotate(360deg); } }
+@-moz-keyframes vp-loading-rotate { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes vp-loading-rotate { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes vp-loading-rotate { 100% { transform:rotate(360deg); } }
+
+.viba-portfolio-add-style {  }
+.redux-main  .viba-portfolio-add-style .button { margin-top: 0; }
+
+.viba-portfolio-tabs { border: 1px solid #ddd !important; background: none !important; margin-top: 10px; display: inline-block; width: 100%  }
+.viba-portfolio-option-tabs, .viba-portfolio-style-tabs { margin-top: 0 }
+.viba-portfolio-tabs > ul { margin: 0; padding: 0; border: none!important; border-bottom: 1px solid #ddd !important; background: #fff; border-bottom-left-radius: 0 !important; border-bottom-right-radius: 0 !important; overflow: hidden; }
+.viba-portfolio-tabs > ul li { float: left; background: none !important; border: none !important; box-shadow: none !important; -webkit-box-shadow:none !important; }
+.viba-portfolio-tabs > ul li a { display: block; padding: 20px 35px; text-transform: uppercase; outline: none; font-size: 14px; 
+	color: #aaa !important; border: solid #fff; border-width: 0 1px;
+	-webkit-transition: all .4s; transition: all .4s;
+}
+.viba-portfolio-tabs > ul li:first-child a { border-left: 0  }
+.viba-portfolio-tabs > ul li.ui-tabs-active a { background: #fcfcfc; font-weight: bold; color: #000 !important; border-color: #ddd; position: relative;z-index: 3 }
+.viba-portfolio-tab { background: #fcfcfc !important; border: none !important; }
+
+.redux-main .viba-portfolio-tabs > ul li.ui-state-default, 
+.redux-main .ui-widget-content .viba-portfolio-tabs > ul li.ui-state-default, 
+.redux-main .ui-widget-header .viba-portfolio-tabs > ul li.ui-state-default { background: none !important }
+
+
+.viba-portfolio-option-tabs > ul li a { border: solid #f9f9f9; border-width: 1px; margin: -1px -1px -1px 0;  }
+
+.viba-portfolio-skin-tabs { padding: 20px }
+
+.viba-portfolio-type-tabs { }
+.viba-portfolio-type-tabs > ul { margin: 0; padding: 0; border-radius: 0 !important; border: none!important; border-bottom: 1px solid #ddd !important; background: #fcfcfc;border-bottom-left-radius: 0 !important; border-bottom-right-radius: 0 !important; overflow: hidden; }
+.viba-portfolio-type-tabs > ul li { display: inline-block; background: none !important; border: none !important; box-shadow: none !important; -webkit-box-shadow:none !important; }
+.viba-portfolio-type-tabs > ul li a { display: block; padding: 20px 50px; text-transform: uppercase; outline: none; font-size: 14px; color: #aaa !important; background: #fcfcfc; border: solid #fcfcfc; border-width:0 1px;  }
+.viba-portfolio-type-tabs > ul li:first-child a { border-left: 0  }
+.viba-portfolio-type-tabs > ul li.ui-tabs-active a { background: #f1f1f1; font-weight: bold; color: #000 !important;  border-color: #ddd; }
+
+.viba-portfolio-type-tabs .ui-widget-header .ui-state-default { background: none !important }
+
+.viba-portfolio-style-tabs > ul { padding: 20px; background: #f1f1f1; border-radius: 0 !important }
+.viba-portfolio-style-tabs > ul li { border: 1px solid #f1f1f1 !important; margin-right:-1px; margin-bottom: -1px !important; border-radius: 2px !important }
+.viba-portfolio-style-tabs > ul li a { text-transform: none; padding: 10px 15px; background: #fcfcfc; border: solid #fff; border-width:0 1px; }
+.viba-portfolio-style-tabs > ul li.ui-tabs-active a { background: none; box-shadow: none;  border-color: #fff;}
+
+.viba-portfolio-style-tab,
+.vp-skin-desc { background: #f1f1f1 !important; padding: 15px; border-radius: 0 !important }
+
+.viba-portfolio-tab { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.viba-portfolio-option { width: 32%;  padding: 20px;display: inline-block; vertical-align: top; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.viba-portfolio-option-info { font-weight: 700; }
+.viba-portfolio-option-value { }
+
+.viba-portfolio-option-value.vp-multiple-sliders { margin-top: 20px }
+.viba-portfolio-option-value.vp-multiple-sliders .redux-field-container { padding: 7px 0}
+.viba-portfolio-multiple-sliders-name { display: inline-block; width: 100px }
+
+/* Paddings */
+.vp-padding-item-wrapper { padding: 10px; background: #f9f9f9; border: 1px solid #f1f1f1; margin-bottom: 2px}
+.vp-padding-container { padding: 20px 0; }
+.vp-padding-item { width: 100%%; display: inline-block; }
+.vp-padding-item label { margin-right: 5px; width: 100px }
+.vp-padding-item-text { max-width: 250px; width: 100% }
+
+/* Typography */
+.vp-typography-value { width: 100% !important; clear: both; }
+.redux-container .redux-group-tab h3.vp-typography-name { margin-top: 20px; font-weight: bold; font-size: 1em; line-height: 1em; padding-bottom: 5px; border-bottom: 1px solid #E7E7E7; }
+
+.vp-typo-field { display: inline-block; margin: 10px 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.vp-typo-font-family { width: 250px; margin-left: 0 }
+.vp-typo-font-weight { width: 80px }
+.vp-typo-font-size {}
+.vp-typo-font-size input,
+.vp-typo-line-height input { width: 60px }
+.vp-typo-text-transform { width: 100px }
+
+/* Query */
+.vp-query-value { width: 100% !important; padding: 0 }
+.vp-query-desc { padding: 10px 0 0 20px; display: none; }
+.viba-portfolio-accordion-content:first-of-type .vp-query-desc { display: block !important; }
+.vp-query-value .viba-portfolio-option-value:after { content: ""; display: table; clear: both; }
+.viba-portfolio-query-field {width: 30%;  padding: 20px;display: inline-block; vertical-align: top; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.vp-query-value .viba-portfolio-option-info { margin-bottom: 10px }
+.form-table td fieldset .viba-portfolio-query-field label { margin-right: 10px !important }
+
+.viba-portfolio-color-picker-wrapper { margin-top: 20px }
+.viba-portfolio-color-picker { display: block; padding: 0 !important }
+.viba-portfolio-color-picker strong { width: 90px; display: inline-block; }
+
+.viba-portfolio-color-picker .wp-color-result {  }
+
+.viba-portfolio-option.custom-css { width: 100% !important; }
+.viba-portfolio-container-ace_editor .ace-wrapper { position: static; }
+.viba-portfolio-container-ace_editor .ace_editor { height: 200px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.viba-portfolio-container-ace_editor .ace_gutter { z-index: 1 !important; }
+
+input.regular-text { width: 100%; max-width: 25em }
+
+@media screen and ( min-width: 1550px ) {
+	.viba-portfolio-tabs .redux-container-slider .redux-slider-container { margin: 0; margin-left: 10px; width: 100%; max-width: 200px }
+	.viba-portfolio-tabs .noUi-horizontal .noUi-handle { top: -8px }
+	#viba-portfolio-styles .redux-container-slider .redux-slider-input { width: 60px !important; }
+}
+
+@media screen and ( max-width: 1549px ) {
+	.viba-portfolio-tabs .redux-container-slider .redux-slider-container {  margin: 0;  width: 100%; max-width: 100% }
+	#viba-portfolio-styles .redux-container-slider .redux-slider-input { width: 100% !important; margin-bottom: 10px }
+}
+
+@media screen and ( max-width: 1400px ) {
+	.viba-portfolio-option-tabs > ul li a { padding: 20px 15px }
+}
+
+@media screen and (max-width: 1124px) {
+	.viba-portfolio-option,
+	.viba-portfolio-query-field { width: 45% }
+	.vp-typography-value { width: 100% }
+	.viba-portfolio-style-tabs > ul li { width: auto }
+}
+
+@media screen and (max-width:782px) {
+	.viba-portfolio-option,
+	.viba-portfolio-query-field { width: 100% }
+	.viba-portfolio-add-style a:before { line-height: 20px; margin-right: 8px; }
+}
+@media screen and (max-width: 620px) {
+	.viba-portfolio-type-tabs > ul li { width: 100% }
+	.viba-portfolio-style-tabs > ul { padding: 10px; }
+}
+
+@media screen and (max-width: 480px) {
+	.viba-portfolio-tabs > ul li { width: 100% }
+}

@@ -1,0 +1,172 @@
+{
+    "operation-mode": "varied-image-responses",
+    "image-types": 3,
+    "destination-folder": "mingled",
+    "destination-extension": "append",
+    "destination-structure": "doc-root",
+    "cache-control": "no-header",
+    "cache-control-custom": "public, max-age=31536000, stale-while-revalidate=604800, stale-if-error=604800",
+    "cache-control-max-age": "one-week",
+    "cache-control-public": false,
+    "scope": [
+        "themes",
+        "uploads"
+    ],
+    "enable-redirection-to-converter": true,
+    "only-redirect-to-converter-on-cache-miss": false,
+    "only-redirect-to-converter-for-webp-enabled-browsers": true,
+    "do-not-pass-source-in-query-string": true,
+    "redirect-to-existing-in-htaccess": true,
+    "forward-query-string": true,
+    "enable-redirection-to-webp-realizer": true,
+    "jpeg-encoding": "auto",
+    "jpeg-enable-near-lossless": true,
+    "jpeg-near-lossless": 60,
+    "quality-auto": false,
+    "max-quality": 80,
+    "quality-specific": 70,
+    "png-encoding": "auto",
+    "png-enable-near-lossless": true,
+    "png-near-lossless": 60,
+    "png-quality": 85,
+    "alpha-quality": 85,
+    "converters": [
+        {
+            "converter": "gd",
+            "options": {
+                "skip-pngs": false
+            },
+            "working": true
+        },
+        {
+            "converter": "cwebp",
+            "options": {
+                "use-nice": true,
+                "try-common-system-paths": true,
+                "try-supplied-binary-for-os": true,
+                "method": 6,
+                "low-memory": true,
+                "command-line-options": ""
+            },
+            "working": false,
+            "deactivated": true
+        },
+        {
+            "converter": "vips",
+            "options": {
+                "smart-subsample": false,
+                "preset": "none"
+            },
+            "working": false,
+            "deactivated": true
+        },
+        {
+            "converter": "imagemagick",
+            "options": {
+                "use-nice": true
+            },
+            "working": false,
+            "deactivated": true
+        },
+        {
+            "converter": "graphicsmagick",
+            "options": {
+                "use-nice": true
+            },
+            "working": false,
+            "deactivated": true
+        },
+        {
+            "converter": "ffmpeg",
+            "options": {
+                "use-nice": true,
+                "method": 4
+            },
+            "working": false,
+            "deactivated": true
+        },
+        {
+            "converter": "wpc",
+            "working": false,
+            "deactivated": true,
+            "options": {
+                "api-key": ""
+            }
+        },
+        {
+            "converter": "ewww",
+            "working": false,
+            "deactivated": true
+        },
+        {
+            "converter": "imagick",
+            "working": false,
+            "deactivated": true
+        },
+        {
+            "converter": "gmagick",
+            "working": false,
+            "deactivated": true
+        }
+    ],
+    "metadata": "none",
+    "convert-on-upload": true,
+    "fail": "original",
+    "success-response": "converted",
+    "alter-html": {
+        "enabled": true,
+        "only-for-webp-enabled-browsers": false,
+        "only-for-webps-that-exists": false,
+        "replacement": "url",
+        "hooks": "ob",
+        "hostname-aliases": []
+    },
+    "web-service": {
+        "enabled": false,
+        "whitelist": []
+    },
+    "environment-when-config-was-saved": {
+        "doc-root-available": true,
+        "doc-root-resolvable": true,
+        "doc-root-usable-for-structuring": true,
+        "image-roots": [
+            {
+                "id": "uploads",
+                "rel-path": "app/uploads",
+                "url": "http://tst.miltenburg-groen.nl/app/uploads"
+            },
+            {
+                "id": "themes",
+                "rel-path": "app/themes",
+                "url": "https://tst.miltenburg-groen.nl/app/themes"
+            },
+            {
+                "id": "plugins",
+                "rel-path": "app/plugins",
+                "url": "https://tst.miltenburg-groen.nl/app/plugins"
+            },
+            {
+                "id": "wp-content",
+                "rel-path": "app",
+                "url": "https://tst.miltenburg-groen.nl/app"
+            },
+            {
+                "id": "index",
+                "rel-path": "wp",
+                "url": "http://tst.miltenburg-groen.nl"
+            }
+        ],
+        "document-root": null
+    },
+    "base-htaccess-on-these-capability-tests": {
+        "passThroughHeaderWorking": false,
+        "passThroughEnvWorking": null,
+        "modHeaderWorking": null,
+        "canRunTestScriptInWOD": null,
+        "canRunTestScriptInWOD2": null
+    },
+    "document-root": "/var/www/html/web",
+    "paths-used-in-htaccess": {
+        "wod-url-path": "app/plugins/webp-express/wod/webp-on-demand.php"
+    }
+}

@@ -1,0 +1,3158 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Viba Portfolio\n"
+"POT-Creation-Date: 2017-01-06 06:02+0100\n"
+"PO-Revision-Date: 2017-01-06 06:02+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: viba-portfolio.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/class-viba-portfolio-admin.php:171
+msgid "Add Images to Viba Portfolio Gallery"
+msgstr ""
+
+#: includes/admin/class-viba-portfolio-admin.php:172
+#: includes/admin/metaboxes/field/gallery.php:45
+msgid "Add To Gallery"
+msgstr ""
+
+#: includes/admin/class-viba-portfolio-admin.php:173
+msgid "Edit Gallery"
+msgstr ""
+
+#: includes/admin/class-viba-portfolio-admin.php:174
+#: includes/admin/metaboxes/field/gallery.php:62
+msgid "Edit Image"
+msgstr ""
+
+#: includes/admin/class-viba-portfolio-admin.php:175
+msgid "Remove Image"
+msgstr ""
+
+#: includes/admin/class-viba-portfolio-admin.php:190
+msgctxt "Column name in all portfolio items list"
+msgid "Media"
+msgstr ""
+
+#: includes/admin/class-viba-portfolio-admin.php:239
+#, php-format
+msgctxt "Dashboard glance items."
+msgid "%s Viba Portfolio"
+msgid_plural "%s Viba Portfolios"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-viba-portfolio-admin.php:267
+msgctxt "Plugins action link"
+msgid "Viba Portfolio Settings"
+msgstr ""
+
+#: includes/admin/class-viba-portfolio-admin.php:267
+msgctxt "Plugins action link"
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-viba-portfolio-admin.php:287
+msgctxt "Plugins row meta"
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/class-viba-portfolio-admin.php:288
+msgctxt "Plugins row meta"
+msgid "Support"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_base/vp_base/field_vp_base.php:105
+#, php-format
+msgid ""
+"Archives will look something like this e.g. %1$s/<code>%2$s</code>/music/"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_gfonts/vp_gfonts/field_vp_gfonts.php:65
+msgid "i.e.:Open+Sans:400italic,600,700"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_gfonts/vp_gfonts/field_vp_gfonts.php:69
+#, php-format
+msgid "Add a single google font e.g.: %s"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_gfonts/vp_gfonts/field_vp_gfonts.php:71
+#, php-format
+msgid "Add multiple google fonts with subset e.g.: %s"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_image_size/vp_image_size/field_vp_image_size.php:93
+#: includes/admin/redux/inc/fields/dimensions/field_dimensions.php:162
+msgid "Width"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_image_size/vp_image_size/field_vp_image_size.php:103
+#: includes/admin/redux/inc/fields/dimensions/field_dimensions.php:178
+#: includes/admin/redux/inc/fields/typography/field_typography.php:442
+msgid "Height"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_permalinks/vp_permalinks/field_vp_permalinks.php:77
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:223
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:409
+#: includes/admin/redux/framework.php:1849
+msgid "Default"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_permalinks/vp_permalinks/field_vp_permalinks.php:79
+msgid ""
+"When the archive page is selected that page name will be the default base."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_permalinks/vp_permalinks/field_vp_permalinks.php:80
+#, php-format
+msgid "E.g. %s/archive-page/sample-project"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_permalinks/vp_permalinks/field_vp_permalinks.php:82
+msgid "When the archive page isn't selected."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_permalinks/vp_permalinks/field_vp_permalinks.php:83
+#, php-format
+msgid "E.g. %s=sample-project"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_permalinks/vp_permalinks/field_vp_permalinks.php:86
+msgid "Custom base"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_permalinks/vp_permalinks/field_vp_permalinks.php:87
+#, php-format
+msgid "E.g. %s/projects/sample-project"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_permalinks/vp_permalinks/field_vp_permalinks.php:90
+msgid "Custom base with category"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_permalinks/vp_permalinks/field_vp_permalinks.php:91
+#, php-format
+msgid "E.g. %s/projects/photography/sample-project/"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_permalinks/vp_permalinks/field_vp_permalinks.php:94
+msgid "Custom"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/field_vp_style.php:73
+msgid ""
+"Create new styles. Default style is used for archives and single pages and "
+"can't be deleted."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/field_vp_style.php:77
+msgid "Enter Style Name"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/field_vp_style.php:78
+msgid "Create New Style"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:185
+#: includes/admin/redux/inc/fields/slides/field_slides.php:167
+#: includes/admin/redux/inc/fields/slides/field_slides.php:220
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:202
+msgid "General"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:203
+msgid "Informations"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:204
+msgid "Additional"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:205
+msgid "Ajax"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:206
+msgid "Styling"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:207
+msgid "Animations"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:208
+msgid "Query"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:209
+msgid "Skin"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:218
+msgid "Portfolio Size"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:219
+msgid ""
+"Default uses the theme default containers. Fullwidth will expand to fill the "
+"width of the window."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:224
+msgid "Fullwidth"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:231
+#: includes/admin/settings/setup-redux.php:267
+msgid "Portfolio Layout"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:232
+msgid ""
+"If you want to use Multi-Size Layout you must <code>first enable Multi-Size</"
+"code> Images in General Setting Tab."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:236
+#: includes/admin/settings/setup-redux.php:338
+#: includes/admin/settings/setup-redux.php:367
+msgid "Grid"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:237
+#: includes/admin/settings/setup-redux.php:368
+msgid "Multi-Size Grid"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:238
+#: includes/admin/settings/setup-redux.php:336
+#: includes/admin/settings/setup-redux.php:369
+msgid "Carousel"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:245
+msgid "Number of Portfolio Items"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:246
+msgid "Number of portfolio items on one page."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:257
+msgid "Portfolio Wrapper Padding"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:258
+#, php-format
+msgid ""
+"Useful if you want to add spacing from other content. Add multiple padding "
+"options like this e.g. %s., 10px is top padding, 30px is right padding, "
+"100px is bottom padding, 0 is left padding"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:266
+msgid "Portfolio Columns"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:267
+msgid "Select Number of Columns for your portfolio."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:278
+msgid "Portfolio Margins"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:279
+msgid "Margins are used to add space between portfolio items."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:297
+msgid "Portfolio Informations"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:298
+msgid "Check what data you want to show with portfolio items."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:302
+msgid "Zoom Button"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:303
+msgid "Link Button"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:304
+#: includes/admin/redux/inc/fields/slides/field_slides.php:145
+#: includes/admin/redux/inc/fields/slides/field_slides.php:200
+msgid "Title"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:305
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:396
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1022
+#: includes/admin/settings/setup-redux.php:284
+#: templates/single/meta/categories.php:16
+msgid "Categories"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:306
+#: includes/admin/settings/setup-redux.php:287
+msgid "Likes"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:307
+#: includes/admin/settings/setup-metaboxes.php:25
+msgid "Short Description"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:314
+msgid "Portfolio Informations Horizontal Align"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:315
+msgid "Aligns text for bottom informations."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:319
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:333
+#: includes/admin/redux/inc/fields/border/field_border.php:159
+#: includes/admin/redux/inc/fields/spacing/field_spacing.php:236
+msgid "Left"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:320
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:334
+msgid "Center"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:321
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:335
+#: includes/admin/redux/inc/fields/border/field_border.php:145
+#: includes/admin/redux/inc/fields/spacing/field_spacing.php:222
+msgid "Right"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:328
+msgid "Portfolio Cover Horizontal Align"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:329
+msgid "Align text for informations above image (absolute positioned)."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:342
+msgid "Portfolio Informations Vertical Align"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:343
+msgid ""
+"These settings take effect only for styles with informations above image "
+"(absolute positioned)."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:347
+#: includes/admin/redux/inc/fields/border/field_border.php:138
+#: includes/admin/redux/inc/fields/spacing/field_spacing.php:215
+msgid "Top"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:348
+msgid "Middle"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:349
+#: includes/admin/redux/inc/fields/border/field_border.php:152
+#: includes/admin/redux/inc/fields/spacing/field_spacing.php:229
+msgid "Bottom"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:357
+msgid "Portfolio Arrow"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:358
+msgid ""
+"Add a little arrow to indicate what image belongs to portfolio informations. "
+"Arrow isn't available for all styles."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:362
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:383
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:423
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:462
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:481
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:531
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:363
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:384
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:424
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:463
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:482
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:532
+msgid "No"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:378
+msgid "Portfolio Filter"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:379
+msgid "Filter option is available only for grid layouts."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:391
+msgid "Portfolio Filter Data"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:392
+msgid "Filter your items by categories or tags."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:397
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1039
+#: includes/admin/settings/setup-redux.php:285
+#: templates/single/meta/tags.php:16
+msgid "Tags"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:404
+msgid "Portfolio Filter Type"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:405
+msgid "Select your filter type."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:410
+msgid "Slide In"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:411
+msgid "Dropdown"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:418
+msgid "Portfolio Pagination"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:419
+msgid "Enable pagination option."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:431
+msgid "Portfolio Pagination Type"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:432
+msgid "Select your pagination type."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:436
+msgid "Numbers"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:437
+msgid "Arrows"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:438
+msgid "Load More"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:445
+msgid "Load More Number of Portfolio Items"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:446
+msgid "Number of portfolio items that will be loaded."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:457
+msgid "Portfolio Load More Count"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:458
+msgid "Add a number of available items that could be loaded."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:476
+msgid "Portfolio Ajax"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:477
+msgid "Use ajax to open items."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:489
+msgid "Portfolio Ajax Type"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:490
+msgid "Select how do you want to open items with ajax."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:494
+msgid "Modal"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:495
+msgid "Above"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:496
+msgid "Below"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:503
+msgid "Portfolio Ajax Width"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:504
+msgid ""
+"Set the max width for ajax content. If you want the ajax content to be full "
+"width just enter 0."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:512
+msgid "Portfolio Ajax Offset"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:513
+msgid ""
+"Set the offset from top of the window for above and below ajax types. If you "
+"don't want to animate to top of the ajax content just enter 0."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:526
+msgid "Portfolio Multi-Color"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:527
+msgid ""
+"Enable different color for each item. These colors are set in single item "
+"pages."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:539
+msgid "Portfolio Overlay Color"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:540
+msgid "Set your color for overlay background and text."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:548
+msgid "Portfolio Informations Color"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:549
+msgid "Set your color for informations background and text."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:557
+msgid "Portfolio Filter Color"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:558
+msgid "Set your color for filter background and text."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:566
+msgid "Portfolio Pagination Color"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:567
+msgid "Set your color for pagination background and text."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:575
+msgid "Portfolio Spinner Color"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:576
+msgid ""
+"Set your color for spinner background and text. Some spinners use the "
+"background color, some use the text, some use both."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:584
+msgid "Portfolio Color Overlay Opacity"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:585
+msgid "Set your image overlay opacity."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:596
+msgid "Portfolio Overlay Visibility"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:597
+msgid "Select how do you want your overlay visibility."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:601
+msgid "Show on Hover"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:602
+msgid "Hide on Hover"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:603
+#: includes/viba-portfolio-template-styles.php:32
+msgid "Always Visible"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:610
+msgid "Portfolio Typography"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:618
+msgid "Portfolio Custom CSS"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:619
+msgid "Input your custom CSS"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:634
+msgid "Portfolio Hover Effect"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:635
+msgid "Set your hover overlay effect."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:640
+msgid "Color Overlay"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:641
+msgid "Slide Overlay"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:644
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:660
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:899
+msgid "None"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:645
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:662
+msgid "Zoom In"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:646
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:663
+msgid "Zoom Out"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:647
+#: includes/admin/redux/inc/fields/slides/field_slides.php:68
+msgid "Slide"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:655
+msgid "Portfolio Hover Animations"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:656
+msgid ""
+"Set portfolio animations. For Overlay Animations you must enable \"Slide "
+"Overlay\"."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:661
+msgid "Direction Aware"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:664
+msgid "From Top"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:665
+msgid "From Right"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:666
+msgid "From Left"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:667
+msgid "From Bottom"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:668
+msgid "From Center Horizontal"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:669
+msgid "From Center Vertical"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:676
+msgid "Ajax Modal Animation"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:677
+msgid "Set your ajax modal animations."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:681
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:701
+msgid "Fade"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:682
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:702
+msgid "Scale"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:683
+msgid "Slide In Top"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:684
+msgid "Slide In Right"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:685
+msgid "Slide In Bottom"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:686
+msgid "Slide In Left"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:687
+msgid "Newspaper"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:688
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:712
+msgid "Horizontal Flip"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:689
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:713
+msgid "Vertical Flip"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:696
+msgid "Loading, Filtering and Carousel Animations"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:697
+msgid "Set your loading, filtering and carousel animations."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:703
+msgid "Rotate"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:704
+msgid "Rotate Down Left"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:705
+msgid "Rotate Down Right"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:706
+msgid "Rotate Up Left"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:707
+msgid "Rotate Up Right"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:708
+msgid "Slide Top"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:709
+msgid "Slide Right"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:710
+msgid "Slide Bottom"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:711
+msgid "Slide Left"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:714
+msgid "Horizontal Flipbook"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:715
+msgid "Vertical Flipbook"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:722
+msgid "Animation Duration"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:723
+msgid ""
+"How long does it take to animate loading, filtering and carousel animations. "
+"The value is in <code>ms(milliseconds)</code>. 1000ms is 1 second."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:734
+msgid "Portfolio Spinner"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:735
+msgid "Select portfolio spinner."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:762
+msgid "Portfolio Query"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:763
+msgid "Query your portfolio items."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:803
+msgid ""
+"This is only the default preview. The final outcome can be a lot different "
+"when you tweak the options."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:858
+msgid "If checked use the default theme font for H3."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:862
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:866
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:870
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:878
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:882
+msgid "If checked use the default theme font for body."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:874
+msgid "If checked use the default theme font for paragraph."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:900
+msgid "Capitalize"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:901
+msgid "Uppercase"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:902
+msgid "Lowercase"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:942
+msgid "Italic"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:946
+msgid "Font Size:"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:951
+msgid "Line Height:"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:974
+msgid ""
+"On archive pages you can use only the Order query. If you are using the "
+"Default style as a shortcode then you can use all the query options."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:980
+#: includes/widgets/class-viba-portfolio-widget.php:132
+msgid "ASC"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:981
+#: includes/widgets/class-viba-portfolio-widget.php:133
+msgid "DESC"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:984
+#: includes/widgets/class-viba-portfolio-widget.php:136
+msgid "Order by date"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:985
+#: includes/widgets/class-viba-portfolio-widget.php:137
+msgid "Order by title"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:986
+#: includes/widgets/class-viba-portfolio-widget.php:138
+msgid "Order by last modified date"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:987
+#: includes/widgets/class-viba-portfolio-widget.php:139
+msgid "Random order"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:988
+#: includes/widgets/class-viba-portfolio-widget.php:140
+msgid "Order by Page Order"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:989
+#: includes/widgets/class-viba-portfolio-widget.php:141
+msgid "Order by likes"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:993
+msgid "Standard"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:994
+msgid "Gallery"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:995
+#: includes/admin/settings/setup-metaboxes.php:138
+msgid "Video"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:996
+#: includes/admin/settings/setup-metaboxes.php:150
+msgid "Audio"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:997
+msgid "Link"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1001
+msgid "January"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1002
+msgid "February"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1003
+msgid "March"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1004
+msgid "April"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1005
+msgid "May"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1006
+msgid "June"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1007
+msgid "July"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1008
+msgid "August"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1009
+msgid "September"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1010
+msgid "October"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1011
+msgid "November"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1012
+msgid "December"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1015
+msgid "AND"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1016
+msgid "OR"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1023
+msgid "If empty, all categories will be used."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1025
+msgid "Select categories"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1033
+msgid "Exclude sub-categories"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1040
+msgid "If empty, all tags will be used"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1042
+msgid "Select tags"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1053
+msgid "Order"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1070
+msgid "Author"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1071
+msgid "If empty, portfolios created by all authors will be used."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1073
+msgid "Select authors"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1084
+msgid "Post Format"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1085
+msgid "If empty, all formats will be used."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1087
+msgid "Select post formats"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1098
+msgid "Year and month"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1100
+msgid "Select a year"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1108
+msgid "Select months"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1119
+msgid "Relation"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1120
+msgid ""
+"AND: values from category, tag and format must all be satisfied. OR: values "
+"from category, tag or format must be satisfied."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1278
+msgid "Background:"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1281
+msgid "Text:"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1294
+#, php-format
+msgid "Use the prefix %s if you want CSS styles to apply only to this style."
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1295
+#, php-format
+msgid "For example %s"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_style/vp_style/styles.php:1365
+msgid "Image effects:"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_tools/vp_tools/field_vp_tools.php:90
+msgid "Export your portfolio items"
+msgstr ""
+
+#: includes/admin/extend-redux/extensions/vp_tools/vp_tools/field_vp_tools.php:93
+msgid "Download Export File"
+msgstr ""
+
+#: includes/admin/metaboxes/field/custom_text.php:32
+msgid ""
+"Select other <strong>Formats</strong> for more options ( <em>they are below "
+"\"Publish\" button</em> )."
+msgstr ""
+
+#: includes/admin/metaboxes/field/gallery.php:63
+msgid "Delete Image"
+msgstr ""
+
+#: includes/admin/metaboxes/field/link.php:47
+msgid "Open link in a new tab"
+msgstr ""
+
+#: includes/admin/metaboxes/field/upload.php:41
+msgid "Hosted"
+msgstr ""
+
+#: includes/admin/metaboxes/field/upload.php:42
+msgid "External"
+msgstr ""
+
+#: includes/admin/metaboxes/field/upload.php:52
+#: includes/admin/metaboxes/field/upload.php:62
+msgid "Add File"
+msgstr ""
+
+#: includes/admin/metaboxes/field/upload.php:71
+#: includes/admin/metaboxes/field/upload.php:101
+msgid "Add New"
+msgstr ""
+
+#: includes/admin/redux/core/enqueue.php:453
+#: includes/admin/redux/inc/extensions/customizer/extension_customizer.php:687
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: includes/admin/redux/core/enqueue.php:461
+#: includes/admin/redux/inc/extensions/customizer/extension_customizer.php:688
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: includes/admin/redux/core/enqueue.php:469
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: includes/admin/redux/core/enqueue.php:477
+#: includes/admin/redux/inc/extensions/customizer/extension_customizer.php:689
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: includes/admin/redux/core/enqueue.php:484
+msgid "Please Wait"
+msgstr ""
+
+#: includes/admin/redux/core/enqueue.php:495
+msgid "There was an error saving. Here is the result of your action:"
+msgstr ""
+
+#: includes/admin/redux/core/enqueue.php:496
+msgid ""
+"There was a problem with your action. Please try again or reload the page."
+msgstr ""
+
+#: includes/admin/redux/core/panel.php:65
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: includes/admin/redux/core/panel.php:141
+msgid "Settings Imported!"
+msgstr ""
+
+#: includes/admin/redux/core/panel.php:156
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: includes/admin/redux/core/panel.php:170
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: includes/admin/redux/core/panel.php:184
+msgid "Settings Saved!"
+msgstr ""
+
+#: includes/admin/redux/core/panel.php:204
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: includes/admin/redux/core/panel.php:212
+msgid "error(s) were found!"
+msgstr ""
+
+#: includes/admin/redux/core/panel.php:220
+msgid "warning(s) were found!"
+msgstr ""
+
+#: includes/admin/redux/core/panel.php:312
+msgid ""
+"<strong>Your panel has bundled outdated copies of Redux Framework template "
+"files</strong> &#8211; if you encounter functionality issues this could be "
+"the reason. Ensure you update or remove them."
+msgstr ""
+
+#: includes/admin/redux/framework.php:221
+#, php-format
+msgid "Options panel created using %1$s"
+msgstr ""
+
+#: includes/admin/redux/framework.php:221
+msgid "Redux Framework"
+msgstr ""
+
+#: includes/admin/redux/framework.php:225
+#: includes/admin/redux/framework.php:229
+msgid "Options"
+msgstr ""
+
+#: includes/admin/redux/framework.php:1700
+msgid "Enable"
+msgstr ""
+
+#: includes/admin/redux/framework.php:1705
+msgid "Disable"
+msgstr ""
+
+#: includes/admin/redux/framework.php:1711
+msgid "moving the mouse over"
+msgstr ""
+
+#: includes/admin/redux/framework.php:1713
+msgid "clicking"
+msgstr ""
+
+#: includes/admin/redux/framework.php:1717
+#, php-format
+msgid ""
+"Hints are tooltips that popup when %d the hint icon, offering addition "
+"information about the field in which they appear.  They can be %d d by using "
+"the link below."
+msgstr ""
+
+#: includes/admin/redux/framework.php:1722
+msgid "Hints"
+msgstr ""
+
+#: includes/admin/redux/framework.php:2731
+#: includes/admin/settings/setup-redux.php:801
+msgid "Invalid security credential.  Please reload the page and try again."
+msgstr ""
+
+#: includes/admin/redux/framework.php:2740
+#: includes/admin/settings/setup-redux.php:810
+msgid "Invalid user capability.  Please reload the page and try again."
+msgstr ""
+
+#: includes/admin/redux/framework.php:2816
+#: includes/admin/settings/setup-redux.php:872
+msgid "Your panel has no fields. Nothing to save."
+msgstr ""
+
+#: includes/admin/redux/framework.php:3909
+msgid ""
+"<strong>Redux Framework Notice: </strong>There are references to the Redux "
+"Framework support site in your config's <code>admin_bar_links</code> "
+"argument.  This is sample data.  Please change or remove this data before "
+"shipping your product."
+msgstr ""
+
+#: includes/admin/redux/framework.php:3924
+msgid ""
+"<strong>Redux Framework Notice: </strong>There are references to the Redux "
+"Framework support site in your config's <code>share_icons</code> argument.  "
+"This is sample data.  Please change or remove this data before shipping your "
+"product."
+msgstr ""
+
+#: includes/admin/redux/inc/class.redux_admin_notices.php:97
+msgid "Dismiss"
+msgstr ""
+
+#: includes/admin/redux/inc/class.redux_cdn.php:74
+msgid ""
+"Please wait a few minutes, then try refreshing the page. Unable to load some "
+"remotely hosted scripts."
+msgstr ""
+
+#: includes/admin/redux/inc/class.redux_cdn.php:76
+#, php-format
+msgid ""
+"If you are developing offline, please download and install the <a href=\"%s"
+"\" target=\"_blank\">Redux Vendor Support</a> plugin/extension to bypass the "
+"our CDN and avoid this warning"
+msgstr ""
+
+#: includes/admin/redux/inc/class.redux_cdn.php:81
+msgid "Redux Framework Warning"
+msgstr ""
+
+#: includes/admin/redux/inc/class.redux_cdn.php:81
+#, php-format
+msgid "%s CDN unavailable.  Some controls may not render properly."
+msgstr ""
+
+#: includes/admin/redux/inc/class.redux_cdn.php:113
+#, php-format
+msgid ""
+"The <a href=\"%s\">Vendor Support plugin</a> (or extension) is either not "
+"installed or not activated and thus, some controls may not render properly.  "
+"Please ensure that it is installed and <a href=\"%s\">activated</a>"
+msgstr ""
+
+#: includes/admin/redux/inc/class.redux_filesystem.php:31
+#: includes/admin/redux/inc/class.redux_filesystem.php:60
+#: includes/admin/redux/inc/class.redux_filesystem.php:271
+msgid "File Permission Issues"
+msgstr ""
+
+#: includes/admin/redux/inc/class.redux_filesystem.php:31
+#, php-format
+msgid ""
+"We were unable to modify required files. Please check your permissions, or "
+"modify your wp-config.php file to contain your FTP login credentials as <a "
+"href=\"%s\" target=\"_blank\">outlined here</a>."
+msgstr ""
+
+#: includes/admin/redux/inc/class.redux_filesystem.php:60
+#: includes/admin/redux/inc/class.redux_filesystem.php:271
+#, php-format
+msgid ""
+"We were unable to modify required files. Please ensure that <code>%1s</code> "
+"has the proper read-write permissions, or modify your wp-config.php file to "
+"contain your FTP login credentials as <a href=\"%2s\" target=\"_blank"
+"\">outlined here</a>."
+msgstr ""
+
+#: includes/admin/redux/inc/class.redux_helpers.php:610
+#, php-format
+msgid ""
+"<code>%s</code> version <strong style=\"color:red\">%s</strong> is out of "
+"date. The core version is %s"
+msgstr ""
+
+#: includes/admin/redux/inc/extensions/customizer/extension_customizer.php:722
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: includes/admin/redux/inc/extensions/customizer/extension_customizer.php:723
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: includes/admin/redux/inc/extensions/customizer/extension_customizer.php:724
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+
+#: includes/admin/redux/inc/extensions/customizer/inc/customizer_panel.php:89
+msgid "Press return or enter to open this panel"
+msgstr ""
+
+#: includes/admin/redux/inc/extensions/customizer/inc/customizer_panel.php:114
+#: includes/admin/redux/inc/extensions/customizer/inc/customizer_panel.php:142
+#, php-format
+msgid "You are customizing %s"
+msgstr ""
+
+#: includes/admin/redux/inc/extensions/customizer/inc/customizer_panel.php:138
+#: includes/admin/redux/inc/extensions/customizer/inc/customizer_section.php:79
+msgid "Back"
+msgstr ""
+
+#: includes/admin/redux/inc/extensions/customizer/inc/customizer_panel.php:146
+msgid "Help"
+msgstr ""
+
+#: includes/admin/redux/inc/extensions/customizer/inc/customizer_section.php:72
+msgid "Press return or enter to open"
+msgstr ""
+
+#: includes/admin/redux/inc/extensions/customizer/inc/customizer_section.php:122
+msgid "Press return or enter to expand"
+msgstr ""
+
+#: includes/admin/redux/inc/extensions/import_export/extension_import_export.php:120
+msgid "Import / Export"
+msgstr ""
+
+#: includes/admin/redux/inc/extensions/import_export/import_export/field_import_export.php:91
+msgid "Import Options"
+msgstr ""
+
+#: includes/admin/redux/inc/extensions/import_export/import_export/field_import_export.php:95
+msgid "Import from File"
+msgstr ""
+
+#: includes/admin/redux/inc/extensions/import_export/import_export/field_import_export.php:98
+msgid "Import from URL"
+msgstr ""
+
+#: includes/admin/redux/inc/extensions/import_export/import_export/field_import_export.php:104
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: includes/admin/redux/inc/extensions/import_export/import_export/field_import_export.php:111
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: includes/admin/redux/inc/extensions/import_export/import_export/field_import_export.php:116
+msgid "Import"
+msgstr ""
+
+#: includes/admin/redux/inc/extensions/import_export/import_export/field_import_export.php:116
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: includes/admin/redux/inc/extensions/import_export/import_export/field_import_export.php:120
+msgid "Export Options"
+msgstr ""
+
+#: includes/admin/redux/inc/extensions/import_export/import_export/field_import_export.php:124
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: includes/admin/redux/inc/extensions/import_export/import_export/field_import_export.php:132
+msgid "Copy Data"
+msgstr ""
+
+#: includes/admin/redux/inc/extensions/import_export/import_export/field_import_export.php:133
+msgid "Download Data File"
+msgstr ""
+
+#: includes/admin/redux/inc/extensions/import_export/import_export/field_import_export.php:134
+msgid "Copy Export URL"
+msgstr ""
+
+#: includes/admin/redux/inc/extensions/options_object/extension_options_object.php:82
+#: includes/admin/redux/inc/extensions/options_object/options_object/field_options_object.php:104
+msgid "Options Object"
+msgstr ""
+
+#: includes/admin/redux/inc/extensions/options_object/options_object/field_options_object.php:107
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/background/field_background.php:124
+#: includes/admin/redux/inc/fields/color/field_color.php:73
+#: includes/admin/redux/inc/fields/color_gradient/field_color_gradient.php:79
+#: includes/admin/redux/inc/fields/color_gradient/field_color_gradient.php:91
+msgid "Transparent"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/background/field_background.php:141
+msgid "Background Repeat"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/background/field_background.php:157
+msgid "Background Clip"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/background/field_background.php:173
+msgid "Background Origin"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/background/field_background.php:188
+msgid "Background Size"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/background/field_background.php:203
+msgid "Background Attachment"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/background/field_background.php:223
+msgid "Background Position"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/background/field_background.php:277
+#: includes/admin/redux/inc/fields/media/field_media.php:149
+msgid "No media selected"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/background/field_background.php:314
+#: includes/admin/redux/inc/fields/media/field_media.php:198
+#: includes/admin/redux/inc/fields/slides/field_slides.php:126
+#: includes/admin/redux/inc/fields/slides/field_slides.php:188
+msgid "Upload"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/background/field_background.php:321
+#: includes/admin/redux/inc/fields/media/field_media.php:205
+#: includes/admin/redux/inc/fields/multi_text/field_multi_text.php:69
+#: includes/admin/redux/inc/fields/multi_text/field_multi_text.php:73
+#: includes/admin/redux/inc/fields/multi_text/field_multi_text.php:76
+#: includes/admin/redux/inc/fields/slides/field_slides.php:133
+#: includes/admin/redux/inc/fields/slides/field_slides.php:190
+msgid "Remove"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/border/field_border.php:125
+#: includes/admin/redux/inc/fields/spacing/field_spacing.php:191
+#: templates/global/filter-list.php:16
+#: templates/widgets/viba-portfolio-filter.php:15
+msgid "All"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/border/field_border.php:174
+msgid "Border style"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/color_gradient/field_color_gradient.php:68
+msgid "From "
+msgstr ""
+
+#: includes/admin/redux/inc/fields/color_gradient/field_color_gradient.php:82
+msgid "To "
+msgstr ""
+
+#: includes/admin/redux/inc/fields/dimensions/field_dimensions.php:189
+#: includes/admin/redux/inc/fields/dimensions/field_dimensions.php:190
+#: includes/admin/redux/inc/fields/spacing/field_spacing.php:245
+#: includes/admin/redux/inc/fields/spacing/field_spacing.php:246
+msgid "Units"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/gallery/field_gallery.php:73
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/gallery/field_gallery.php:74
+msgid "Clear Gallery"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/link_color/field_link_color.php:88
+msgid "Regular"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/link_color/field_link_color.php:92
+msgid "Hover"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/link_color/field_link_color.php:96
+msgid "Visited"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/link_color/field_link_color.php:100
+msgid "Active"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/multi_text/field_multi_text.php:61
+msgid "Add More"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/password/field_password.php:62
+msgid "Password"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/password/field_password.php:63
+msgid "Username"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/select/field_select.php:83
+#: includes/admin/redux/inc/fields/select_image/field_select_image.php:63
+msgid "Select an item"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/select/field_select.php:134
+#: includes/admin/redux/inc/fields/select_image/field_select_image.php:144
+msgid "No items of this type were found."
+msgstr ""
+
+#: includes/admin/redux/inc/fields/slides/field_slides.php:73
+#: includes/admin/redux/inc/fields/slides/field_slides.php:174
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/slides/field_slides.php:149
+#: includes/admin/redux/inc/fields/slides/field_slides.php:204
+msgid "Description"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/slides/field_slides.php:153
+#: includes/admin/redux/inc/fields/slides/field_slides.php:207
+msgid "URL"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/slides/field_slides.php:223
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/switch/field_switch.php:41
+msgid "On"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/switch/field_switch.php:44
+msgid "Off"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/typography/field_typography.php:231
+msgid "Font Family"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/typography/field_typography.php:232
+msgid "Font family"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/typography/field_typography.php:258
+#: includes/admin/redux/inc/fields/typography/field_typography.php:259
+msgid "Backup Font Family"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/typography/field_typography.php:273
+#: includes/admin/redux/inc/fields/typography/field_typography.php:281
+msgid "Font style"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/typography/field_typography.php:274
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/typography/field_typography.php:281
+msgid "Style"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/typography/field_typography.php:321
+msgid "Font subsets"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/typography/field_typography.php:323
+msgid "Font Subsets"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/typography/field_typography.php:325
+msgid "Subsets"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/typography/field_typography.php:325
+msgid "Font script"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/typography/field_typography.php:342
+#: includes/admin/redux/inc/fields/typography/field_typography.php:343
+#: includes/admin/redux/inc/fields/typography/field_typography.php:344
+msgid "Text Align"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/typography/field_typography.php:365
+#: includes/admin/redux/inc/fields/typography/field_typography.php:366
+#: includes/admin/redux/inc/fields/typography/field_typography.php:367
+msgid "Text Transform"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/typography/field_typography.php:388
+#: includes/admin/redux/inc/fields/typography/field_typography.php:389
+#: includes/admin/redux/inc/fields/typography/field_typography.php:390
+msgid "Font Variant"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/typography/field_typography.php:408
+#: includes/admin/redux/inc/fields/typography/field_typography.php:409
+#: includes/admin/redux/inc/fields/typography/field_typography.php:410
+msgid "Text Decoration"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/typography/field_typography.php:432
+#: includes/admin/redux/inc/fields/typography/field_typography.php:433
+msgid "Font Size"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/typography/field_typography.php:433
+msgid "Size"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/typography/field_typography.php:441
+#: includes/admin/redux/inc/fields/typography/field_typography.php:442
+msgid "Line Height"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/typography/field_typography.php:450
+#: includes/admin/redux/inc/fields/typography/field_typography.php:451
+msgid "Word Spacing"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/typography/field_typography.php:459
+#: includes/admin/redux/inc/fields/typography/field_typography.php:460
+msgid "Letter Spacing"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/typography/field_typography.php:478
+msgid "Font Color"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/typography/field_typography.php:480
+msgid "Font color"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/typography/field_typography.php:890
+msgid "Standard Fonts"
+msgstr ""
+
+#: includes/admin/redux/inc/fields/typography/field_typography.php:991
+msgid "Google Webfonts"
+msgstr ""
+
+#: includes/admin/redux/inc/themecheck/checks/embedded.php:15
+#, php-format
+msgid ""
+"<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: If you are "
+"submitting to WordPress.org Theme Repository, it is <strong>strongly</"
+"strong> suggested that you read <a href=\"%s\" target=\"_blank\">this "
+"document</a>, or your theme will be rejected because of Redux."
+msgstr ""
+
+#: includes/admin/redux/inc/themecheck/checks/embedded.php:24
+#, php-format
+msgid ""
+"<span class=\"tc-lead tc-required\">REQUIRED</span>: You MUST delete "
+"<strong> %s </strong>, or your theme will be rejected by WP.org theme "
+"submission because of Redux."
+msgstr ""
+
+#: includes/admin/redux/inc/themecheck/checks/embedded.php:38
+msgid "Optional"
+msgstr ""
+
+#: includes/admin/redux/inc/themecheck/checks/embedded.php:40
+msgid ""
+"<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: The following "
+"arguments MUST be used for WP.org submissions, or you will be rejected "
+"because of your Redux configuration."
+msgstr ""
+
+#: includes/admin/redux/inc/themecheck/checks/full_package.php:16
+msgid "Redux localization utilities"
+msgstr ""
+
+#: includes/admin/redux/inc/themecheck/checks/full_package.php:17
+msgid "Redux Resting Diles"
+msgstr ""
+
+#: includes/admin/redux/inc/themecheck/checks/full_package.php:18
+msgid "Redux Code Styles"
+msgstr ""
+
+#: includes/admin/redux/inc/themecheck/checks/full_package.php:19
+msgid "Redux Unit Testing"
+msgstr ""
+
+#: includes/admin/redux/inc/themecheck/checks/full_package.php:20
+msgid "Redux Plugin File"
+msgstr ""
+
+#: includes/admin/redux/inc/themecheck/checks/full_package.php:21
+msgid "Redux Boostrap Tests"
+msgstr ""
+
+#: includes/admin/redux/inc/themecheck/checks/full_package.php:22
+msgid "CI Testing FIle"
+msgstr ""
+
+#: includes/admin/redux/inc/themecheck/checks/full_package.php:23
+msgid "PHP Unit Testing"
+msgstr ""
+
+#: includes/admin/redux/inc/themecheck/checks/full_package.php:36
+msgid ""
+"It appears that you have embedded the full Redux package inside your theme. "
+"You need only embed the <strong>ReduxCore</strong> folder. Embedding "
+"anything else will get your rejected from theme submission. Suspected Redux "
+"package file(s):"
+msgstr ""
+
+#: includes/admin/redux/inc/validation/color/validation_color.php:15
+#: includes/admin/redux/inc/validation/color_rgba/validation_color_rgba.php:14
+#: includes/admin/redux/inc/validation/colorrgba/validation_colorrgba.php:16
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: includes/admin/redux/inc/validation/comma_numeric/validation_comma_numeric.php:16
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: includes/admin/redux/inc/validation/css/validation_css.php:39
+msgid "Unsafe strings were found in your CSS and have been filtered out."
+msgstr ""
+
+#: includes/admin/redux/inc/validation/date/validation_date.php:16
+msgid "This field must be a valid date."
+msgstr ""
+
+#: includes/admin/redux/inc/validation/email/validation_email.php:16
+#: includes/admin/redux/inc/validation/email_not_empty/validation_email_not_empty.php:16
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: includes/admin/redux/inc/validation/no_html/validation_no_html.php:15
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: includes/admin/redux/inc/validation/no_special_chars/validation_no_special_chars.php:16
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: includes/admin/redux/inc/validation/not_empty/validation_not_empty.php:16
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: includes/admin/redux/inc/validation/numeric/validation_numeric.php:16
+#: includes/admin/redux/inc/validation/numeric_not_empty/validation_numeric_not_empty.php:16
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: includes/admin/redux/inc/validation/unique_slug/validation_unique_slug.php:16
+#, php-format
+msgid ""
+"That URL slug is in use, please choose another. <code>%s</code> is open for "
+"use."
+msgstr ""
+
+#: includes/admin/redux/inc/validation/url/validation_url.php:16
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: includes/admin/redux/templates/panel/footer.tpl.php:57
+#: includes/admin/redux/templates/panel/header_stickybar.tpl.php:21
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/redux/templates/panel/footer.tpl.php:61
+#: includes/admin/redux/templates/panel/header_stickybar.tpl.php:25
+msgid "Reset Section"
+msgstr ""
+
+#: includes/admin/redux/templates/panel/footer.tpl.php:62
+#: includes/admin/redux/templates/panel/header_stickybar.tpl.php:26
+msgid "Reset All"
+msgstr ""
+
+#: includes/admin/redux/templates/panel/footer.tpl.php:67
+#: includes/admin/redux/templates/panel/header_stickybar.tpl.php:29
+msgid "Working..."
+msgstr ""
+
+#: includes/admin/redux/templates/panel/header.tpl.php:11
+#: includes/admin/redux/templates/panel/header.tpl.php:49
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: includes/admin/redux/templates/panel/header.tpl.php:20
+msgid "WP_DEBUG is enabled"
+msgstr ""
+
+#: includes/admin/redux/templates/panel/header.tpl.php:26
+msgid "you are working in a localhost environment"
+msgstr ""
+
+#: includes/admin/redux/templates/panel/header.tpl.php:31
+msgid "and"
+msgstr ""
+
+#: includes/admin/redux/templates/panel/header.tpl.php:34
+msgid "This has been automatically enabled because"
+msgstr ""
+
+#: includes/admin/redux/templates/panel/header.tpl.php:36
+msgid ""
+"If you are not a developer, your theme/plugin author shipped with developer "
+"mode enabled. Contact them directly to fix it."
+msgstr ""
+
+#: includes/admin/redux/templates/panel/header.tpl.php:58
+msgid "FORCED DEV MODE OFF ENABLED"
+msgstr ""
+
+#: includes/admin/redux/templates/panel/header_stickybar.tpl.php:15
+msgid "Expand"
+msgstr ""
+
+#: includes/admin/settings/setup-metaboxes.php:15
+msgctxt "Metaboxes Title"
+msgid "Viba Portfolio Options"
+msgstr ""
+
+#: includes/admin/settings/setup-metaboxes.php:32
+msgid "Image size"
+msgstr ""
+
+#: includes/admin/settings/setup-metaboxes.php:33
+#, php-format
+msgid ""
+"If you want to use these image sizes you must enable them in <a href=\"%1$s"
+"\">Portfolio Options</a>. These image sizes are used only for grid items, "
+"not the single pages."
+msgstr ""
+
+#: includes/admin/settings/setup-metaboxes.php:47
+msgid "Project URL"
+msgstr ""
+
+#: includes/admin/settings/setup-metaboxes.php:48
+msgid "The live project URL ( e.g., http://www.project.com )."
+msgstr ""
+
+#: includes/admin/settings/setup-metaboxes.php:56
+#: includes/admin/settings/setup-redux.php:283
+#: templates/single/meta/client.php:17
+msgid "Client"
+msgstr ""
+
+#: includes/admin/settings/setup-metaboxes.php:57
+msgid "The project client ( e.g., Client Inc. )."
+msgstr ""
+
+#: includes/admin/settings/setup-metaboxes.php:65
+msgid "Client URL"
+msgstr ""
+
+#: includes/admin/settings/setup-metaboxes.php:66
+msgid "The client URL ( e.g., http://www.client.com )."
+msgstr ""
+
+#: includes/admin/settings/setup-metaboxes.php:74
+msgid "Layout"
+msgstr ""
+
+#: includes/admin/settings/setup-metaboxes.php:75
+msgid "Select layout for this portfolio item."
+msgstr ""
+
+#: includes/admin/settings/setup-metaboxes.php:89
+msgid "Custom Color"
+msgstr ""
+
+#: includes/admin/settings/setup-metaboxes.php:90
+#, php-format
+msgid ""
+"To use these colors you must enable multi-color option in <a href=\"%1$s"
+"\">Portfolio Options</a> for your custom style."
+msgstr ""
+
+#: includes/admin/settings/setup-metaboxes.php:111
+#: includes/admin/settings/setup-redux.php:332
+msgid "Gallery Type"
+msgstr ""
+
+#: includes/admin/settings/setup-metaboxes.php:127
+msgid "Gallery Images"
+msgstr ""
+
+#: includes/admin/settings/setup-metaboxes.php:128
+msgid ""
+"Hold down \"Ctrl\" (Win) or \"Command\" (Mac) to select multiple images."
+msgstr ""
+
+#: includes/admin/settings/setup-metaboxes.php:139
+msgid "Upload or select video file (supports mp4, m4v, webm, ogv, wmv, flv)."
+msgstr ""
+
+#: includes/admin/settings/setup-metaboxes.php:140
+msgid ""
+"Just insert youtube or vimeo link (e.g. http://vimeo.com/67621971 or https://"
+"www.youtube.com/watch?v=Ip2ZGND1I9Q)"
+msgstr ""
+
+#: includes/admin/settings/setup-metaboxes.php:151
+msgid "Upload or select audio file (supports mp3, ogg, wma, m4a, wav)."
+msgstr ""
+
+#: includes/admin/settings/setup-metaboxes.php:152
+msgid ""
+"Just insert soundcloud link (e.g. https://soundcloud.com/samsmithworld/"
+"samsmithasaprocky)"
+msgstr ""
+
+#: includes/admin/settings/setup-metaboxes.php:161
+msgid "External URL"
+msgstr ""
+
+#: includes/admin/settings/setup-metaboxes.php:162
+msgid ""
+"Link your project thumbnail to a custom URL ( e.g., http://www.example."
+"com ). This will override the default URL for single project."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:84
+msgctxt "Options page title"
+msgid "Viba Portfolio"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:87
+msgctxt "Options menu title"
+msgid "Portfolio Options"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:117
+msgid "General Settings "
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:123
+msgid "Enable Archives"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:124
+msgid ""
+"Enable this if you want archive pages like main post type archive, category "
+"and tag archives to be available."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:125
+#: includes/admin/settings/setup-redux.php:194
+#: includes/admin/settings/setup-redux.php:347
+#: includes/admin/settings/setup-redux.php:356
+#: includes/admin/settings/setup-redux.php:424
+#: includes/admin/settings/setup-redux.php:434
+#: includes/admin/settings/setup-redux.php:454
+#: includes/admin/settings/setup-redux.php:463
+#: includes/admin/settings/setup-redux.php:472
+#: includes/admin/settings/setup-redux.php:495
+msgid "Enabled"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:126
+#: includes/admin/settings/setup-redux.php:195
+#: includes/admin/settings/setup-redux.php:348
+#: includes/admin/settings/setup-redux.php:357
+#: includes/admin/settings/setup-redux.php:425
+#: includes/admin/settings/setup-redux.php:435
+#: includes/admin/settings/setup-redux.php:455
+#: includes/admin/settings/setup-redux.php:464
+#: includes/admin/settings/setup-redux.php:473
+#: includes/admin/settings/setup-redux.php:496
+msgid "Disabled"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:134
+msgid "Select Main Archive Page"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:135
+msgid ""
+"Default page to show your portfolio items. For example pages like "
+"\"Projects, Portfolio, Work\" etc."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:141
+msgid "Category Base"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:142
+msgid "Set your category base for category archives."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:150
+msgid "Tag Base"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:151
+msgid "Set your tag base for tag archives."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:158
+msgid "Permalinks"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:159
+msgid "Control the permalinks used for portfolios."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:160
+msgid "Enter any custom base to use."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:169
+#: includes/admin/settings/setup-redux.php:230
+#: includes/admin/settings/setup-redux.php:504
+#: includes/admin/settings/setup-redux.php:756
+#: includes/admin/settings/setup-redux.php:763
+msgid "Please Note"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:170
+#, php-format
+msgid ""
+"<strong>Category, Tag and Permalinks Base</strong> settings only apply when "
+"<strong>NOT using \"default\" permalinks</strong> under %s."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:176
+msgid "Portfolio Thumbnail"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:177
+msgid "These sizes are used for portfolio thumbnails."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:184
+msgid "Portfolio Single"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:185
+msgid "These sizes are used for portfolio single items."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:192
+msgid "Portfolio Multi-Size"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:193
+msgid ""
+"Enable this if you want additional image sizes that will be used for "
+"portrait, landscape and big items."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:202
+msgid "Portfolio Big"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:203
+msgid "Make this twice the size of thumbnails."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:211
+msgid "Portfolio Landscape"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:212
+msgid ""
+"Make the width twice as thumbnail size. Height needs to remain the same."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:220
+msgid "Portfolio Portrait"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:221
+msgid ""
+"Make the height twice as thumbnail size. Width needs to remain the same."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:231
+#, php-format
+msgid ""
+"After changing these settings you may need to %s. Entering 0 as width or "
+"height, with hard crop disabled, will give you auto height or auto width "
+"images keeping the aspect ratio."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:237
+msgid "Portfolio Styles"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:246
+#: includes/admin/settings/setup-redux.php:252
+msgctxt "Default Style Title"
+msgid "Default"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:261
+msgid "Single Portfolio"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:268
+msgid "Select layout for your portfolio items."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:270
+msgid "Full Width"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:271
+msgid "Right Sidebar"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:272
+msgid "Left Sidebar"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:279
+msgid "Portfolio Meta"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:280
+msgid "Check what meta informations you want to show with portfolio items."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:282
+#: templates/single/meta/date.php:14
+msgid "Date"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:286
+msgid "Project Link"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:288
+msgid "Share Icons"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:304
+msgid "Portfolio Share Icons"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:305
+msgid "Check what share icons you want to enable."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:307
+#: templates/single/meta/share.php:32
+msgid "Facebook"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:308
+#: templates/single/meta/share.php:33
+msgid "Twitter"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:309
+#: templates/single/meta/share.php:34
+msgid "Google Plus"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:310
+#: templates/single/meta/share.php:35
+msgid "Pinterest"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:311
+#: templates/single/meta/share.php:36
+msgid "Tumblr"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:312
+#: templates/single/meta/share.php:38
+msgid "Reddit"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:313
+#: templates/single/meta/share.php:37
+msgid "Linkedin"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:314
+#: templates/single/meta/share.php:39
+msgid "VK"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:315
+#: templates/single/meta/share.php:40
+msgid "Mail"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:333
+msgid "Select gallery type for your single portfolio items."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:335
+msgid "Slider"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:337
+msgid "Stacked"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:345
+msgid "Audio Thumbnail"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:346
+msgid "Show thumbnail on audio format portfolio items."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:354
+msgid "Show Related Items"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:355
+msgid "Enable this option to show related items."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:364
+msgid "Portfolio Related Layout"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:365
+msgid ""
+"If you want to use Multi-Size Layout you must first enable Multi-Size Images "
+"in General Setting Tab."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:377
+msgid "Number of Related Portfolio Items"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:378
+msgid "Select Number of your related portfolio items."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:388
+msgid "Related Portfolio Columns"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:389
+msgid "Select Number of Columns for your related portfolio items."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:415
+msgid "Advanced Options"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:421
+msgid "Delete Data On Uninstall"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:422
+msgid ""
+"If enabled it will delete all portfolio items, categories, tags, all "
+"relationships between the post type and taxonomies and all options and "
+"styles when uninstalling via Plugins > Delete."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:423
+msgid ""
+"Please note if you enable this option it will take more time to finish "
+"deleting the plugin. Please be patient."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:431
+msgid "Delete Data On Deactivation"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:432
+msgid ""
+"When you are using a multisite, plugins can't delete their data on "
+"uninstall. If this option is enabled all data from this plugin (all "
+"portfolio items, categories, tags and all options and styles) will be "
+"deleted on plugin deactivation."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:433
+msgid ""
+"Only works on a multisite. You will need to go through all your sites and "
+"enable this option and then go to Plugins > Deactivate. It won't work if you "
+"are on Network Admin and using Network Deactivate. Please note if you enable "
+"this option it will take more time to finish deactivating the plugin. Please "
+"be patient."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:441
+msgid "Scripts Position"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:442
+msgid "Load scripts in head or footer."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:444
+msgctxt "Scripts Position"
+msgid "Head"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:445
+msgctxt "Scripts Position"
+msgid "Footer"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:452
+msgid "Load All Scripts"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:453
+msgid ""
+"Load all Viba Portfolio scripts and styles on all pages. This is useful if "
+"you have an AJAX theme. If this option is disabled Viba Portfolio will load "
+"scripts and styles only on pages that require them."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:461
+msgid "AJAX Fix"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:462
+msgid ""
+"Some themes and page builders that don't use the default WordPress content "
+"area might have problems with using AJAX."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:470
+msgid "AJAX Likes Count"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:471
+msgid ""
+"If you are using a cacheing plugin the likes count might be incorrect. To "
+"fix that you need to dynamically load the likes count via AJAX."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:479
+msgid "Google Fonts"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:480
+#, php-format
+msgid "Copy the Google Font Family from %s"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:487
+msgid "Translations"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:493
+msgid "Internationalization"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:494
+msgid "If disabled use the options below to translate the text."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:505
+msgid ""
+"If you want to have a multilingual site you need to enable the "
+"Internationalization and use the textdomain \"viba-portfolio\" to translate "
+"the text."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:511
+msgid "Filter Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:518
+msgid "Filter All Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:525
+msgid "Pagination Previous Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:532
+msgid "Pagination Next Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:539
+msgid "Pagination Pages Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:546
+msgid "Load More Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:553
+msgid "Zoom Button Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:560
+msgid "Link Button Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:567
+msgid "Ajax Button Prev"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:574
+msgid "Ajax Button Next"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:581
+msgid "Ajax Button Close"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:588
+msgid "Meta Date Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:595
+msgid "Meta Client Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:602
+msgid "Meta Categories Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:609
+msgid "Meta Tags Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:616
+msgid "Meta Project Link Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:623
+msgid "Related Items Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:630
+msgid "Searchform Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:637
+msgid "Search Page Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:644
+msgid "No Items Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:651
+msgid "Search Nothing Found Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:658
+msgid "Share Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:665
+msgid "Share Facebook Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:672
+msgid "Share Twitter Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:679
+msgid "Share Google Plus Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:686
+msgid "Share Pinterest Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:693
+msgid "Share Tumblr Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:700
+msgid "Share Reddit Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:707
+msgid "Share Linkedin Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:714
+msgid "Share VK Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:721
+msgid "Share Mail Text"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:733
+msgid "Support/Docs"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:741
+msgid "Support"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:742
+#, php-format
+msgid "Need a help with Viba Portfolio? Support is available at %s"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:749
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:750
+#, php-format
+msgid "Extensive documentation is available at %s"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:757
+#, php-format
+msgid ""
+"If your archive and single pages aren't displayed the way you want (breaking "
+"layout) there is a <a target='_blank' href='%s'>step by step solution</a>."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:764
+#, php-format
+msgid ""
+"If your theme is using Redux Framework there might be some incompatibility "
+"issues. To fix that you will need to install the %s plugin."
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:770
+msgid "Tools"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:932
+msgctxt ""
+"Admin panel error when entering non numeric value for height or width."
+msgid "width"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:944
+msgctxt ""
+"Admin Panel error when entering non numeric value for height or width."
+msgid "height"
+msgstr ""
+
+#: includes/admin/settings/setup-redux.php:950
+#, php-format
+msgctxt ""
+"Admin panel error when entering non numeric value for height or width."
+msgid "You must provide a numerical value for %s."
+msgstr ""
+
+#: includes/class-viba-portfolio-frontend-scripts.php:143
+msgid "Previous"
+msgstr ""
+
+#: includes/class-viba-portfolio-frontend-scripts.php:144
+msgid "Next"
+msgstr ""
+
+#: includes/class-viba-portfolio-frontend-scripts.php:145
+msgid "Close"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:47
+msgid "Viba Portfolios"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:48
+msgctxt "Singular Name"
+msgid "Viba Portfolio"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:49
+msgctxt "Menu Name"
+msgid "Viba Portfolio"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:50
+msgid "All Portfolio Items"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:51
+msgctxt "Admin bar add new"
+msgid "Viba Portfolio"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:52
+#: includes/class-viba-portfolio-post-type.php:53
+msgid "Add New Portfolio"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:54
+msgid "Edit"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:55
+msgid "Edit Portfolio"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:56
+msgid "New Portfolio"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:57
+#: includes/class-viba-portfolio-post-type.php:58
+msgid "View Portfolio"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:59
+msgid "Search Portfolios"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:60
+msgid "No Portfolios found"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:61
+msgid "No Portfolios found in trash"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:103
+msgid "Viba Portfolio Categories"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:104
+msgid "Viba Portfolio Category"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:105
+msgid "Search Portfolio Categories"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:106
+msgid "Popular Portfolio Categories"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:107
+msgid "All Portfolio Categories"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:108
+msgid "Parent Portfolio Category"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:109
+msgid "Parent Portfolio Category:"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:110
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:111
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:112
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:113
+msgid "New Portfolio Category Name"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:114
+msgid "Separate portfolio categories with commas"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:115
+msgid "Add or remove portfolio categories"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:116
+msgid "Choose from the most used portfolio categories"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:117
+msgid "Portfolio Categories"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:146
+msgid "Viba Portfolio Tags"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:147
+msgid "Viba Portfolio Tag"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:148
+msgid "Search Portfolio Tags"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:149
+msgid "Popular Portfolio Tags"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:150
+msgid "All Portfolio Tags"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:151
+msgid "Edit Portfolio Tag"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:152
+msgid "Update Portfolio Tag"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:153
+msgid "Add New Portfolio Tag"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:154
+msgid "New Portfolio Tag Name"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:155
+msgid "Separate portfolio tags with commas"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:156
+msgid "Add or remove portfolio tags"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:157
+msgid "Choose from the most used portfolio tags"
+msgstr ""
+
+#: includes/class-viba-portfolio-post-type.php:158
+msgid "Portfolio Tags"
+msgstr ""
+
+#: includes/class-viba-portfolio-shortcode.php:39
+#, php-format
+msgid "There is no Viba Portfolio %s style. Please create the style first."
+msgstr ""
+
+#: includes/supported-plugins/visual-composer/visual-composer.php:45
+msgctxt "Visual Composer Title"
+msgid "Viba Portfolio"
+msgstr ""
+
+#: includes/supported-plugins/visual-composer/visual-composer.php:46
+msgctxt "Visual Composer Description"
+msgid "Advanced portfolio to showcase your work beatifully"
+msgstr ""
+
+#: includes/supported-plugins/visual-composer/visual-composer.php:48
+msgctxt "Visual Composer Category"
+msgid "Content"
+msgstr ""
+
+#: includes/supported-plugins/visual-composer/visual-composer.php:55
+msgctxt "Visual Composer Shortcode Heading"
+msgid "Viba Portfolio"
+msgstr ""
+
+#: includes/supported-plugins/visual-composer/visual-composer.php:58
+msgctxt "Visual Composer Shortcode Description"
+msgid "Select portfolio"
+msgstr ""
+
+#: includes/viba-portfolio-page-functions.php:204
+msgctxt "Category Slug"
+msgid "uncategorized"
+msgstr ""
+
+#: includes/viba-portfolio-template-styles.php:35
+#: includes/viba-portfolio-template-styles.php:143
+#: includes/viba-portfolio-template-styles.php:251
+msgid "Hydrogen"
+msgstr ""
+
+#: includes/viba-portfolio-template-styles.php:40
+#: includes/viba-portfolio-template-styles.php:148
+#: includes/viba-portfolio-template-styles.php:256
+msgid "Helium"
+msgstr ""
+
+#: includes/viba-portfolio-template-styles.php:45
+#: includes/viba-portfolio-template-styles.php:153
+#: includes/viba-portfolio-template-styles.php:261
+msgid "Lithium"
+msgstr ""
+
+#: includes/viba-portfolio-template-styles.php:50
+#: includes/viba-portfolio-template-styles.php:158
+#: includes/viba-portfolio-template-styles.php:266
+msgid "Beryllium"
+msgstr ""
+
+#: includes/viba-portfolio-template-styles.php:55
+#: includes/viba-portfolio-template-styles.php:163
+#: includes/viba-portfolio-template-styles.php:271
+msgid "Boron"
+msgstr ""
+
+#: includes/viba-portfolio-template-styles.php:60
+#: includes/viba-portfolio-template-styles.php:168
+#: includes/viba-portfolio-template-styles.php:276
+msgid "Carbon"
+msgstr ""
+
+#: includes/viba-portfolio-template-styles.php:65
+#: includes/viba-portfolio-template-styles.php:173
+#: includes/viba-portfolio-template-styles.php:281
+msgid "Nitrogen"
+msgstr ""
+
+#: includes/viba-portfolio-template-styles.php:70
+#: includes/viba-portfolio-template-styles.php:178
+#: includes/viba-portfolio-template-styles.php:286
+msgid "Oxygen"
+msgstr ""
+
+#: includes/viba-portfolio-template-styles.php:75
+#: includes/viba-portfolio-template-styles.php:183
+#: includes/viba-portfolio-template-styles.php:291
+msgid "Fluorine"
+msgstr ""
+
+#: includes/viba-portfolio-template-styles.php:80
+#: includes/viba-portfolio-template-styles.php:188
+#: includes/viba-portfolio-template-styles.php:296
+msgid "Neon"
+msgstr ""
+
+#: includes/viba-portfolio-template-styles.php:85
+#: includes/viba-portfolio-template-styles.php:193
+#: includes/viba-portfolio-template-styles.php:301
+msgid "Sodium"
+msgstr ""
+
+#: includes/viba-portfolio-template-styles.php:90
+#: includes/viba-portfolio-template-styles.php:198
+#: includes/viba-portfolio-template-styles.php:306
+msgid "Magnesium"
+msgstr ""
+
+#: includes/viba-portfolio-template-styles.php:95
+#: includes/viba-portfolio-template-styles.php:203
+#: includes/viba-portfolio-template-styles.php:311
+msgid "Aluminium"
+msgstr ""
+
+#: includes/viba-portfolio-template-styles.php:100
+#: includes/viba-portfolio-template-styles.php:208
+#: includes/viba-portfolio-template-styles.php:316
+msgid "Silicon"
+msgstr ""
+
+#: includes/viba-portfolio-template-styles.php:105
+#: includes/viba-portfolio-template-styles.php:213
+#: includes/viba-portfolio-template-styles.php:321
+msgid "Phosphorus"
+msgstr ""
+
+#: includes/viba-portfolio-template-styles.php:110
+#: includes/viba-portfolio-template-styles.php:218
+#: includes/viba-portfolio-template-styles.php:326
+msgid "Sulfur"
+msgstr ""
+
+#: includes/viba-portfolio-template-styles.php:115
+#: includes/viba-portfolio-template-styles.php:223
+#: includes/viba-portfolio-template-styles.php:331
+msgid "Chlorine"
+msgstr ""
+
+#: includes/viba-portfolio-template-styles.php:120
+#: includes/viba-portfolio-template-styles.php:228
+#: includes/viba-portfolio-template-styles.php:336
+msgid "Argon"
+msgstr ""
+
+#: includes/viba-portfolio-template-styles.php:125
+#: includes/viba-portfolio-template-styles.php:233
+#: includes/viba-portfolio-template-styles.php:341
+msgid "Potassium"
+msgstr ""
+
+#: includes/viba-portfolio-template-styles.php:130
+#: includes/viba-portfolio-template-styles.php:238
+#: includes/viba-portfolio-template-styles.php:346
+msgid "Calcium"
+msgstr ""
+
+#: includes/viba-portfolio-template-styles.php:140
+msgid "Semi Visible"
+msgstr ""
+
+#: includes/viba-portfolio-template-styles.php:248
+msgid "Visible on Hover"
+msgstr ""
+
+#: includes/viba-portfolio-template-tags.php:133
+#, php-format
+msgid "Search Results: &ldquo;%s&rdquo;"
+msgstr ""
+
+#: includes/widgets/class-viba-portfolio-widget-cloud.php:21
+msgid "A cloud of most used portfolio tags or categories."
+msgstr ""
+
+#: includes/widgets/class-viba-portfolio-widget-cloud.php:23
+msgctxt "Cloud Widget Name"
+msgid "Viba Portfolio Cloud"
+msgstr ""
+
+#: includes/widgets/class-viba-portfolio-widget-cloud.php:86
+msgctxt "Cloud Widget Title"
+msgid "Viba Portfolio Cloud"
+msgstr ""
+
+#: includes/widgets/class-viba-portfolio-widget-cloud.php:97
+#: includes/widgets/class-viba-portfolio-widget-filter.php:97
+#: includes/widgets/class-viba-portfolio-widget-searchform.php:85
+msgctxt "Widget Title"
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/class-viba-portfolio-widget-cloud.php:102
+msgctxt "Cloud Widget Taxonomy"
+msgid "Taxonomy:"
+msgstr ""
+
+#: includes/widgets/class-viba-portfolio-widget-filter.php:21
+msgid "Display a list of categories or tags for portfolio filter."
+msgstr ""
+
+#: includes/widgets/class-viba-portfolio-widget-filter.php:23
+msgctxt "Filter Widget Name"
+msgid "Viba Portfolio Filter"
+msgstr ""
+
+#: includes/widgets/class-viba-portfolio-widget-filter.php:86
+msgctxt "Filter Widget Title"
+msgid "Viba Portfolio Filter"
+msgstr ""
+
+#: includes/widgets/class-viba-portfolio-widget-filter.php:102
+msgctxt "Widget Filter Taxonomy"
+msgid "Filtey by:"
+msgstr ""
+
+#: includes/widgets/class-viba-portfolio-widget-searchform.php:21
+msgid "A search form for your portfolio items."
+msgstr ""
+
+#: includes/widgets/class-viba-portfolio-widget-searchform.php:23
+msgctxt "Searchform Widget Name"
+msgid "Viba Portfolio Search"
+msgstr ""
+
+#: includes/widgets/class-viba-portfolio-widget-searchform.php:78
+msgctxt "Searchform Widget Title"
+msgid "Search Portfolios"
+msgstr ""
+
+#: includes/widgets/class-viba-portfolio-widget.php:21
+msgid "Display a list of your portfolio items on your site."
+msgstr ""
+
+#: includes/widgets/class-viba-portfolio-widget.php:23
+msgctxt "Widget Name"
+msgid "Viba Portfolio"
+msgstr ""
+
+#: includes/widgets/class-viba-portfolio-widget.php:116
+msgctxt "Viba Portfolio Widget Title"
+msgid "Recent Projects"
+msgstr ""
+
+#: includes/widgets/class-viba-portfolio-widget.php:145
+msgctxt "widget title"
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/class-viba-portfolio-widget.php:150
+msgid "Number ot items to show:"
+msgstr ""
+
+#: includes/widgets/class-viba-portfolio-widget.php:155
+msgid "Columns:"
+msgstr ""
+
+#: includes/widgets/class-viba-portfolio-widget.php:164
+msgid "Order:"
+msgstr ""
+
+#: includes/widgets/class-viba-portfolio-widget.php:173
+msgid "Order by:"
+msgstr ""
+
+#: templates/global/filter.php:33 templates/global/filter.php:39
+msgid "Filter"
+msgstr ""
+
+#: templates/global/pagination.php:43
+msgid "&laquo; Previous"
+msgstr ""
+
+#: templates/global/pagination.php:44
+msgid "Next &raquo;"
+msgstr ""
+
+#: templates/global/pagination.php:45
+#, php-format
+msgid "Page %1$d of %2$d"
+msgstr ""
+
+#: templates/global/pagination.php:55
+msgid "Load more"
+msgstr ""
+
+#: templates/global/searchform.php:15
+msgid "Search portfolios"
+msgstr ""
+
+#: templates/loop/item-buttons.php:23
+msgid "Zoom"
+msgstr ""
+
+#: templates/loop/item-buttons.php:33
+msgid "Case Study"
+msgstr ""
+
+#: templates/no-viba-portfolio-items.php:16
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: templates/no-viba-portfolio-items.php:21
+msgid "No portfolio items were found."
+msgstr ""
+
+#: templates/single/meta/project-link.php:15
+msgid "View Project"
+msgstr ""
+
+#: templates/single/meta/share.php:47
+msgid "Share"
+msgstr ""
+
+#: templates/single/related.php:36
+msgid "Related Items"
+msgstr ""
+
+#: viba-portfolio.php:54 viba-portfolio.php:61
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: viba-portfolio.php:510
+msgctxt "WordPress User Role"
+msgid "Viba Portfolio Manager"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Viba Portfolio"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://plugins.apalodi.com/viba-portfolio/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Advanced portfolio plugin that helps you showcase your work beatifully."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "APALODI"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://apalodi.com"
+msgstr ""

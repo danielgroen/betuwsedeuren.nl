@@ -1,0 +1,10 @@
+#!/bin/bash
+
+source _vars
+
+CMD_SHELL="/bin/sh"
+
+# composer $@ fixen
+docker-compose -p ${PROJECT} -f docker-compose.yaml -f docker-compose.yaml ${COMPOSEAPPEND} exec --user www-data wp wp $@
+
+exit 0;

@@ -1,0 +1,24 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="translate">_viba_portfolio_excerpt</custom-field>
+        <custom-field action="translate">_viba_portfolio_client</custom-field>
+        <custom-field action="translate">_viba_portfolio_client_url</custom-field>
+        <custom-field action="copy">_viba_portfolio_image_size</custom-field>
+        <custom-field action="translate">_viba_portfolio_project_url</custom-field>
+        <custom-field action="copy">_viba_portfolio_layout</custom-field>
+        <custom-field action="copy">_viba_portfolio_color</custom-field>
+        <custom-field action="copy">_viba_portfolio_gallery_type</custom-field>
+        <custom-field action="translate">_viba_portfolio_gallery</custom-field>
+        <custom-field action="translate">_viba_portfolio_video</custom-field>
+        <custom-field action="translate">_viba_portfolio_audio</custom-field>
+        <custom-field action="translate">_viba_portfolio_link</custom-field>
+        <custom-field action="copy">_viba_portfolio_likes</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">viba_portfolio</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">viba_portfolio_category</taxonomy>
+        <taxonomy translate="1">viba_portfolio_tag</taxonomy>
+    </taxonomies>
+</wpml-config>

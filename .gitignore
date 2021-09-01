@@ -1,0 +1,22 @@
+node_modules
+.ds_store
+.env
+!.env.example
+*.sql
+._*
+
+src/web/app/webp-express/*
+
+!src/web/app/webp-express/config
+
+# Persistent data
+docker/persistent-data/db/backups/*
+docker/persistent-data/db/mysql/*
+
+docker/persistent-data/log/*
+docker/persistent-data/uploads/*
+
+
+!.gitkeep
+.idea/
+docker/.env.save

@@ -1,0 +1,79 @@
+{
+    "wod": {
+        "enable-redirection-to-converter": true,
+        "enable-redirection-to-webp-realizer": true,
+        "base-htaccess-on-these-capability-tests": {
+            "passThroughHeaderWorking": false,
+            "passThroughEnvWorking": null,
+            "modHeaderWorking": null,
+            "canRunTestScriptInWOD": null,
+            "canRunTestScriptInWOD2": null
+        },
+        "destination-extension": "append",
+        "destination-folder": "mingled",
+        "forward-query-string": true,
+        "image-roots": [
+            {
+                "id": "uploads",
+                "rel-path": "app/uploads",
+                "url": "http://tst.miltenburg-groen.nl/app/uploads"
+            },
+            {
+                "id": "themes",
+                "rel-path": "app/themes",
+                "url": "https://tst.miltenburg-groen.nl/app/themes"
+            },
+            {
+                "id": "plugins",
+                "rel-path": "app/plugins",
+                "url": "https://tst.miltenburg-groen.nl/app/plugins"
+            },
+            {
+                "id": "wp-content",
+                "rel-path": "app",
+                "url": "https://tst.miltenburg-groen.nl/app"
+            },
+            {
+                "id": "index",
+                "rel-path": "wp",
+                "url": "http://tst.miltenburg-groen.nl"
+            }
+        ],
+        "success-response": "converted"
+    },
+    "webp-convert": {
+        "serve-image": {
+            "headers": {
+                "cache-control": false,
+                "content-length": true,
+                "content-type": true,
+                "expires": false,
+                "last-modified": true
+            }
+        },
+        "fail": "original",
+        "convert": {
+            "converters": [
+                {
+                    "converter": "gd",
+                    "options": {
+                        "skip-pngs": false
+                    }
+                }
+            ],
+            "jpeg": {
+                "encoding": "auto",
+                "quality": 70,
+                "near-lossless": 60
+            },
+            "png": {
+                "encoding": "auto",
+                "quality": 85,
+                "near-lossless": 60,
+                "alpha-quality": 85
+            },
+            "metadata": "none",
+            "log-call-arguments": true
+        }
+    }
+}

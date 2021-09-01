@@ -1,0 +1,11 @@
+#!/bin/bash
+
+source _vars
+
+echo ""
+echo "Stopping containers..."
+
+docker-compose -p ${PROJECT} -f docker-compose.yaml ${COMPOSEAPPEND} stop &&\
+docker-compose -p ${PROJECT} -f docker-compose.yaml ${COMPOSEAPPEND} down --force-recreate --remove-orphans
+
+exit 0;

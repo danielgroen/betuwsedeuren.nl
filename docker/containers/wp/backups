@@ -1,0 +1,29 @@
+#!/bin/bash
+
+FREQUENTY=`basename "$0"`
+TIMESTAMP=$(date +"%Y-%m-%d")
+
+case $FREQUENTY in
+
+  daily)
+    DAYS=6
+    ;;
+
+  weekly)
+    DAYS=30
+    # TODO:: checken of er nu ook geen duplicate backups zijn (daily-20-2 en weekly 20-2)
+    find /backups -type f -name $TIMESTAMP-daily.sql -delete
+    ;;
+
+  monthly)
+    DAYS=122
+    find /backups -type f -name $TIMESTAMP-weekly.sql -delete
+    ;;
+esac
+
+# Create backups
+cd /var/www/html;
+wp --allow-root db export /backups/$TIMESTAMP-$FREQUENTY.sql
+
+# Remove old backups
+find /backups -mtime +${DAYS} -type f -name *-$FREQUENTY.sql -delete
