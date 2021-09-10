@@ -53,13 +53,11 @@
 		}
 	}
 	li {
-		font-family: 'Inconsolata';
-		font-size: 16pt;
+		 		 
 		color: rgba($secondary, 1.0);
 		text-transform: uppercase;
 		padding-top: 0px;
-		font-weight: 700;
-		&.dropdown {
+		 		&.dropdown {
 			&:hover {
 				& > ul {
 					&.dropdown-menu {
@@ -107,9 +105,7 @@
 	margin-top: 0;
 	background-color: transparent !important;
 	z-index: 20;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 500;
-}
+	 	 }
 .navbar-brand {
 	float: left;
 	height: 175px;
@@ -117,20 +113,17 @@
 }
 .menu-item-19:after, .menu-item-106:after, .menu-item-773:after, .menu-item-23:after, .menu-item-798:after, .menu-item-20:after {
 	text-transform: lowercase;
-	font-size: 13px;
+	 
 	padding-left: 15px;
 	top: 25px !important;
-	font-weight: 300;
-	position: relative;
+	 	position: relative;
 }
 .current-menu-item.menu-item-19:after, .current-menu-item.menu-item-106:after, .current-menu-item.menu-item-773:after, .current-menu-item.menu-item-23:after, .current-menu-item.menu-item-798:after, .current-menu-item.menu-item-20:after {
 	color: $orange;
-	font-weight: 700;
-}
+	 }
 .menu-item-19:hover:after, .menu-item-106:hover:after, .menu-item-773:hover:after, .menu-item-23:hover:after, .menu-item-798:hover:after, .menu-item-20:hover:after {
 	color: $orange;
-	font-weight: 700;
-}
+	 }
 .menu-item-19 {
 	&:after {
 		content: "start hier";
@@ -181,8 +174,7 @@
 			display: block;
 			padding: 5px 15px;
 			clear: both;
-			font-weight: 300;
-			line-height: 28px;
+			 			line-height: 28px;
 			color: rgba($gray, 0.65);
 			white-space: nowrap;
 		}
@@ -193,8 +185,7 @@ ul {
 		padding: 0px !important;
 		li {
 			padding: 0px;
-			font-family: 'Inconsolata';
-			font-size: 14px;
+			 			 
 			line-height: 28px;
 			color: rgba($gray, 0.65);
 			text-transform: capitalize;
@@ -215,5 +206,4 @@ ul {
 	text-decoration: none;
 	background-color: $white;
 	outline: 0;
-	font-weight: 700;
-}
+	 }

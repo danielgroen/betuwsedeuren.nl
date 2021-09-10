@@ -2,3 +2,25 @@
   padding-right: 0px !important;
   padding-left: 0px !important;
 }
+
+.grid {
+  width: 100%;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width:768px) {
+  .grid {
+    max-width:750px;
+  }
+}
+@media (min-width:992px) {
+  .grid {
+    max-width:970px;
+  }
+}
+@media (min-width:1200px) {
+  .grid {
+    max-width:1170px;
+  }
+}

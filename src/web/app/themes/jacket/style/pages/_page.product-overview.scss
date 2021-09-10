@@ -21,11 +21,9 @@
   padding: 15px 30px;
   position: relative;
   bottom: 48px;
-  font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-}
+   
+     text-transform: uppercase;
+   }
 
 .outsideContainerQuickNav {
   border-left: 1px solid $primary;
@@ -80,7 +78,7 @@
 }
 
 .categoryDescription h1 {
-  font-size: 20px;
+   
   padding-left: 15px;
   margin-bottom: 5px;
 }
@@ -99,5 +97,4 @@ ul.product-categories > li > ul.children li a {
 
 ul.product-categories .current-cat a {
   color: $primary !important;
-  font-weight: bold !important;
-}
+   }

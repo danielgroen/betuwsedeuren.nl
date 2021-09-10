@@ -1,3 +1,8 @@
+<?php
+
+use Jacket\classes\Functions;
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,6 +13,7 @@
   <title><?php echo get_bloginfo('name'); ?></title>
   <meta name="author" content="Betuwse Deuren">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/font-awesome.min.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/fonts/campton/style.css">
 
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
@@ -30,7 +36,7 @@
   </script>
 </head>
 
-<body>
+<body <?php body_class('page '); ?>>
   <header>
     <div class="container-fluid top-menu">
       <div class="topRightItem top-menu-right">
@@ -49,55 +55,19 @@
       </nav>
     </div>
   </header>
-  <!-- Einde van Header -->
-  <?php
-  if (is_front_page()) {
-    putRevSlider('homeslider');
-  } ?>
 
-  <div class="container-fluid <?php if (!is_front_page()) { ?> pageWithoutHeader <?php } ?> contentOnderSlider">
-    <ul id="da-thumbs" class="da-thumbs">
+  <?php if (is_front_page()) { ?>
+    <img src="<?php the_post_thumbnail_url(); ?>" alt="" class="homepage-image">
+  <?php } ?>
 
-      <li class="col-lg-2 col-lg-offset-2 dealerVanHomePage">
-        <a href="https://betuwsedeuren.hormannpartner.nl/" target="_blank">
-          dealer van
-          <img src="/wp-content/uploads/2017/10/logo_hormann.jpg" class="img-responsive" />
-          <div>
-            <span class="triangleContentOnderSlider"></span>
-          </div>
-        </a>
-      </li>
-
-      <li class="col-lg-2 pagination-centered textContentOnderSlider" style="padding-top: 51px;">
-        <a href="/particulieren">
-          <span class="contentOnderSliderText ">Particulieren <br /> en Bedrijven</span>
-          <div>
-            <span class="triangleContentOnderSlider"></span>
-          </div>
-        </a>
-      </li>
-
-      <li class="col-lg-2 pagination-centered textContentOnderSlider" style="padding-top: 51px;">
-        <a href="/bouwbedrijven-en-aannemers">
-          <span class="contentOnderSliderText ">Bouwbedrijven <br /> en Aannemers</span>
-          <div>
-            <span class="triangleContentOnderSlider"></span>
-          </div>
-        </a>
-      </li>
-
-      <li class="col-lg-2 textContentOnderSlider">
-        <a href="/woning-beheerders-verhuurders">
-          woning-<br />
-          beheerders<br />
-          verhuurders
-          <div>
-            <span class="triangleContentOnderSlider"></span>
-          </div>
-        </a>
-      </li>
-
-    </ul>
+  <div class="blue-banner">
+    <div class="grid">
+      <a class="blue-banner__item" href="https://betuwsedeuren.hormannpartner.nl/" target="_blank">Premium partner
+        <?php Functions::getIcon('hormann'); ?></a>
+      <a class="blue-banner__item" href="/particulieren">Particulieren <br /> en Bedrijven</a>
+      <a class="blue-banner__item" href="/bouwbedrijven-en-aannemers">Bouwbedrijven <br /> en Aannemers</a>
+      <a class="blue-banner__item" href="/woning-beheerders-verhuurders">woning-<br /> beheerders<br /> verhuurders</a>
+    </div>
   </div>
 
   <main>

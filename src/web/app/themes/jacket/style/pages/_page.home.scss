@@ -1,46 +1,6 @@
-@include breakpoint(0, 470px) {
-  .homeCategoryItem .undertitleHome h1 {
-    font-size: 13px;
-  }
-
-  .homeCategoryItem {
-    min-height: 195px;
-  }
-
-  .undertitleHome {
-    bottom: 43px;
-  }
-}
-
-.homeCategory {
-	width: 100%;
-	height: auto;
-}
-.homeCategoryItem {
-	.undertitleHome {
-		h1 {
-			font-family: Montserrat;
-			text-transform: uppercase;
-			font-weight: bold;
-			font-size: 20px;
-			color: $black;
-			margin: 0px;
-		}
-	}
-	&:hover {
-		.undertitleHome {
-			h1 {
-				color: $white;
-			}
-		}
-	}
-}
-
-.undertitleHome {
-	background-color: $tertiary;
-	text-align: center;
-	padding: 15px;
-	position: relative;
-	bottom: 48px;
-	height: 75px;
+.homepage-image {
+  width: 100vw;
+  height: auto;
+  max-height: 596px;
+  object-fit: cover;
 }

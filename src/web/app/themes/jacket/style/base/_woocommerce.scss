@@ -20,24 +20,19 @@ ol.flex-control-nav.flex-control-thumbs li {
 
 .korteOmschrijvingProductVlak {
   text-align: left;
-  font-weight: bold;
-}
+   }
 
 .korteOmschrijvingProductVlak p {
   color: $black;
 }
 
 .korteOmschrijvingProductVlak a {
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-  color: $black;
+        color: $black;
 }
 
 h2.woocommerce-loop-product__title {
-  font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  color: $black;
+   
+        color: $black;
   text-align: center;
   padding: 15px;
   margin-bottom: 10px;
@@ -68,15 +63,13 @@ a.button.product_type_simple.ajax_add_to_cart {
   background-color: rgba($gray, 0.1);
   margin: 10px 0px;
   padding: 10px 0px 10px 0px;;
-  font-weight: 300;
-  font-size: 14px;
+      
   color: rgba($gray, 0.65);
   text-decoration: none !important;
 }
 
 .items {
-  font-weight: 700;
-}
+   }
 
 .product_attributes, .product_meta, .woocommerce-product-gallery__trigger {
   display: none;
@@ -106,11 +99,9 @@ ol.flex-control-nav.flex-control-thumbs li {
 ul.tabs.wc-tabs {
   list-style-type: none;
   padding-left: 15px;
-  font-family: 'Roboto';
-  font-size: 18px;
-  color: rgba($gray, 1);
-  font-weight: 500;
-  margin-top: 50px;
+      
+  color: $gray;
+     margin-top: 50px;
 }
 
 ul.tabs.wc-tabs li {
@@ -120,7 +111,7 @@ ul.tabs.wc-tabs li {
 }
 
 ul.tabs.wc-tabs li {
-  color: rgba($gray, 1);
+  color: $gray;
 }
 
 .description_tab.active a, .additional_information_tab.active a, .test_tab_tab.active a {
@@ -148,8 +139,7 @@ li#tab-title-reviews {
 
 .shop_attributes p {
   margin:  0 0 0 0px;
-  font-weight: 300;
-}
+   }
 
 .shop_attributes p a {
   color: rgba($gray, 0.65);

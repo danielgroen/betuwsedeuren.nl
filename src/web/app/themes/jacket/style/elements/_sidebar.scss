@@ -1,11 +1,9 @@
 
 h4.widget-title {
-  font-weight: 700;
-  color: rgba($gray, 1);
-  font-size: 18px;
+     color: $gray;
+   
   margin-top: 35px;
-  font-family: 'Inconsolata';
-  }
+     }
   
   h4.widget-title:after {
     content: "";
@@ -23,19 +21,15 @@ h4.widget-title {
   }
   
   ul.product-categories li a {
-    font-weight: 700;
-    color: rgba($gray, 1);
-    font-size: 18px;
+         color: $gray;
+     
     margin-top: 35px;
-    font-family: 'Inconsolata';
-    text-transform: uppercase;
+         text-transform: uppercase;
   }
   
   ul.product-categories > li > ul.children li a {
-    font-family: 'Roboto';
-    font-size: 14px;
-    font-weight: 300;
-  }
+          
+       }
   
   ul.children {
     padding-left: 20px;

@@ -2,7 +2,7 @@
 
   </main> <!-- Einde van pagina content -->
 
-  <footer>
+  <footer class="footer">
 
     <div class="container">
 

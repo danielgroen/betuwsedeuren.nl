@@ -1,0 +1,36 @@
+.blue-banner {
+  @include red-border();
+
+  background-color: $blue;
+  padding: 56px 0;
+
+  .home & {
+    padding-top: 56px + 45px;
+  }
+
+  .grid {
+    display: grid;
+    gap: 64px;
+    @include breakpoint(0, $medium) {
+      place-items: center;
+    }
+
+    @include breakpoint($medium) {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+
+  &__item {
+    color: $white;
+
+    svg {
+      max-width: 150px;
+    }
+
+    &:nth-child(1n + 2) {
+      @include breakpoint(0, $medium) {
+        display: none;
+      }
+    }
+  }
+}

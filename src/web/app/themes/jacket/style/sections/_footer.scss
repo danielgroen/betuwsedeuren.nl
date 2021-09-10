@@ -1,7 +1,9 @@
 
 /* footer */
 
-footer {
+.footer {
+  @include red-border();
+
   background-color: $blue;
   margin-top: 60px;
 
@@ -12,83 +14,64 @@ footer {
   * {
   color: $white;
   }
-}
 
-
-footer p a:hover {
-  color: $white;
-  text-decoration: underline;
-}
-
-.fullImgFooter {
-  background-image: url(../images/footerlijn-1-1920x250.jpg);
-  background-position: center center;
-  background-size: 100% 115px;
-  height: 75px;
-}
-
-.footer-link {
-  text-align: center;
-  color: $white;
-  font-size: 14px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.footer-link a {
-  color: $white;
-  text-decoration: none;
-}
-
-.footer-tekst {
-  color: #727473;
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 100;
-  margin-top: 35px;
-}
-
-h3.widget-title {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  color: black;
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 100;
-  margin-bottom: 24px;
-}
-
-h3.widget-title:before {
-  content: "";
-  position: absolute;
-  width: 30px;
-  height: 2px;
-  left: 15px;
-  top: 36px;
-  border-bottom: 2px solid $orange;
-}
-
-.belMijKnopContainer {
-  margin-top: 40px;
-  float: right;
-  background-color: $red;
-  padding: 15px 30px;
-  color: $white;
-  margin-top: 30px;
-
-  @include breakpoint(0, 470px) {
-    padding: 0px;
-  }
-}
-
-.belMijKnop {
-  background-color: $red;
-  padding: 15px 30px;
-  color: $white;
-  margin-top: 30px;
-
-    &:hover {
+  p a:hover {
     color: $white;
     text-decoration: underline;
   }
+  
+  
+  .footer-link {
+    text-align: center;
+    color: $white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-tekst {
+    margin-top: 35px;
+  }
+  
+  h3.widget-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+  
+  h3.widget-title:before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    left: 15px;
+    top: 36px;
+    border-bottom: 2px solid $orange;
+  }
+  
+  .belMijKnopContainer {
+    margin-top: 40px;
+    float: right;
+    background-color: $red;
+    padding: 15px 30px;
+    color: $white;
+    margin-top: 30px;
+  
+    @include breakpoint(0, 470px) {
+      padding: 0px;
+    }
+  }
+  
+  .belMijKnop {
+    background-color: $red;
+    padding: 15px 30px;
+    color: $white;
+    margin-top: 30px;
+  
+      &:hover {
+      color: $white;
+      text-decoration: underline;
+    }
+  }
 }
+
