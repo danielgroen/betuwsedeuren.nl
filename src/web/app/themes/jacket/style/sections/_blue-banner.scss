@@ -4,8 +4,8 @@
   background-color: $blue;
   padding: 56px 0;
 
-  .home & {
-    padding-top: 56px + 45px;
+  body:not(.home) & {
+    margin-top: $header-height;
   }
 
   .grid {

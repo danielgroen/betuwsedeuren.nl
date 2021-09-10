@@ -1,7 +1,5 @@
 <?php
 
-namespace Jacket\classes;
-
 class Functions
 {
   static function getIcon($icon)

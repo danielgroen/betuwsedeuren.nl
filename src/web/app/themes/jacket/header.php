@@ -1,6 +1,6 @@
 <?php
 
-use Jacket\classes\Functions;
+require_once('includes/Functions.php');
 
 ?>
 <!DOCTYPE html>
