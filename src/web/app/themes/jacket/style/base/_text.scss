@@ -1,6 +1,5 @@
 
 .gegevens h1 {
-  color: $white;
   text-align: left;
 
   &:after {
@@ -21,7 +20,6 @@ p {
 a {
 	&.leesmeer {
 		background-color: $orange;
-		color: $white;
 		text-transform: uppercase;
 		padding: 12px 20px;
 		border-radius: 5px;

@@ -1,0 +1,36 @@
+.hero {
+  position: relative;
+
+  &__image {
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+  
+    padding-bottom: 45px;
+    background: $blue;
+
+    @include breakpoint($large) {
+      max-height: 596px;
+    }
+  }
+  &__article {
+    background: white;
+    position: absolute;
+    bottom: 0;
+    padding: 46px;
+    width: 100%;
+
+    &__introduction {
+      margin-bottom: 26px;
+    }
+
+    &__button {
+      @include button();
+    }
+
+    @include breakpoint($large) {
+      right: 0;
+      width: 50%;
+    }
+  }
+}

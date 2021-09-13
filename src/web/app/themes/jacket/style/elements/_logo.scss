@@ -3,6 +3,7 @@
   margin-left: 35px;
   margin-right: 40px;
   margin-top: -19px;
+  max-height: 80px;
 
   @include breakpoint(0, 470px) {
     margin-left: 0;

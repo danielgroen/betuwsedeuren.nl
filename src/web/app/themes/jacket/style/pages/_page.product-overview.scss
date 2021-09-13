@@ -11,19 +11,14 @@
   width: 100%;
 }
 
-.productCategoryOverview:hover h2 {
-  color: $white;
-}
-
 .product-category a h2 {
   background-color: $tertiary;
   text-align: center;
   padding: 15px 30px;
   position: relative;
   bottom: 48px;
-   
-     text-transform: uppercase;
-   }
+  text-transform: uppercase;
+  }
 
 .outsideContainerQuickNav {
   border-left: 1px solid $primary;

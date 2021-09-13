@@ -1,0 +1,7 @@
+.block__text {
+  padding: 40px 15px;
+
+  @include breakpoint($huge)  {
+    padding: 40px 200px;
+  }
+}

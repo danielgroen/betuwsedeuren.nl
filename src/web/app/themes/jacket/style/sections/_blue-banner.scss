@@ -5,7 +5,9 @@
   padding: 56px 0;
 
   body:not(.home) & {
-    margin-top: $header-height;
+    @include breakpoint($huge) {
+      margin-top: $header-height;
+    }
   }
 
   .grid {
@@ -21,7 +23,7 @@
   }
 
   &__item {
-    color: $white;
+    @include link($white, $yellow);
 
     svg {
       max-width: 150px;

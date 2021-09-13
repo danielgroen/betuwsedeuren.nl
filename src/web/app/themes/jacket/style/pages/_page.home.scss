@@ -1,9 +1,14 @@
-.homepage-image {
-  width: 100vw;
-  height: auto;
-  max-height: 596px;
-  object-fit: cover;
+.homeCategoryItem {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
 
-  padding-bottom: 45px;
-  background: $blue;
+  img {
+    width: 100%;
+  }
+
+  .undertitleHome {
+    background-color: $yellow;
+    text-align: center;
+  }
 }

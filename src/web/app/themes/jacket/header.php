@@ -57,7 +57,14 @@ require_once('includes/Functions.php');
   </header>
 
   <?php if (is_front_page()) { ?>
-    <img src="<?php the_post_thumbnail_url(); ?>" alt="" class="homepage-image">
+    <div class="block hero">
+      <img src="<?php the_post_thumbnail_url(); ?>" alt="" class="hero__image">
+      <article class="hero__article">
+        <span class="hero__article__title"><?php the_field('header_title'); ?></span>
+        <p class="hero__article__introduction"><?php the_field('header_introduction'); ?></p>
+        <a href="<?php the_field('header_button'); ?>" target="_blank" class="hero__article__button"><?php Functions::getIcon('download'); ?><?php the_field('header_button_text'); ?></a>
+      </article>
+    </div>
   <?php } ?>
 
   <div class="blue-banner">

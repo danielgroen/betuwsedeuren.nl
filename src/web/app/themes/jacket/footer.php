@@ -1,6 +1,34 @@
-  </section> <!-- Einde van content section -->
+  </section>
+  </main>
 
-  </main> <!-- Einde van pagina content -->
+  <div class="external-links">
+    <div class="grid">
+      <h5 class="external-links__title">Externe links</h5>
+      <div class="article-wrapper">
+        <?php
+        $repeater = get_option('options_repeater');
+        if ($repeater) {
+          $repeater_bare = (int)$repeater;
+
+          for ($i = 0; $i < $repeater_bare; $i++) : ?>
+            <?php
+            $url = get_option('options_repeater_' . $i . '_url');
+            $image = get_option('options_repeater_' . $i . '_image');
+            $title = get_option('options_repeater_' . $i . '_title');
+            $summary = get_option('options_repeater_' . $i . '_summary');
+            ?>
+
+            <a href="<?php $url; ?>" target="_blank" class="external-links__article">
+              <img src="<?php $image; ?>" alt="external image">
+              <span class="external-links__title"><?php echo $title; ?></span>
+              <p class="external-links__summary"><?php echo $summary; ?></p>
+            </a>
+        <?php endfor;
+        }
+        ?>
+      </div>
+    </div>
+  </div>
 
   <footer class="footer">
 

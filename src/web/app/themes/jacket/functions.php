@@ -272,3 +272,18 @@ add_action('wp_enqueue_scripts', function () { ?>
 
 <?php
 });
+
+/**
+ * Hiding general stuff on the admin panel
+ */
+add_action('admin_init', function () {
+  remove_menu_page('edit-comments.php'); // comments
+  remove_menu_page('edit.php'); // posts
+});
+
+/**
+ * Acf admin page
+ */
+if (function_exists('acf_add_options_page')) {
+  acf_add_options_page('Algemeen');
+}

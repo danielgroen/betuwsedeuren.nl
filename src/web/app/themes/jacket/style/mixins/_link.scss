@@ -1,0 +1,8 @@
+@mixin link($color: $white, $hover: $yellow) {
+  color: $color;
+  transition: color $speed $cubic-bezier;
+
+  &:hover {
+    color: $hover;
+  }
+}
