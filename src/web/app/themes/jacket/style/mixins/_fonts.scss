@@ -1,14 +1,31 @@
-@mixin font($type: false, $color: #555555) {
-  color: $color;
+$sizes: (
+  xs: 14px,
+  s: 16px,
+  m: 18px,
+  l: 24px,
+  xl: 32px,
+);
+
+$weights: (
+  normal: 300,
+  medium: 400,
+  semibold: 600,
+);
+
+$heights: (
+  narrow: 1.333,
+  normal: 1.625,
+);
+
+@mixin font($size: s, $weight: normal, $line-height: normal, $color: #555, $font-style: normal) {
   font-family: 'Campton';
 
-  @if $type == 'h1' {
-    font-weight: 300;
-  }
-  @else {
-    line-height: 1.625;
-    font-size: 16px;
-    font-weight: 300;
-  }
-
+  font-size: map-get($sizes, $size);
+  font-weight: map-get($weights, $weight);
+  line-height: map-get($heights, $line-height);
+  font-style: $font-style;
+  color: $color;
 }
+
+// usage:
+// @include font($size: m, $weight: semibold);

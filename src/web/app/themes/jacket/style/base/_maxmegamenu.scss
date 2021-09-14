@@ -2,6 +2,7 @@
   font-weight: 400 !important;
   font-size: 16px !important;
   font-family: inherit !important;
+  text-transform: none !important;
 }
 
 #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-item {
@@ -26,7 +27,7 @@
 }
 
 
-@include breakpoint(0, 1400px) {
+@include breakpoint(0, 1260px) {
   #mega-menu-wrap-primary .mega-menu-toggle .mega-toggle-block-1:before,
   #mega-menu-wrap-primary .mega-menu-toggle .mega-toggle-block-1:after {
     color: $black !important;
@@ -36,6 +37,12 @@
     position: absolute;
     top: 90px;
     right: 85px;
+  }
+
+  .mega-menu-toggle {
+    position: absolute;
+    right: -50px;
+    top: -50px;
   }
 
 }
@@ -61,9 +68,8 @@
 	li {
 		 		 
 		color: rgba($secondary, 1.0);
-		text-transform: uppercase;
 		padding-top: 0px;
-		 		&.dropdown {
+      &.dropdown {
 			&:hover {
 				& > ul {
 					&.dropdown-menu {

@@ -46,7 +46,7 @@ require_once('includes/Functions.php');
     </div>
     <div class="container-fluid">
       <a href="/">
-        <div class="col-lg-3 logo">
+        <div class="col-md-3 logo">
           <img src="/wp-content/uploads/2018/05/logo-header.png" class="img-responsive" />
         </div>
       </a>

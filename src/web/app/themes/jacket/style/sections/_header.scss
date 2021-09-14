@@ -1,6 +1,15 @@
 header {
   top: 0;
   backdrop-filter: blur(7px);
+  position:fixed;
+  z-index: 99;
+  width: 100%;
+	background-color: rgba($white, .9);
+
+  @include breakpoint(0, 1260px) {
+    position: relative;
+    background-color: $white;
+  }
 
   .admin-bar & {
     top: $wp-adminbar-height;

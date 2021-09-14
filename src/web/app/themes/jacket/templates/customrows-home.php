@@ -4,7 +4,7 @@
 
   <div class="row">
     <div class="col-md-12">
-      <h1>onze deuren</h1>
+      <h1 class="block-title">onze deuren</h1>
     </div>
     <?php while (the_flexible_field("home_page_elementen")) : ?>
       <?php //////////// #1. Categorie voor homepagina //////////

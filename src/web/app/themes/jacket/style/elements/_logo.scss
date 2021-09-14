@@ -1,18 +1,9 @@
 
 .logo {
   margin-left: 35px;
-  margin-right: 40px;
-  margin-top: -19px;
-  max-height: 80px;
-
-  @include breakpoint(0, 470px) {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
   img {
-    max-width: 446px;
-    width: 100%;
-    margin: 0 auto;
+    padding-bottom: 10px;
+    max-height: 80px;
+    width: auto;
   }
 }

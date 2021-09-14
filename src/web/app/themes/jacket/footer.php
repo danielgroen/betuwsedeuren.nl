@@ -3,7 +3,7 @@
 
   <div class="external-links">
     <div class="grid">
-      <h5 class="external-links__title">Externe links</h5>
+      <h5 class="block-title">Externe links</h5>
       <div class="article-wrapper">
         <?php
         $repeater = get_option('options_repeater');
@@ -19,9 +19,9 @@
             ?>
 
             <a href="<?php $url; ?>" target="_blank" class="external-links__article">
-              <img src="<?php $image; ?>" alt="external image">
-              <span class="external-links__title"><?php echo $title; ?></span>
-              <p class="external-links__summary"><?php echo $summary; ?></p>
+              <img class="external-links__article__image" src="<?php $image; ?>" alt="external image">
+              <span class="external-links__article__title"><?php echo $title; ?></span>
+              <p class="external-links__article__summary"><?php echo $summary; ?></p>
             </a>
         <?php endfor;
         }

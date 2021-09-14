@@ -6,11 +6,11 @@ $small: 960px;
 $x-small: 840px;
 $xx-small: 470px;
 
-$header-height: 145px;
 
 
 :root {
   --wp-adminbar-height: 46px;
+  --header-height: 120px;
 
   @media screen and (min-width: 921px) {
     --wp-adminbar-height: 32px;
@@ -18,7 +18,10 @@ $header-height: 145px;
 
   @media screen and (min-width: 1046px) {
     --grid-padding: 85px;
+    --header-height: 145px;
   }
 }
+
+$header-height: var(--header-height);
 
 $wp-adminbar-height: var(--wp-adminbar-height);

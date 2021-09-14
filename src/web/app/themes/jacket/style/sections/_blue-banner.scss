@@ -5,7 +5,8 @@
   padding: 56px 0;
 
   body:not(.home) & {
-    @include breakpoint($huge) {
+    border-top: 45px solid $blue;
+    @include breakpoint(1260px) {
       margin-top: $header-height;
     }
   }
@@ -13,6 +14,7 @@
   .grid {
     display: grid;
     gap: 64px;
+
     @include breakpoint(0, $medium) {
       place-items: center;
     }
@@ -23,6 +25,7 @@
   }
 
   &__item {
+    @include font($size: l, $weight: semibold, $line-height: narrow);
     @include link($white, $yellow);
 
     svg {

@@ -1,18 +1,3 @@
-header {
-  @include breakpoint(0, 1400px) {
-    position: relative;
-    height: 175px;
-    background-color: $white;
-  }
-  
-	position:fixed;
-  z-index: 99;
-  width: 100%;
-	background-color: rgba($white, .9);
-  height: $header-height;
-
-}
-
 .container-fluid.top-menu {
   height: 45px;
   padding-right: 0px !important;
