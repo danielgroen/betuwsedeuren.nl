@@ -1,30 +1,152 @@
 /* forms */
 
-label.gfield_label {
-  display: none !important;
-}
 
-.large {
-  border: none;
-  border: 1px solid #727473;
-     padding: 15px;
-}
+form {
 
-textarea.large {
-  height: 200px !important;
-}
+  label.gfield_label {
+    font-weight: 400;
+    font-size: 14px !important;
+    color: $black;
+  }
 
-.gform_button {
-  background-color: #727473;
-  color: $white;
-  text-transform: uppercase;
-     border: none;
-   
-  float: right;
-  position: relative;
-  padding: 20px 106px !important;
-}
+  .gfield:not(.visible-label) {
+    label.gfield_label {
+      display: none !important;
+    }
+  }
 
-#input_1_11 div {
-  float: right;
+  .gform_body {
+    textarea,
+    input {
+      border: 1px solid #727473;
+      border-radius: 8px;
+      padding: 7px 15px !important;
+      
+
+      &, &::placeholder {
+        @include font($size: xs);
+      }
+
+      &::placeholder {
+        opacity: .8;
+      }
+
+      &:focus {
+        outline: none;
+        padding: 6px 14px !important;
+
+        border: 2px solid #727473;
+      }
+    }
+  }
+  
+  input.gform_button {
+    @include button();
+    background-color: $blue !important;
+  
+  }
+  
+  #input_1_11 div {
+    float: right;
+  }
+
+  // radio buttons blocks
+  .gfield.blocks .gfield_radio {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 24px 24px;
+
+    li {
+      margin: 0;
+    }
+
+    input {
+      display: none !important;
+
+      &:checked + label {
+        background-color: rgba($blue, .3);
+        border-color: $blue;
+        color: $blue;
+      }
+    }
+
+    label {
+      transition: all $speed $cubic-bezier;
+      border: 1px solid #979797;
+      width: 100%;
+      text-align: center;
+      max-width: 100%;
+      box-sizing: border-box;
+      margin: 0;
+      border-radius: 8px;
+      @include font($size: xs, $weight: semibold);
+      padding: 12px 0;
+    }
+  }
+  
+  // radio buttons radio
+  .gfield.round .gfield_radio {
+    display: flex;
+
+    li {
+      margin: 0;
+      &:nth-child(1n + 1) {
+        margin-right: 20px;
+      }
+    }
+
+    input {
+      display: none !important;
+
+      &:checked + label {
+        margin-right: 38px;
+        &:before {
+          border: 2px solid $blue;
+  
+        }
+        &:after {
+          opacity: 1;
+        }
+      }
+    }
+
+    label {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      font-weight: 300 !important;
+      max-width: 100%;
+      margin-right: 40px;
+
+      &:before {
+        transition: border-color $speed $cubic-bezier;
+        content: '';
+        display: inline-flex;
+        border: 1px solid $black;
+        flex: 0 0 30px;
+        margin-right: 10px;
+        border-radius: 9999px;
+        height: 30px;
+      }
+
+      &:hover {
+        &:after {
+          opacity: .4;
+        }
+      }
+
+      &:after {
+        content: '';
+        position: absolute;
+        left: 6px;
+        top: 6px;
+        width: 18px;
+        opacity: 0;
+        transition: opacity $speed $cubic-bezier;
+        height: 18px;
+        background-color: $blue;
+        border-radius: 9999px;
+      }
+    }
+  }
 }

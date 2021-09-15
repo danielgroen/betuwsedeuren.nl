@@ -113,6 +113,18 @@
 
   </footer>
 
+  <script>
+    window.addEventListener('load', function(event) {
+      if (location.pathname.includes('contact-route')) {
+        const offerChoise = document.getElementById("label_2_21_1");
+
+        if (location.search === '?q=offer' && offerChoise) {
+          offerChoise.click()
+        }
+      }
+    });
+  </script>
+
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <?php wp_footer(); ?>
   </body>

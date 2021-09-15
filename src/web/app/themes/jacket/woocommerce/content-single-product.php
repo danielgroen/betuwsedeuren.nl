@@ -103,9 +103,9 @@ if (!defined('ABSPATH')) {
             do_action('woocommerce_shop_loop_item_title'); ?>
 
             <div class="korteOmschrijvingProductVlak">
-              <a href="/contact" target="_blank"><?php Functions::getIcon('date'); ?>afspraak maken</a>
+              <a href="/contact-route/" target="_blank"><?php Functions::getIcon('date'); ?>afspraak maken</a>
               <a href="tel:+31488481133" target="_blank"><?php Functions::getIcon('phone'); ?>bellen</a>
-              <a href="/contact?q=offer" target="_blank"><?php Functions::getIcon('invoice'); ?>offerte aanvragen</a>
+              <a href="/contact-route/?q=offer" target="_blank"><?php Functions::getIcon('invoice'); ?>offerte aanvragen</a>
               <?php while (the_flexible_field("downloads")) : ?>
                 <?php if (get_row_layout() == "pdf") : ?>
                   <a href="<?php the_sub_field("pdf_link"); ?>" target="_blank"><?php Functions::getIcon('pdf'); ?>download folder</a>

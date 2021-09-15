@@ -3,7 +3,9 @@ body {
   background: $white;
 }
 
-
+strong {
+ font-weight: 400;
+}
 a, a:hover {
   
   text-decoration: none;
