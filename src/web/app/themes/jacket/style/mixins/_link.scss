@@ -1,8 +1,18 @@
-@mixin link($color: $white, $hover: $yellow) {
+@mixin link($color: $white, $hover: $yellow, $type: normal) {
   color: $color;
   transition: color $speed $cubic-bezier;
 
   &:hover {
     color: $hover;
+  }
+  
+  @if $type == svg {
+    fill: $color;
+    transition: color $speed $cubic-bezier fill $speed $cubic-bezier;
+
+    &:hover {
+      fill: $hover;
+      color: $hover;
+    }
   }
 }

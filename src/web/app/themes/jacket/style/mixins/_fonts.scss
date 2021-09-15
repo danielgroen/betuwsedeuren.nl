@@ -19,7 +19,7 @@ $heights: (
   normal: 1.625,
 );
 
-@mixin font($size: s, $weight: normal, $line-height: normal, $color: #555, $font-style: normal) {
+@mixin font($size: s, $weight: normal, $line-height: normal, $color: $black, $font-style: normal) {
   font-family: 'Campton';
 
   font-size: map-get($sizes, $size);

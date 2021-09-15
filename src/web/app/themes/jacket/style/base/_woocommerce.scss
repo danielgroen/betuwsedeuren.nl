@@ -18,26 +18,32 @@ ol.flex-control-nav.flex-control-thumbs li {
   padding: 10px;
 }
 
+h2.woocommerce-loop-product__title {
+  text-transform: none !important;
+  @include font($weight: semibold);
+  margin-top: 0;
+}
+
 .korteOmschrijvingProductVlak {
   text-align: left;
-   }
+  
+  display: flex;
+  flex-direction: column;
 
-.korteOmschrijvingProductVlak p {
-  color: $black;
-}
 
-.korteOmschrijvingProductVlak a {
-        color: $black;
-}
-
-h2.woocommerce-loop-product__title {
-   
-        color: $black;
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 10px;
-  margin-top: 0px;
-  padding: 0px;
+  
+  a {
+    @include font($weight: semibold);
+    @include link($black, $red);
+    display: flex;
+  }
+  
+  svg {
+    @include link($black, $red, $type: svg);
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+  }
 }
 
 ul.products img {

@@ -1,0 +1,13 @@
+
+<svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Ontwerpvoorstel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Productpagina" transform="translate(-1012.000000, -872.000000)">
+            <g id="receipt-bold" transform="translate(1012.000000, 872.000000)">
+                <rect id="Rectangle" x="0" y="0" width="20" height="20"></rect>
+                <line x1="5.9375" y1="8.1359375" x2="14.0625" y2="8.1359375" id="Path" stroke="#555555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="5.9375" y1="10.6359375" x2="14.0625" y2="10.6359375" id="Path" stroke="#555555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <path d="M2.5,16.25 L2.5,4.375 C2.5,4.02982203 2.77982203,3.75 3.125,3.75 L16.875,3.75 C17.220178,3.75 17.5,4.02982203 17.5,4.375 L17.5,16.25 L15,15 L12.5,16.25 L10,15 L7.5,16.25 L5,15 L2.5,16.25 Z" id="Path" stroke="#555555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
