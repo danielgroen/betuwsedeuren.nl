@@ -1,10 +1,11 @@
 @mixin button($color: $white, $background: $blue, $hover: $yellow) {
-  color: $color;
+  @include font($weight: medium, $line-height: narrow, $color: $color);
   background-color: $background;
   padding: 12px 18px;
   display: inline-flex;
   align-items: center;
   transition: color $speed $cubic-bezier;
+
 
   &:hover {
     color: $hover;

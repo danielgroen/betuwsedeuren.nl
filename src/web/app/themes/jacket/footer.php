@@ -16,14 +16,22 @@
             $image = get_option('options_repeater_' . $i . '_image');
             $title = get_option('options_repeater_' . $i . '_title');
             $summary = get_option('options_repeater_' . $i . '_summary');
+
+            if ($image) :
+              $image_src = wp_get_attachment_image_src($image, 'large')[0];
             ?>
 
-            <a href="<?php $url; ?>" target="_blank" class="external-links__article">
-              <img class="external-links__article__image" src="<?php $image; ?>" alt="external image">
-              <span class="external-links__article__title"><?php echo $title; ?></span>
-              <p class="external-links__article__summary"><?php echo $summary; ?></p>
-            </a>
-        <?php endfor;
+              <a href="<?php $url; ?>" target="_blank" class="external-links__article">
+                <img class="external-links__article__image" src="<?php echo $image_src; ?>" alt="external image">
+                <?php
+                ?>
+                <div class="external-links__article__wrapper">
+                  <span class="external-links__article__title"><?php echo $title; ?></span>
+                  <p class="external-links__article__summary"><?php echo $summary; ?></p>
+                </div>
+              </a>
+        <?php endif;
+          endfor;
         }
         ?>
       </div>

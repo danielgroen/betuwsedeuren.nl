@@ -12,6 +12,7 @@
 
   * {
   color: $white;
+  @include font($weight: medium, $color: $white);
   }
 
   p a:hover {

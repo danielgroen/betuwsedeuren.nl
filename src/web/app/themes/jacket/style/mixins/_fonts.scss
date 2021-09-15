@@ -10,9 +10,11 @@ $weights: (
   normal: 300,
   medium: 400,
   semibold: 600,
+  bold: 700,
 );
 
 $heights: (
+  none: 1,
   narrow: 1.333,
   normal: 1.625,
 );
@@ -29,3 +31,5 @@ $heights: (
 
 // usage:
 // @include font($size: m, $weight: semibold);
+
+// topright

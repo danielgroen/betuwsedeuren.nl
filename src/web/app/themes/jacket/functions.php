@@ -287,3 +287,6 @@ add_action('admin_init', function () {
 if (function_exists('acf_add_options_page')) {
   acf_add_options_page('Algemeen');
 }
+
+// remove woocommerce styles
+add_filter('woocommerce_enqueue_styles', '__return_false');

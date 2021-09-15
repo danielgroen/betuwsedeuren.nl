@@ -10,22 +10,27 @@
 .top-menu-right {
   background-color: rgba($primary, 1.0);
   height:100%;
-  float:right;
-  color: $white;
+  float: right;
+  display: flex;
+  align-items: center;
+
+  @include font($size: l, $weight: medium);
+
+  &, * {
+    color: $white;
+  }
 }
 
 .topRightItem {
-   
-  padding: 0px 40px;
 
+  padding: 0px 40px;
+  color: $white;
   .fa {
-    color: $white;
     padding-right: 7px;
     margin-left: 20px;
   }
 
   .tel {
-    color: $white;
     border-left: none;
   }
   
@@ -72,8 +77,4 @@
   padding: 10px !important;
   clear: none !important;
   float: right;
-}
-
-.fa-search {
-  padding-top: 12px;
 }

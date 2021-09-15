@@ -1,3 +1,4 @@
 .block-title {
-  @include font($size: xl, $weight: semibold);
+  @include font($size: xl, $weight: semibold, $line-height: none);
+  margin-bottom: 35px;
 }

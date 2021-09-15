@@ -5,10 +5,13 @@
 
   img {
     width: 100%;
+    background: $yellow;
   }
 
   .undertitleHome {
+    @include font($size: l, $weight: semibold, $color: $white);
     background-color: $yellow;
     text-align: center;
+    padding: 27px 0;
   }
 }

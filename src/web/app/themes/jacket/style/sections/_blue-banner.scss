@@ -28,6 +28,10 @@
     @include font($size: l, $weight: semibold, $line-height: narrow);
     @include link($white, $yellow);
 
+    .partner {
+      @include font($size: xs, $weight: semibold, $line-height: narrow, $color: $white);
+    }
+
     svg {
       max-width: 150px;
     }

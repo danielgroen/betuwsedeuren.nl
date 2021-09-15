@@ -20,8 +20,17 @@
     padding: 46px;
     width: 100%;
 
+    &__title {
+      @include font($size: m, $weight: bold, $color: $blue);
+    }
+
     &__introduction {
       margin-bottom: 26px;
+      @include font($size: l,  $line-height: narrow);
+
+      @include breakpoint($large) {
+        max-width: 66%;
+      }
     }
 
     &__button {

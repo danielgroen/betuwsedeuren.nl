@@ -69,7 +69,7 @@ require_once('includes/Functions.php');
 
   <div class="blue-banner">
     <div class="grid">
-      <a class="blue-banner__item" href="https://betuwsedeuren.hormannpartner.nl/" target="_blank">Premium partner
+      <a class="blue-banner__item" href="https://betuwsedeuren.hormannpartner.nl/" target="_blank"><span class="partner">Premium partner</span>
         <?php Functions::getIcon('hormann'); ?></a>
       <a class="blue-banner__item" href="/particulieren">Particulieren <br /> en Bedrijven</a>
       <a class="blue-banner__item" href="/bouwbedrijven-en-aannemers">Bouwbedrijven <br /> en Aannemers</a>
