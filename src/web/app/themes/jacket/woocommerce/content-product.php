@@ -74,7 +74,6 @@ if (empty($product) || !$product->is_visible()) {
 
         <?php if (get_row_layout() == "pdf") : ?>
 
-          <a href="<?php the_sub_field("pdf_link"); ?>" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> download folder</a>
 
         <?php elseif (get_row_layout() == "korte_omschrijving") : ?>
 

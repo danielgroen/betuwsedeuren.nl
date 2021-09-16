@@ -21,7 +21,13 @@ $heights: (
 
 @mixin font($size: s, $weight: normal, $line-height: normal, $color: $black, $font-style: normal) {
   font-family: 'Campton';
-
+  
+  @if $size == xl or $size == l {
+    @include breakpoint(0, 600px) {
+      font-size: calc( #{map-get($sizes, $size)} - 5px);
+    }
+  }
+  
   font-size: map-get($sizes, $size);
   font-weight: map-get($weights, $weight);
   line-height: map-get($heights, $line-height);

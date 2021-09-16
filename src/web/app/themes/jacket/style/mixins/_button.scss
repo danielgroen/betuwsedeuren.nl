@@ -5,6 +5,7 @@
   display: inline-flex;
   align-items: center;
   transition: color $speed $cubic-bezier;
+  border-radius: 12px;
 
 
   &:hover {

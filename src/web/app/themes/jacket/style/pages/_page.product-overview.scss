@@ -32,6 +32,8 @@
   position: relative;
   bottom: 48px;
   min-height: 80px;
+  border-bottom-right-radius: radius();
+  border-bottom-left-radius: radius();
 }
 
 .contentContainer {
@@ -48,6 +50,8 @@
   bottom: 60px;
   transform: translateY(100%);
   right: 50px;
+  border-radius: radius();
+  @include shadow();
 
   @include breakpoint(0, 470px) {
     padding: 30px 30px;

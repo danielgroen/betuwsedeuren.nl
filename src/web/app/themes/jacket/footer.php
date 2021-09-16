@@ -20,8 +20,7 @@
             if ($image) :
               $image_src = wp_get_attachment_image_src($image, 'large')[0];
             ?>
-
-              <a href="<?php $url; ?>" target="_blank" class="external-links__article">
+              <a href="<?php echo $url; ?>" target="_blank" class="external-links__article">
                 <img class="external-links__article__image" src="<?php echo $image_src; ?>" alt="external image">
                 <?php
                 ?>

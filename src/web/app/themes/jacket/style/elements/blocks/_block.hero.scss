@@ -19,6 +19,9 @@
     bottom: 0;
     padding: 46px;
     width: 100%;
+    border-top-left-radius: radius();
+    border-bottom-left-radius: radius();
+    @include shadow();
 
     &__title {
       @include font($size: m, $weight: bold, $color: $blue);

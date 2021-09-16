@@ -19,6 +19,11 @@
     display: grid;
     gap: 30px;
     grid-template-columns: minmax(0, 4fr) minmax(0, 6fr);
+    border-radius: radius();
+    transition: box-shadow $speed $cubic-bezier;
+    &:hover {
+      @include shadow();
+    }
 
 
     &__image {
@@ -26,6 +31,7 @@
       height: 100%;
       object-fit: cover;
       aspect-ratio: 1 / 1;
+      border-radius: radius(s);
     }
 
     &__title {

@@ -1,0 +1,9 @@
+$border-size: (
+  s: 22px,
+  m: 35px,
+  l: 45px,
+);
+
+@function radius($size: m) {
+  @return map-get($border-size, $size);
+}

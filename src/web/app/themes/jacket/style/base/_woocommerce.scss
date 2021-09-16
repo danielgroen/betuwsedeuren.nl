@@ -19,8 +19,8 @@ ol.flex-control-nav.flex-control-thumbs li {
 }
 
 h2.woocommerce-loop-product__title {
-  @include font($weight: semibold, $size: m);
-  margin-top: 0;
+  @include font($weight: semibold, $size: m, $line-height: none);
+  margin: 0;
 }
 
 .korteOmschrijvingProductVlak {
@@ -47,6 +47,8 @@ h2.woocommerce-loop-product__title {
 ul.products img {
   width: 100%;
   height: 195px;
+  border-top-right-radius: radius();
+  border-top-left-radius: radius();
 }
 
 ul.products {
@@ -93,6 +95,9 @@ ol.flex-control-nav.flex-control-thumbs li {
 
 .product-beeld {
   padding: 0px;
+  img {
+    border-radius: radius();
+  }
 }
 
 ol.flex-control-nav.flex-control-thumbs li {

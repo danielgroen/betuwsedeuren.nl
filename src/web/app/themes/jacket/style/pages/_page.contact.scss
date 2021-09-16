@@ -1,10 +1,23 @@
-@include breakpoint(0, 1024px) {
 
-  .geleVlakContactPagina {
+.geleVlakContactPagina {
+  @include breakpoint(0, 1024px) {
     display: none;
   }
+  background-color: $tertiary;
+  width: 290px;
+  height: 290px;
+  position: absolute;
+  top: -57px;
+  right: -70px;
+  z-index: -1;
+  border-radius: radius(l);
 }
-
+.normalePageContent + div {
+  iframe {
+    border-radius: radius();
+    @include shadow();
+  }
+}
 .maps {
   padding-bottom: 500px;
   margin-top: -25px;

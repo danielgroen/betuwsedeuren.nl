@@ -11,25 +11,19 @@
 }
 .normalePageContent {
   color: #727473;
-   
-   }
+  + div img {
+    border-radius: radius();
+    @include shadow();
+  }
+}
 
 .geleVlakStandaardPagina {
   background-color: $tertiary;
   width: 406px;
+  border-radius: radius();
   height: 230px;
   position: relative;
   bottom: 140px;
   right: -230px;
-  z-index: -1;
-}
-
-.geleVlakContactPagina {
-  background-color: $tertiary;
-  width: 290px;
-  height: 290px;
-  position: absolute;
-  top: -57px;
-  right: -70px;
   z-index: -1;
 }

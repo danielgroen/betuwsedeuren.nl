@@ -13,6 +13,8 @@
   float: right;
   display: flex;
   align-items: center;
+  border-top-left-radius: radius($size: s);
+  border-bottom-left-radius: radius($size: s);
 
   @include font($size: l, $weight: medium);
 
