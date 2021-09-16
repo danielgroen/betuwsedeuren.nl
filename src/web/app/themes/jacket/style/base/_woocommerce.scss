@@ -19,28 +19,26 @@ ol.flex-control-nav.flex-control-thumbs li {
 }
 
 h2.woocommerce-loop-product__title {
-  text-transform: none !important;
-  @include font($weight: semibold);
+  @include font($weight: semibold, $size: m);
   margin-top: 0;
 }
 
 .korteOmschrijvingProductVlak {
   text-align: left;
-  
   display: flex;
   flex-direction: column;
-
-
   
   a {
     @include font($weight: semibold);
     @include link($black, $red);
     display: flex;
+    align-items: center;
+    margin-bottom: 5px;
   }
   
   svg {
     @include link($black, $red, $type: svg);
-    margin-right: 10px;
+    margin-right: 6px;
     height: 20px;
     width: 20px;
   }

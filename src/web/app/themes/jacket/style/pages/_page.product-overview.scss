@@ -45,7 +45,8 @@
   padding: 36px;
   padding-right: 70px;
   position: absolute;
-  bottom: -85px;
+  bottom: 60px;
+  transform: translateY(100%);
   right: 50px;
 
   @include breakpoint(0, 470px) {
@@ -57,9 +58,6 @@
   }
 }
 
-.productTitlePage h2 {
-  text-transform: uppercase;
-}
 
 .leftContent {
   padding-right: 20px;

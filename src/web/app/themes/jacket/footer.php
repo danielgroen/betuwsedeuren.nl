@@ -44,7 +44,7 @@
 
       <div class="row footer-tekst">
 
-        <div class="col-md-2 col-xs-6">
+        <div class="col-md-3 col-xs-6">
           <?php
           if (is_active_sidebar('footer-sidebar-1')) {
             dynamic_sidebar('footer-sidebar-1');
@@ -53,7 +53,7 @@
 
         </div>
 
-        <div class="col-md-2 col-xs-6">
+        <div class="col-md-3 col-xs-6">
           <?php
           if (is_active_sidebar('footer-sidebar-2')) {
             dynamic_sidebar('footer-sidebar-2');
@@ -61,7 +61,7 @@
           ?>
         </div>
 
-        <div class="col-md-3 col-md-offset-2 col-xs-6">
+        <div class="col-md-3 col-xs-6">
           <?php
           if (is_active_sidebar('footer-sidebar-3')) {
             dynamic_sidebar('footer-sidebar-3');
@@ -78,7 +78,7 @@
           ?>
         </div>
 
-        <div class="col-md-2 col-md-offset-1 col-xs-6">
+        <div class="col-md-3 col-xs-6">
           <?php
           if (is_active_sidebar('footer-sidebar-5')) {
             dynamic_sidebar('footer-sidebar-5');
